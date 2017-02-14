@@ -1,0 +1,5 @@
+| sim circuit "2-nor" from XCircuit v3.90 rev 60
+p B int5 Y
+p A Vdd int5
+n B GND Y
+n A GND Y

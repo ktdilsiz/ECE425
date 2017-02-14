@@ -1,0 +1,19 @@
+| units: 30 tech: scmos format: MIT
+p A a_n47_14# Vdd! 2 16 -47 21
+p B a_n47_14# Vdd! 2 16 15 21
+n A a_n47_n13# Y 2 8 -47 -7
+p C Y a_n47_14# 2 16 -13 7
+n C Gnd! Y 2 4 16 -11
+n B Gnd! a_n47_n13# 2 8 -47 -15
+C w_n63_8# Vdd! 4.0
+C w_n63_8# a_n47_14# 3.3
+R Gnd! 565
+R C 704
+R a_n47_n13# 110
+R Y 718
+R a_n47_14# 1183
+R B 1441
+R A 847
+R Vdd! 770
+C w_n63_8# GND 12.3
+R w_n63_8# 3521

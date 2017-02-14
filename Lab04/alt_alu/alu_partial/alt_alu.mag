@@ -1,0 +1,26 @@
+magic
+tech scmos
+timestamp 1487098919
+<< error_s >>
+rect 29 157 36 159
+use yzdetect_8  yzdetect_8_0
+timestamp 1484534894
+transform 1 0 8 0 1 4
+box -8 -4 28 756
+use inv_1x_8  inv_1x_8_0
+timestamp 1484534894
+transform 1 0 32 0 1 4
+box -6 -4 18 866
+use inv_1x_8  inv_1x_8_1
+timestamp 1484534894
+transform 1 0 48 0 1 4
+box -6 -4 18 866
+use adder_8  adder_8_0
+timestamp 1484427118
+transform 1 0 168 0 1 4
+box -6 -4 130 866
+use mux3_1x_8  mux3_1x_8_0
+timestamp 1484532969
+transform 1 0 296 0 1 4
+box -6 -4 82 976
+<< end >>
