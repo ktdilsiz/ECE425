@@ -1,0 +1,219 @@
+# Basic IRSIM test file shell for ECE 425 Lab 4.
+
+# In order to ensure that your layout will be testable by the instructors,
+# make sure that you can source this file without any errors, especially
+# errors for unknown node names.  The remainder of the file may or may not
+# be useful for your own testing.
+
+
+# Basic setup.
+l gnd!
+h vdd!
+l less
+stepsize 100
+logfile alu.log
+
+# Set up the vectors.
+vector op op6 op5 op4 op3 op2 op1 op0
+vector a a7 a6 a5 a4 a3 a2 a1 a0
+vector b b7 b6 b5 b4 b3 b2 b1 b0
+vector result result7 result6 result5 result4 result3 result2 result1 result0
+
+# Add the top-level signals to the watch list.  This causes theie values to be
+# displayed after each step.
+w op a b result zero cout_adder_7 result7 result0
+
+
+#
+# A sample test; you will need a few more ...
+#
+
+# AND1
+setvector op 0001001
+setvector a 01010101
+setvector b 11111111
+s
+assert result 01010101
+
+# AND2
+setvector op 0001001
+setvector a 01010101
+setvector b 10101010
+s
+assert result 00000000
+
+# AND3
+setvector op 0001001
+setvector a 11111001
+setvector b 00001001
+s
+assert result 00001001
+
+
+# OR1
+setvector op 0111001
+setvector a 01010101
+setvector b 11111111
+s
+assert result 11111111
+
+# OR2
+setvector op 0111001
+setvector a 01010101
+setvector b 00000010
+s
+assert result 01010111
+
+# OR3
+setvector op 0111001
+setvector a 00001111
+setvector b 11001111
+s
+assert result 11001111
+
+# NOR1
+setvector op 1000001
+setvector a 00001111
+setvector b 11001111
+s
+assert result 00110000
+
+# NOR2
+setvector op 1000001
+setvector a 01010101
+setvector b 00000010
+s
+assert result 10101000
+
+# NOR3
+setvector op 1000001
+setvector a 00001111
+setvector b 11111111
+s
+assert result 00000000
+
+# XOR1
+setvector op 0110001
+setvector a 01010101
+setvector b 11111111
+s
+assert result 10101010
+
+# XOR2
+setvector op 0110001
+setvector a 01010101
+setvector b 11110000
+s
+assert result 10100101
+
+# XOR3
+setvector op 0110001
+setvector a 11110000
+setvector b 11111111
+s
+assert result 00001111
+
+# ADD1
+setvector op 0101000
+setvector a 01110000
+setvector b 01111111
+s
+assert result 11101111
+
+# ADD2
+setvector op 0101000
+setvector a 00001010
+setvector b 01101000
+s
+assert result 01110010
+
+# ADD3
+setvector op 0101000
+setvector a 00001010
+setvector b 01111111
+s
+assert result 10001001
+
+# sub1
+setvector op 1010100
+setvector a 01111111
+setvector b 00001010
+s
+assert result 01110101
+
+# sub2
+setvector op 1010100
+setvector a 00001111
+setvector b 00001010
+s
+assert result 00000101
+
+# sub3
+setvector op 1010100
+setvector a 01111000
+setvector b 00001010
+s
+assert result 01101110
+
+# SLT1
+setvector op 1010111
+setvector a 01111000
+setvector b 00001010
+s
+assert result 00000000
+
+# SLT2
+setvector op 1010111
+setvector a 00001111
+setvector b 00001010
+s
+assert result 00000000
+
+# SLT3
+setvector op 1010111
+setvector a 00000000
+setvector b 00001010
+s
+assert result 00000001
+
+# SLT4
+setvector op 1010111
+setvector a 00000101
+setvector b 00101010
+s
+assert result 00000001
+
+# SLT5
+setvector op 1010111
+setvector a 11111111
+setvector b 00000000
+s
+assert result 00000000
+
+# SLT6
+setvector op 1010111
+setvector a 00000000
+setvector b 11111111
+s
+assert result 00000001
+
+# SLT7
+setvector op 1010111
+setvector a 11111110
+setvector b 11111111
+s
+assert result 00000001
+
+# SLT8
+setvector op 1010111
+setvector a 11111111
+setvector b 11111111
+s
+assert result 00000000
+
+# SLT9
+setvector op 1010111
+setvector a 00000000
+setvector b 00000000
+s
+assert result 00000000
