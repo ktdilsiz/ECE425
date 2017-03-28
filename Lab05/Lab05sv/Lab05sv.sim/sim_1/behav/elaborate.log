@@ -1,0 +1,15 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto 99ec22f86e524b9ea4e91f2d6966c398 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_decoder_testbench_behav xil_defaultlib.alu_decoder_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hany/ECE425/Lab05/alu_ctl.sv" Line 17. Module alu_ctl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hany/ECE425/Lab05/alu_ctl.sv" Line 17. Module alu_ctl doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu_ctl
+Compiling module xil_defaultlib.alu_decoder_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot alu_decoder_testbench_behav

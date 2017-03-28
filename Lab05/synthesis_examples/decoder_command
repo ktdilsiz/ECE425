@@ -1,0 +1,14 @@
+﻿h Vdd!
+l Gnd!
+vector a {a[1]} {a[0]}
+analyzer a y0 y1 y2 y3
+setvector a 00
+s
+setvector a 01
+s
+setvector a 10
+s
+setvector a 11
+s
+
+

@@ -1,0 +1,77 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP2 (build Nov 14, ) ###
+### created at 15:19:36 on Mon Mar 27 2017 (Linux AMD64) ###
+### Host Name: localhost.localdomain   User ID: hany   PID: 3108   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 278 30
+wv_resize_window CustomWaveView 1237 971
+wv_move_window CustomWaveView 278 31
+sx_open_sim_file_read {yzdet_8_bench.tr0}
+wv_expand_tree_item MainWindow.hierview {D0:yzdet_8_bench.tr0}
+wv_select_tree_item MainWindow.hierview {D0:yzdet_8_bench.tr0}
+wv_expand_tree_item MainWindow.hierview {D0:yzdet_8_bench.tr0/toplevel}
+wv_select_tree_item MainWindow.hierview {D0:yzdet_8_bench.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(a_0_)
+wv_drag_list_item MainWindow.sigview v(a_0_)
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(zero)
+wv_drag_list_item MainWindow.sigview v(zero)
+wv_horz_scroll MainWindow.sigview 28
+wv_horz_scroll MainWindow.sigview 0
+wv_drag_list_item MainWindow.sigview v(zero)
+wv_drag_enter WV1
+wv_drag_to WV1 6 740
+wv_horz_scroll MainWindow.sigview 28
+wv_drop_on WV1
+wv_select_panel WV1.PANEL2:1 9.73621e-09 -1.34715e-07
+wv_select_list_item MainWindow.sigview v(nor2_1x_1/a_7_67#)
+wv_select_list_item MainWindow.sigview v(a_1_)
+wv_drag_list_item MainWindow.sigview v(a_1_)
+wv_drag_enter WV1
+wv_drag_to WV1 6 673
+wv_horz_scroll MainWindow.sigview 0
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_2_)
+wv_drag_list_item MainWindow.sigview v(a_2_)
+wv_drag_enter WV1
+wv_drag_to WV1 4 670
+wv_drag_to WV1 310 757
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_3_)
+wv_drag_list_item MainWindow.sigview v(a_3_)
+wv_drag_enter WV1
+wv_drag_to WV1 7 714
+wv_drag_to WV1 186 785
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_5_)
+wv_drag_list_item MainWindow.sigview v(a_5_)
+wv_drag_enter WV1
+wv_drag_to WV1 16 757
+wv_drag_to WV1 148 797
+wv_drag_to WV1 161 793
+wv_drag_to WV1 66 796
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_4_)
+wv_drag_list_item MainWindow.sigview v(a_4_)
+wv_drag_enter WV1
+wv_drag_to WV1 12 755
+wv_drag_to WV1 150 801
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_6_)
+wv_drag_list_item MainWindow.sigview v(a_6_)
+wv_drag_enter WV1
+wv_drag_to WV1 5 777
+wv_drag_to WV1 123 811
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_7_)
+wv_drag_list_item MainWindow.sigview v(a_7_)
+wv_drag_enter WV1
+wv_drag_to WV1 4 795
+wv_drag_to WV1 56 809
+wv_drop_on WV1

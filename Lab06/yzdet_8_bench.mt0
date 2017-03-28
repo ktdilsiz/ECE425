@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP2-1 linux64' PARAM_COUNT=0
+.TITLE '* spice3 file created from nor2_1x.ext - technology: scmos'
+ tpdr_a_0         tpdf_a_0         tpd_a_0          tpdr_a_7        
+ tpdf_a_7         tpd_a_7          trise            tfall           
+ temper           alter#          
+  9.777e-10        3.970e-10        6.873e-10        9.875e-10      
+  3.955e-10        6.915e-10        5.946e-10        1.676e-10      
+   70.0000        1               

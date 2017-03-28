@@ -1,0 +1,53 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP2-1 linux64"
+* "format" "HSP"
+* "rundate" "15:16:43 03/27/2017 "
+* "netlist" "yzdet_8_bench.sp "
+* "runtitle" "* spice3 file created from nor2_1x.ext - technology: scmos"
+* time =    0.            
+* temperature =   70.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =  25.6956n       
++ a_0_ =  58.4572n       
++ a_1_ =  58.4572n       
++ a_2_ =  58.4572n       
++ a_3_ =  58.4572n       
++ a_4_ =  58.4572n       
++ a_5_ =  58.4572n       
++ a_6_ =  58.4572n       
++ a_7_ =  58.4572n       
++ a_n35_27# =   5.0000        
++ b =  25.6956n       
++ d0 =   0.            
++ d1 =   0.            
++ d2 =   0.            
++ d3 =   0.            
++ d4 =   0.            
++ d5 =   0.            
++ d6 =   0.            
++ d7 =   0.            
++ nor2_1x_2/a_7_67# =   5.0000        
++ new_nand2_1/a_7_7# =  12.8478n       
++ nor2_1x_1/a_7_67# =   5.0000        
++ nor2_1x_0/a_7_67# =   5.0000        
++ new_nand2_0/a_7_7# =  12.8478n       
++ nor2_1x_3/a_7_67# =   5.0000        
++ nor2_1x_0/y =   5.0000        
++ nor2_1x_1/y =   5.0000        
++ nor2_1x_2/y =   5.0000        
++ nor2_1x_3/y =   5.0000        
++ vdd =   5.0000        
++ y =   5.0000        
++ zero =   0.            
++ x0.b =   5.0000        
++ x1.b =   5.0000        
++ x2.b =   5.0000        
++ x3.b =   5.0000        
++ x4.b =   5.0000        
++ x5.b =   5.0000        
++ x6.b =   5.0000        
++ x7.b =   5.0000        
+***   END: Saved Operating Point ***                     

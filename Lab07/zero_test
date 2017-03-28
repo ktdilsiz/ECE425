@@ -1,0 +1,10 @@
+h Vdd!
+l Gnd!
+analyzer a_7_ a_6_ a_5_ a_4_ a_3_ a_2_ a_1_ a_0_ zero
+vector in a_7_ a_6_ a_5_ a_4_ a_3_ a_2_ a_1_ a_0_
+setvector in 00011111
+s
+setvector in 00000000
+s
+setvector in 00011101
+s

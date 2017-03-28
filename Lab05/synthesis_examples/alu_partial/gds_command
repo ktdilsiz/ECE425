@@ -1,0 +1,5 @@
+﻿gds rescale false
+gds flatten
+gds read alu_ctl.gds
+load alu_ctl
+

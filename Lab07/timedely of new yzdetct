@@ -1,0 +1,9 @@
+ ****** transient analysis tnom=  25.000 temp=  70.000 ******
+ tpdr_a_0= 977.6504p  targ=   5.2986n   trig=   4.3209n
+ tpdf_a_0= 397.0092p  targ=   2.7184n   trig=   2.3214n
+ tpd_a_0= 687.3298p
+ tpdr_a_7= 987.5224p  targ=   5.2986n   trig=   4.3111n
+ tpdf_a_7= 395.5124p  targ=   2.7184n   trig=   2.3229n
+ tpd_a_7= 691.5174p
+ trise= 594.5535p  targ=   5.6515n   trig=   5.0570n
+ tfall= 167.5948p  targ=   2.8075n   trig=   2.6399n

@@ -1,0 +1,90 @@
+{
+    "NameTable": {
+        "decoder_bench": [
+            "decoder_bench",
+            "fsNIE",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 88307,
+        "archive": "archive.0/_3417_archive_1.a"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileModules": [
+        "...MASTER...",
+        "decoder_bench"
+    ],
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 2,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0012780000000000001,
+            "ru_minflt": 191,
+            "ru_stime_sec": 0.0012780000000000001,
+            "ru_maxrss_kb": 14360,
+            "ru_nvcsw": 1
+        },
+        "ru_self_cgstart": {
+            "ru_nivcsw": 1,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.051327999999999999,
+            "ru_minflt": 4582,
+            "ru_stime_sec": 0.012832,
+            "ru_maxrss_kb": 77124,
+            "ru_nvcsw": 25
+        },
+        "ru_childs_end": {
+            "ru_nivcsw": 2,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0012780000000000001,
+            "ru_minflt": 191,
+            "ru_stime_sec": 0.0012780000000000001,
+            "ru_maxrss_kb": 14360,
+            "ru_nvcsw": 1
+        },
+        "nMops": 271,
+        "nQuads": 180,
+        "mopSpeed": 23740.692071835314,
+        "totalObjSize": 112786,
+        "peak_mem_kb": 197636,
+        "ru_self_end": {
+            "ru_nivcsw": 1,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.062742999999999993,
+            "ru_minflt": 5881,
+            "ru_stime_sec": 0.018922000000000001,
+            "ru_maxrss_kb": 84444,
+            "ru_nvcsw": 25
+        },
+        "quadSpeed": 15768.725361366631,
+        "mop/quad": 1.5055555555555555,
+        "outputSizePerQuad": 626.0,
+        "Frontend(%)": 81.806735412715369,
+        "CodeGen(%)": 18.193264587284631
+    },
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.3417.json"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "default_output_dir": "csrc",
+        "daidir_abs": "/home/hany/ECE425/Lab05/synthesis_examples/simv.daidir",
+        "cwd": "/home/hany/ECE425/Lab05/synthesis_examples",
+        "daidir": "simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/hany/ECE425/Lab05/synthesis_examples/csrc",
+        "archive_dir": "archive.0"
+    },
+    "CompileStatus": "Successful"
+}

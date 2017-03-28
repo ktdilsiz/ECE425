@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mips_fsm
+Version: L-2016.03-SP5-2
+Date   : Tue Mar 28 14:46:01 2017
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: state_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: alusrca (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[2]/CLK (DFFPOSX1)              0.00       0.00 r
+  state_reg[2]/Q (DFFPOSX1)                0.48       0.48 f
+  U54/Y (NAND2X1)                          0.35       0.83 r
+  U53/Y (NOR2X1)                           0.42       1.25 f
+  U42/Y (OAI21X1)                          0.18       1.44 r
+  U10/Y (INVX2)                            0.05       1.49 f
+  alusrca (out)                            0.00       1.49 f
+  data arrival time                                   1.49
+
+  max_delay                               25.00      25.00
+  output external delay                    0.00      25.00
+  data required time                                 25.00
+  -----------------------------------------------------------
+  data required time                                 25.00
+  data arrival time                                  -1.49
+  -----------------------------------------------------------
+  slack (MET)                                        23.51
+
+
+1

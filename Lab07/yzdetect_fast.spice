@@ -1,0 +1,81 @@
+* SPICE3 file created from yzdetect_fast.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 nor2_1x_2/a_7_67# a_0_ Vdd Vdd pfet w=16 l=2
++  ad=48 pd=38 as=1000 ps=500
+M1001 nor2_1x_2/y a_1_ nor2_1x_2/a_7_67# Vdd pfet w=16 l=2
++  ad=80 pd=42 as=0 ps=0
+M1002 nor2_1x_2/y a_0_ Gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=810 ps=464
+M1003 Gnd a_1_ nor2_1x_2/y Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 b nor2_1x_2/y Vdd Vdd pfet w=19 l=2
++  ad=114 pd=50 as=0 ps=0
+M1005 Vdd nor2_1x_1/y b Vdd pfet w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 new_nand2_1/a_7_7# nor2_1x_2/y Gnd Gnd nfet w=19 l=2
++  ad=57 pd=44 as=0 ps=0
+M1007 b nor2_1x_1/y new_nand2_1/a_7_7# Gnd nfet w=19 l=2
++  ad=95 pd=48 as=0 ps=0
+M1008 nor2_1x_1/a_7_67# a_2_ Vdd Vdd pfet w=16 l=2
++  ad=48 pd=38 as=0 ps=0
+M1009 nor2_1x_1/y a_3_ nor2_1x_1/a_7_67# Vdd pfet w=16 l=2
++  ad=80 pd=42 as=0 ps=0
+M1010 nor2_1x_1/y a_2_ Gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1011 Gnd a_3_ nor2_1x_1/y Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 nor2_1x_0/a_7_67# a_4_ Vdd Vdd pfet w=16 l=2
++  ad=48 pd=38 as=0 ps=0
+M1013 nor2_1x_0/y a_5_ nor2_1x_0/a_7_67# Vdd pfet w=16 l=2
++  ad=80 pd=42 as=0 ps=0
+M1014 nor2_1x_0/y a_4_ Gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1015 Gnd a_5_ nor2_1x_0/y Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 a nor2_1x_3/y Vdd Vdd pfet w=19 l=2
++  ad=114 pd=50 as=0 ps=0
+M1017 Vdd nor2_1x_0/y a Vdd pfet w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 new_nand2_0/a_7_7# nor2_1x_3/y Gnd Gnd nfet w=19 l=2
++  ad=57 pd=44 as=0 ps=0
+M1019 a nor2_1x_0/y new_nand2_0/a_7_7# Gnd nfet w=19 l=2
++  ad=95 pd=48 as=0 ps=0
+M1020 nor2_1x_3/a_7_67# a_6_ Vdd Vdd pfet w=16 l=2
++  ad=48 pd=38 as=0 ps=0
+M1021 nor2_1x_3/y a_7_ nor2_1x_3/a_7_67# Vdd pfet w=16 l=2
++  ad=80 pd=42 as=0 ps=0
+M1022 nor2_1x_3/y a_6_ Gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1023 Gnd a_7_ nor2_1x_3/y Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 a_n35_27# a Vdd Vdd pfet w=30 l=2
++  ad=480 pd=212 as=0 ps=0
+M1025 Vdd a a_n35_27# Vdd pfet w=30 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 zero b a_n35_27# Vdd pfet w=30 l=2
++  ad=180 pd=72 as=0 ps=0
+M1027 a_n35_27# b zero Vdd pfet w=30 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 zero a Gnd Gnd nfet w=15 l=2
++  ad=180 pd=84 as=0 ps=0
+M1029 Gnd a zero Gnd nfet w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 zero b Gnd Gnd nfet w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 Gnd b zero Gnd nfet w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 Vdd a 3.8fF
+C1 Vdd nor2_1x_2/y 2.3fF
+C2 Vdd nor2_1x_3/y 2.6fF
+C3 Vdd nor2_1x_0/y 3.1fF
+C4 Vdd nor2_1x_1/y 3.2fF
+C5 Vdd a_n35_27# 3.6fF
+C6 b Vdd 2.4fF
+C7 Vdd zero 3.8fF
+C8 zero 0 2.3fF
+C9 nor2_1x_3/y 0 6.8fF
+C10 nor2_1x_0/y 0 7.1fF
+C11 nor2_1x_1/y 0 5.7fF
+C12 nor2_1x_2/y 0 7.0fF

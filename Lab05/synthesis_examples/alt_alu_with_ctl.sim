@@ -1,0 +1,359 @@
+| units: 30 tech: scmos format: MIT
+p alu_ctl_0/NOR2X1_0/B Vdd! alu_ctl_0/NOR2X1_2/a_9_54# 2 40 673 144
+p funct_3 alu_ctl_0/NOR2X1_2/a_9_54# alu_ctl_0/NOR2X1_2/Y 2 40 678 144
+n alu_ctl_0/NOR2X1_0/B Gnd! alu_ctl_0/NOR2X1_2/Y 2 10 673 96
+n funct_3 alu_ctl_0/NOR2X1_2/Y Gnd! 2 10 681 96
+p alu_ctl_0/NOR2X1_1/Y Vdd! alu_ctl_0/NOR2X1_0/B 2 20 649 164
+p funct_5 alu_ctl_0/NOR2X1_0/B Vdd! 2 20 657 164
+n alu_ctl_0/NOR2X1_1/Y Gnd! alu_ctl_0/NAND2X1_6/a_9_6# 2 20 649 96
+n funct_5 alu_ctl_0/NAND2X1_6/a_9_6# alu_ctl_0/NOR2X1_0/B 2 20 654 96
+p funct_4 Vdd! alu_ctl_0/NOR2X1_1/a_9_54# 2 40 593 144
+p alu_op_0 alu_ctl_0/NOR2X1_1/a_9_54# alu_ctl_0/NOR2X1_1/Y 2 40 598 144
+n funct_4 Gnd! alu_ctl_0/NOR2X1_1/Y 2 10 593 96
+n alu_op_0 alu_ctl_0/NOR2X1_1/Y Gnd! 2 10 601 96
+p alu_ctl_0/NOR2X1_0/A Vdd! alu_ctl_0/NOR2X1_0/a_9_54# 2 40 561 144
+p alu_ctl_0/NOR2X1_0/B alu_ctl_0/NOR2X1_0/a_9_54# alu_ctl_0/NOR2X1_0/Y 2 40 566 144
+n alu_ctl_0/NOR2X1_0/A Gnd! alu_ctl_0/NOR2X1_0/Y 2 10 561 96
+n alu_ctl_0/NOR2X1_0/B alu_ctl_0/NOR2X1_0/Y Gnd! 2 10 569 96
+p alu_ctl_0/OAI21X1_7/A Vdd! alu_ctl_0/OAI21X1_7/a_9_54# 2 40 506 144
+p alu_ctl_0/OAI21X1_7/B alu_ctl_0/OAI21X1_7/a_9_54# op6 2 40 501 144
+p alu_ctl_0/INVX2_0/Y op6 Vdd! 2 20 493 164
+n alu_ctl_0/OAI21X1_7/A alu_ctl_0/OAI21X1_7/a_2_6# Gnd! 2 20 506 96
+n alu_ctl_0/OAI21X1_7/B Gnd! alu_ctl_0/OAI21X1_7/a_2_6# 2 20 498 96
+n alu_ctl_0/INVX2_0/Y alu_ctl_0/OAI21X1_7/a_2_6# op6 2 20 490 96
+p alu_ctl_0/NOR2X1_2/Y Vdd! alu_ctl_0/OAI21X1_6/C 2 20 657 215
+p alu_ctl_0/NAND2X1_5/B alu_ctl_0/OAI21X1_6/C Vdd! 2 20 665 215
+n alu_ctl_0/NOR2X1_2/Y Gnd! alu_ctl_0/NAND2X1_5/a_9_6# 2 20 657 283
+n alu_ctl_0/NAND2X1_5/B alu_ctl_0/NAND2X1_5/a_9_6# alu_ctl_0/OAI21X1_6/C 2 20 662 283
+p alu_op_1 Vdd! alu_ctl_0/OAI21X1_6/a_9_54# 2 40 609 235
+p alu_op_0 alu_ctl_0/OAI21X1_6/a_9_54# op5 2 40 614 235
+p alu_ctl_0/OAI21X1_6/C op5 Vdd! 2 20 622 215
+n alu_op_1 alu_ctl_0/OAI21X1_6/a_2_6# Gnd! 2 20 609 283
+n alu_op_0 Gnd! alu_ctl_0/OAI21X1_6/a_2_6# 2 20 617 283
+n alu_ctl_0/OAI21X1_6/C alu_ctl_0/OAI21X1_6/a_2_6# op5 2 20 625 283
+p alu_ctl_0/NOR2X1_2/Y Vdd! alu_ctl_0/INVX2_3/A 2 20 594 215
+p alu_op_1 alu_ctl_0/INVX2_3/A Vdd! 2 20 586 215
+n alu_ctl_0/NOR2X1_2/Y Gnd! alu_ctl_0/NAND2X1_4/a_9_6# 2 20 594 283
+n alu_op_1 alu_ctl_0/NAND2X1_4/a_9_6# alu_ctl_0/INVX2_3/A 2 20 589 283
+p alu_ctl_0/NOR2X1_0/A Vdd! alu_ctl_0/NAND3X1_2/Y 2 20 554 215
+p alu_ctl_0/INVX2_5/Y alu_ctl_0/NAND3X1_2/Y Vdd! 2 20 546 215
+p alu_ctl_0/NOR2X1_2/Y Vdd! alu_ctl_0/NAND3X1_2/Y 2 20 538 215
+n alu_ctl_0/NOR2X1_0/A Gnd! alu_ctl_0/NAND3X1_2/a_9_6# 2 30 554 283
+n alu_ctl_0/INVX2_5/Y alu_ctl_0/NAND3X1_2/a_9_6# alu_ctl_0/NAND3X1_2/a_14_6# 2 30 549 283
+n alu_ctl_0/NOR2X1_2/Y alu_ctl_0/NAND3X1_2/a_14_6# alu_ctl_0/NAND3X1_2/Y 2 30 544 283
+p funct_0 Vdd! alu_ctl_0/NOR2X1_0/A 2 20 481 215
+p alu_ctl_0/INVX2_2/Y alu_ctl_0/NOR2X1_0/A Vdd! 2 20 489 215
+n funct_0 Gnd! alu_ctl_0/NAND2X1_3/a_9_6# 2 20 481 283
+n alu_ctl_0/INVX2_2/Y alu_ctl_0/NAND2X1_3/a_9_6# alu_ctl_0/NOR2X1_0/A 2 20 486 283
+p alu_ctl_0/INVX2_6/A Vdd! alu_ctl_0/INVX2_6/Y 2 40 689 344
+n alu_ctl_0/INVX2_6/A Gnd! alu_ctl_0/INVX2_6/Y 2 20 689 296
+p alu_ctl_0/INVX2_5/Y Vdd! alu_ctl_0/OAI21X1_5/a_9_54# 2 40 617 344
+p funct_0 alu_ctl_0/OAI21X1_5/a_9_54# alu_ctl_0/INVX2_6/A 2 40 622 344
+p alu_ctl_0/NAND3X1_0/Y alu_ctl_0/INVX2_6/A Vdd! 2 20 630 364
+n alu_ctl_0/INVX2_5/Y alu_ctl_0/OAI21X1_5/a_2_6# Gnd! 2 20 617 296
+n funct_0 Gnd! alu_ctl_0/OAI21X1_5/a_2_6# 2 20 625 296
+n alu_ctl_0/NAND3X1_0/Y alu_ctl_0/OAI21X1_5/a_2_6# alu_ctl_0/INVX2_6/A 2 20 633 296
+p alu_ctl_0/NOR2X1_0/Y Vdd! alu_ctl_0/INVX2_1/A 2 20 562 364
+p alu_op_1 alu_ctl_0/INVX2_1/A Vdd! 2 20 554 364
+p alu_ctl_0/AND2X2_0/Y Vdd! alu_ctl_0/INVX2_1/A 2 20 546 364
+n alu_ctl_0/NOR2X1_0/Y Gnd! alu_ctl_0/NAND3X1_1/a_9_6# 2 30 562 296
+n alu_op_1 alu_ctl_0/NAND3X1_1/a_9_6# alu_ctl_0/NAND3X1_1/a_14_6# 2 30 557 296
+n alu_ctl_0/AND2X2_0/Y alu_ctl_0/NAND3X1_1/a_14_6# alu_ctl_0/INVX2_1/A 2 30 552 296
+p funct_1 Vdd! alu_ctl_0/OAI21X1_7/A 2 20 489 364
+p funct_0 alu_ctl_0/OAI21X1_7/A Vdd! 2 20 497 364
+n funct_1 Gnd! alu_ctl_0/NAND2X1_2/a_9_6# 2 20 489 296
+n funct_0 alu_ctl_0/NAND2X1_2/a_9_6# alu_ctl_0/OAI21X1_7/A 2 20 494 296
+p funct_1 Vdd! alu_ctl_0/INVX2_5/Y 2 40 473 344
+n funct_1 Gnd! alu_ctl_0/INVX2_5/Y 2 20 473 296
+p funct_0 Vdd! alu_ctl_0/OAI21X1_4/a_9_54# 2 40 657 435
+p alu_ctl_0/XOR2X1_0/Y alu_ctl_0/OAI21X1_4/a_9_54# alu_ctl_0/NAND2X1_5/B 2 40 662 435
+p alu_ctl_0/NAND3X1_0/Y alu_ctl_0/NAND2X1_5/B Vdd! 2 20 670 415
+n funct_0 alu_ctl_0/OAI21X1_4/a_2_6# Gnd! 2 20 657 483
+n alu_ctl_0/XOR2X1_0/Y Gnd! alu_ctl_0/OAI21X1_4/a_2_6# 2 20 665 483
+n alu_ctl_0/NAND3X1_0/Y alu_ctl_0/OAI21X1_4/a_2_6# alu_ctl_0/NAND2X1_5/B 2 20 673 483
+p funct_0 Vdd! alu_ctl_0/NAND3X1_0/Y 2 20 593 415
+p alu_ctl_0/INVX2_5/Y alu_ctl_0/NAND3X1_0/Y Vdd! 2 20 601 415
+p funct_2 Vdd! alu_ctl_0/NAND3X1_0/Y 2 20 609 415
+n funct_0 Gnd! alu_ctl_0/NAND3X1_0/a_9_6# 2 30 593 483
+n alu_ctl_0/INVX2_5/Y alu_ctl_0/NAND3X1_0/a_9_6# alu_ctl_0/NAND3X1_0/a_14_6# 2 30 598 483
+n funct_2 alu_ctl_0/NAND3X1_0/a_14_6# alu_ctl_0/NAND3X1_0/Y 2 30 603 483
+p alu_op_1 Vdd! alu_ctl_0/INVX2_4/Y 2 40 482 435
+n alu_op_1 Gnd! alu_ctl_0/INVX2_4/Y 2 20 482 483
+p funct_1 Vdd! alu_ctl_0/AND2X2_0/a_2_6# 2 20 674 564
+p funct_3 alu_ctl_0/AND2X2_0/a_2_6# Vdd! 2 20 666 564
+p alu_ctl_0/AND2X2_0/a_2_6# Vdd! alu_ctl_0/AND2X2_0/Y 2 40 658 544
+n funct_1 alu_ctl_0/AND2X2_0/a_2_6# alu_ctl_0/AND2X2_0/a_9_6# 2 20 674 496
+n funct_3 alu_ctl_0/AND2X2_0/a_9_6# Gnd! 2 20 669 496
+n alu_ctl_0/AND2X2_0/a_2_6# Gnd! alu_ctl_0/AND2X2_0/Y 2 20 661 496
+p funct_2 Vdd! alu_ctl_0/OAI21X1_7/B 2 20 586 564
+p alu_ctl_0/INVX2_3/Y alu_ctl_0/OAI21X1_7/B Vdd! 2 20 578 564
+n funct_2 Gnd! alu_ctl_0/NAND2X1_1/a_9_6# 2 20 586 496
+n alu_ctl_0/INVX2_3/Y alu_ctl_0/NAND2X1_1/a_9_6# alu_ctl_0/OAI21X1_7/B 2 20 581 496
+p funct_0 alu_ctl_0/OR2X1_0/a_2_54# alu_ctl_0/OR2X1_0/a_9_54# 2 40 514 544
+p funct_2 alu_ctl_0/OR2X1_0/a_9_54# Vdd! 2 40 509 544
+p alu_ctl_0/OR2X1_0/a_2_54# Vdd! alu_ctl_0/OR2X1_0/Y 2 20 501 564
+n funct_0 Gnd! alu_ctl_0/OR2X1_0/a_2_54# 2 10 514 496
+n funct_2 alu_ctl_0/OR2X1_0/a_2_54# Gnd! 2 10 506 496
+n alu_ctl_0/OR2X1_0/a_2_54# Gnd! alu_ctl_0/OR2X1_0/Y 2 10 498 496
+p alu_ctl_0/INVX2_6/Y Vdd! alu_ctl_0/OAI21X1_3/a_9_54# 2 40 666 635
+p alu_ctl_0/INVX2_3/A alu_ctl_0/OAI21X1_3/a_9_54# op4 2 40 661 635
+p alu_ctl_0/OAI21X1_2/C op4 Vdd! 2 20 653 615
+n alu_ctl_0/INVX2_6/Y alu_ctl_0/OAI21X1_3/a_2_6# Gnd! 2 20 666 683
+n alu_ctl_0/INVX2_3/A Gnd! alu_ctl_0/OAI21X1_3/a_2_6# 2 20 658 683
+n alu_ctl_0/OAI21X1_2/C alu_ctl_0/OAI21X1_3/a_2_6# op4 2 20 650 683
+p alu_ctl_0/INVX2_3/Y Vdd! alu_ctl_0/OAI21X1_2/B 2 20 594 615
+p funct_1 alu_ctl_0/OAI21X1_2/B Vdd! 2 20 586 615
+n alu_ctl_0/INVX2_3/Y Gnd! alu_ctl_0/NAND2X1_0/a_9_6# 2 20 594 683
+n funct_1 alu_ctl_0/NAND2X1_0/a_9_6# alu_ctl_0/OAI21X1_2/B 2 20 589 683
+p alu_ctl_0/INVX2_3/A Vdd! alu_ctl_0/INVX2_3/Y 2 40 570 635
+n alu_ctl_0/INVX2_3/A Gnd! alu_ctl_0/INVX2_3/Y 2 20 570 683
+p alu_ctl_0/OR2X1_0/Y Vdd! alu_ctl_0/OAI21X1_2/a_9_54# 2 40 506 635
+p alu_ctl_0/OAI21X1_2/B alu_ctl_0/OAI21X1_2/a_9_54# op2 2 40 501 635
+p alu_ctl_0/OAI21X1_2/C op2 Vdd! 2 20 493 615
+n alu_ctl_0/OR2X1_0/Y alu_ctl_0/OAI21X1_2/a_2_6# Gnd! 2 20 506 683
+n alu_ctl_0/OAI21X1_2/B Gnd! alu_ctl_0/OAI21X1_2/a_2_6# 2 20 498 683
+n alu_ctl_0/OAI21X1_2/C alu_ctl_0/OAI21X1_2/a_2_6# op2 2 20 490 683
+p funct_2 Vdd! alu_ctl_0/INVX2_2/Y 2 40 690 744
+n funct_2 Gnd! alu_ctl_0/INVX2_2/Y 2 20 690 696
+p funct_2 alu_ctl_0/XOR2X1_0/a_2_6# Vdd! 2 40 633 744
+p alu_ctl_0/XOR2X1_0/a_13_43# Vdd! alu_ctl_0/XOR2X1_0/a_18_54# 2 40 642 744
+p funct_2 alu_ctl_0/XOR2X1_0/a_18_54# alu_ctl_0/XOR2X1_0/Y 2 40 647 744
+p alu_ctl_0/XOR2X1_0/a_2_6# alu_ctl_0/XOR2X1_0/Y alu_ctl_0/XOR2X1_0/a_35_54# 2 40 659 744
+p funct_1 alu_ctl_0/XOR2X1_0/a_35_54# Vdd! 2 40 664 744
+p funct_1 Vdd! alu_ctl_0/XOR2X1_0/a_13_43# 2 40 673 744
+n funct_2 alu_ctl_0/XOR2X1_0/a_2_6# Gnd! 2 20 633 696
+n alu_ctl_0/XOR2X1_0/a_13_43# Gnd! alu_ctl_0/XOR2X1_0/a_18_6# 2 20 642 696
+n alu_ctl_0/XOR2X1_0/a_2_6# alu_ctl_0/XOR2X1_0/a_18_6# alu_ctl_0/XOR2X1_0/Y 2 20 647 696
+n funct_2 alu_ctl_0/XOR2X1_0/Y alu_ctl_0/XOR2X1_0/a_35_6# 2 20 659 696
+n funct_1 alu_ctl_0/XOR2X1_0/a_35_6# Gnd! 2 20 664 696
+n funct_1 Gnd! alu_ctl_0/XOR2X1_0/a_13_43# 2 20 673 696
+p alu_ctl_0/INVX2_3/A Vdd! alu_ctl_0/OAI21X1_1/a_9_54# 2 40 585 744
+p alu_ctl_0/INVX2_2/Y alu_ctl_0/OAI21X1_1/a_9_54# op0 2 40 590 744
+p alu_ctl_0/INVX2_1/A op0 Vdd! 2 20 598 764
+n alu_ctl_0/INVX2_3/A alu_ctl_0/OAI21X1_1/a_2_6# Gnd! 2 20 585 696
+n alu_ctl_0/INVX2_2/Y Gnd! alu_ctl_0/OAI21X1_1/a_2_6# 2 20 593 696
+n alu_ctl_0/INVX2_1/A alu_ctl_0/OAI21X1_1/a_2_6# op0 2 20 601 696
+p alu_op_1 Vdd! alu_ctl_0/OAI21X1_0/a_9_54# 2 40 505 744
+p alu_op_0 alu_ctl_0/OAI21X1_0/a_9_54# op3 2 40 510 744
+p alu_ctl_0/NAND3X1_2/Y op3 Vdd! 2 20 518 764
+n alu_op_1 alu_ctl_0/OAI21X1_0/a_2_6# Gnd! 2 20 505 696
+n alu_op_0 Gnd! alu_ctl_0/OAI21X1_0/a_2_6# 2 20 513 696
+n alu_ctl_0/NAND3X1_2/Y alu_ctl_0/OAI21X1_0/a_2_6# op3 2 20 521 696
+p alu_ctl_0/INVX2_1/A Vdd! op1 2 40 650 835
+n alu_ctl_0/INVX2_1/A Gnd! op1 2 20 650 883
+p alu_ctl_0/INVX2_4/Y alu_ctl_0/AOI21X1_0/a_2_54# Vdd! 2 40 553 835
+p alu_op_0 Vdd! alu_ctl_0/AOI21X1_0/a_2_54# 2 40 561 835
+p op1 alu_ctl_0/AOI21X1_0/a_2_54# alu_ctl_0/OAI21X1_2/C 2 40 569 835
+n alu_ctl_0/INVX2_4/Y Gnd! alu_ctl_0/AOI21X1_0/a_12_6# 2 20 556 883
+n alu_op_0 alu_ctl_0/AOI21X1_0/a_12_6# alu_ctl_0/OAI21X1_2/C 2 20 561 883
+n op1 alu_ctl_0/OAI21X1_2/C Gnd! 2 10 569 883
+p op2 Vdd! alu_ctl_0/INVX2_0/Y 2 40 481 835
+n op2 Gnd! alu_ctl_0/INVX2_0/Y 2 20 481 883
+C Vdd! op1 2.2
+C Vdd! funct_0 5.6
+C Vdd! op0 3.3
+C Vdd! alu_ctl_0/NAND3X1_2/Y 5.4
+C Vdd! alu_ctl_0/OAI21X1_7/B 3.2
+C Vdd! alu_ctl_0/INVX2_1/A 6.0
+C Vdd! alu_ctl_0/AND2X2_0/Y 3.0
+C Vdd! alu_ctl_0/INVX2_2/Y 3.5
+C Vdd! alu_op_1 5.2
+C Vdd! alu_op_0 4.2
+C Vdd! alu_ctl_0/OAI21X1_2/B 2.0
+C Vdd! alu_ctl_0/NOR2X1_0/Y 2.8
+C Vdd! funct_3 3.1
+C Vdd! alu_ctl_0/INVX2_4/Y 2.9
+C Vdd! op2 2.3
+C Vdd! funct_2 3.7
+C Vdd! alu_ctl_0/INVX2_5/Y 3.0
+C Vdd! alu_ctl_0/INVX2_3/A 3.5
+C Vdd! alu_ctl_0/NAND2X1_5/B 2.4
+C Vdd! alu_ctl_0/OAI21X1_7/A 2.4
+C Vdd! alu_ctl_0/INVX2_3/Y 3.2
+C Vdd! alu_ctl_0/OR2X1_0/a_2_54# 2.1
+C Vdd! alu_ctl_0/NOR2X1_2/Y 4.0
+C Vdd! alu_ctl_0/OR2X1_0/Y 2.8
+C Vdd! alu_ctl_0/OAI21X1_2/C 5.7
+C Vdd! op4 2.3
+C Vdd! alu_ctl_0/INVX2_0/Y 5.2
+C Vdd! alu_ctl_0/NOR2X1_0/A 3.5
+C Vdd! funct_1 7.7
+C Vdd! alu_ctl_0/INVX2_6/Y 2.6
+C Vdd! alu_ctl_0/NAND3X1_0/Y 6.5
+C Vdd! alu_ctl_0/OAI21X1_6/C 3.1
+C m2_272_15# GND 2.6
+C muxy7 GND 5.2
+C m2_272_125# GND 2.6
+C m2_160_151# GND 5.2
+C m2_272_235# GND 2.6
+C m2_160_261# GND 5.2
+C m2_272_345# GND 2.6
+C m2_160_371# GND 5.2
+C m2_272_455# GND 2.6
+C m2_160_481# GND 5.2
+C m2_272_565# GND 2.6
+C m2_160_591# GND 5.2
+C m2_272_675# GND 2.6
+C m2_160_701# GND 5.2
+C m2_272_785# GND 2.6
+C m2_160_811# GND 5.2
+C m2_40_32# GND 3.2
+C a0 GND 5.3
+C b0 GND 3.8
+C result0 GND 13.2
+C result1 GND 14.3
+C m2_40_142# GND 3.0
+C a1 GND 5.2
+C b1 GND 3.8
+C m2_40_252# GND 3.0
+C a2 GND 5.2
+C b2 GND 3.8
+C result2 GND 12.6
+C result3 GND 14.3
+C m2_40_362# GND 3.0
+C a3 GND 5.2
+C b3 GND 3.8
+C m2_40_472# GND 3.0
+C a4 GND 5.2
+C b4 GND 3.8
+C result4 GND 12.6
+C result5 GND 14.4
+C m2_40_582# GND 3.0
+C a5 GND 5.2
+C b5 GND 3.8
+C m2_40_692# GND 3.0
+C a6 GND 5.2
+C b6 GND 3.8
+C result6 GND 12.6
+C result7 GND 14.3
+C m2_273_872# GND 35.7
+R m2_273_872# 21
+C m2_40_802# GND 3.0
+C a7 GND 5.6
+C b7 GND 4.2
+C cout_adder_7 GND 6.6
+C less GND 27.3
+R less 16
+C Vdd! GND 751.8
+R Vdd! 59098
+C op2 GND 54.4
+R op2 2163
+C funct_1 GND 41.9
+R funct_1 6273
+C alu_ctl_0/INVX2_0/Y GND 27.9
+R alu_ctl_0/INVX2_0/Y 2229
+C alu_ctl_0/OAI21X1_2/C GND 14.3
+R alu_ctl_0/OAI21X1_2/C 3285
+R alu_ctl_0/AOI21X1_0/a_12_6# 548
+R alu_ctl_0/AOI21X1_0/a_2_54# 1765
+C alu_op_0 GND 42.9
+R alu_op_0 4313
+C alu_ctl_0/INVX2_4/Y GND 7.6
+R alu_ctl_0/INVX2_4/Y 2276
+C op1 GND 18.7
+R op1 2194
+C alu_ctl_0/INVX2_1/A GND 23.0
+R alu_ctl_0/INVX2_1/A 3628
+R Gnd! 38693
+C op0 GND 19.2
+R op0 1129
+R alu_ctl_0/OAI21X1_0/a_2_6# 800
+R op3 1138
+R alu_ctl_0/OAI21X1_0/a_9_54# 1403
+C alu_ctl_0/NAND3X1_2/Y GND 5.0
+R alu_ctl_0/NAND3X1_2/Y 2556
+R alu_op_1 5422
+R alu_ctl_0/OAI21X1_1/a_2_6# 800
+R alu_ctl_0/OAI21X1_1/a_9_54# 1403
+C alu_ctl_0/INVX2_2/Y GND 26.6
+R alu_ctl_0/INVX2_2/Y 3327
+C alu_ctl_0/INVX2_3/A GND 25.1
+R alu_ctl_0/INVX2_3/A 3912
+R alu_ctl_0/XOR2X1_0/a_35_6# 548
+R alu_ctl_0/XOR2X1_0/a_18_6# 548
+R alu_ctl_0/XOR2X1_0/a_35_54# 1403
+C alu_ctl_0/XOR2X1_0/Y GND 7.5
+R alu_ctl_0/XOR2X1_0/Y 1638
+R alu_ctl_0/XOR2X1_0/a_18_54# 1403
+C alu_ctl_0/XOR2X1_0/a_2_6# GND 3.5
+R alu_ctl_0/XOR2X1_0/a_2_6# 2264
+C alu_ctl_0/XOR2X1_0/a_13_43# GND 3.1
+R alu_ctl_0/XOR2X1_0/a_13_43# 2220
+R funct_2 6531
+C alu_ctl_0/INVX2_6/Y GND 6.5
+R alu_ctl_0/INVX2_6/Y 2243
+R alu_ctl_0/OAI21X1_2/a_2_6# 800
+R alu_ctl_0/OAI21X1_2/a_9_54# 1403
+C alu_ctl_0/OR2X1_0/Y GND 7.0
+R alu_ctl_0/OR2X1_0/Y 1658
+R alu_ctl_0/NAND2X1_0/a_9_6# 548
+C alu_ctl_0/OAI21X1_2/B GND 6.0
+R alu_ctl_0/OAI21X1_2/B 1730
+C alu_ctl_0/INVX2_3/Y GND 9.6
+R alu_ctl_0/INVX2_3/Y 3281
+R alu_ctl_0/OAI21X1_3/a_2_6# 800
+C op4 GND 19.1
+R op4 1142
+R alu_ctl_0/OAI21X1_3/a_9_54# 1403
+R alu_ctl_0/OR2X1_0/a_9_54# 1403
+C alu_ctl_0/OR2X1_0/a_2_54# GND 2.5
+R alu_ctl_0/OR2X1_0/a_2_54# 2027
+R funct_0 6425
+R alu_ctl_0/NAND2X1_1/a_9_6# 548
+C alu_ctl_0/OAI21X1_7/B GND 10.9
+R alu_ctl_0/OAI21X1_7/B 1731
+R alu_ctl_0/AND2X2_0/a_9_6# 548
+C alu_ctl_0/AND2X2_0/Y GND 13.1
+R alu_ctl_0/AND2X2_0/Y 2260
+C alu_ctl_0/AND2X2_0/a_2_6# GND 2.2
+R alu_ctl_0/AND2X2_0/a_2_6# 1705
+R funct_3 2126
+R alu_ctl_0/NAND3X1_0/a_14_6# 822
+R alu_ctl_0/NAND3X1_0/a_9_6# 822
+C alu_ctl_0/INVX2_5/Y GND 19.7
+R alu_ctl_0/INVX2_5/Y 4431
+R alu_ctl_0/OAI21X1_4/a_2_6# 800
+C alu_ctl_0/NAND2X1_5/B GND 9.2
+R alu_ctl_0/NAND2X1_5/B 2167
+R alu_ctl_0/OAI21X1_4/a_9_54# 1403
+C alu_ctl_0/NAND3X1_0/Y GND 9.6
+R alu_ctl_0/NAND3X1_0/Y 3638
+R alu_ctl_0/NAND2X1_2/a_9_6# 548
+C alu_ctl_0/OAI21X1_7/A GND 9.2
+R alu_ctl_0/OAI21X1_7/A 1754
+R alu_ctl_0/NAND3X1_1/a_14_6# 822
+R alu_ctl_0/NAND3X1_1/a_9_6# 822
+C alu_ctl_0/NOR2X1_0/Y GND 4.6
+R alu_ctl_0/NOR2X1_0/Y 1996
+R funct_4 1019
+R alu_ctl_0/OAI21X1_5/a_2_6# 800
+R alu_ctl_0/OAI21X1_5/a_9_54# 1403
+C alu_ctl_0/INVX2_6/A GND 4.6
+R alu_ctl_0/INVX2_6/A 2132
+R alu_ctl_0/NAND2X1_3/a_9_6# 548
+R alu_ctl_0/NAND3X1_2/a_14_6# 822
+R alu_ctl_0/NAND3X1_2/a_9_6# 822
+C alu_ctl_0/NOR2X1_0/A GND 13.9
+R alu_ctl_0/NOR2X1_0/A 2761
+R alu_ctl_0/NAND2X1_4/a_9_6# 548
+R alu_ctl_0/OAI21X1_6/a_2_6# 800
+R op5 1134
+R alu_ctl_0/OAI21X1_6/a_9_54# 1403
+R alu_ctl_0/NAND2X1_5/a_9_6# 548
+C alu_ctl_0/OAI21X1_6/C GND 3.9
+R alu_ctl_0/OAI21X1_6/C 1717
+C alu_ctl_0/NOR2X1_2/Y GND 13.6
+R alu_ctl_0/NOR2X1_2/Y 4182
+R alu_ctl_0/OAI21X1_7/a_2_6# 800
+R alu_ctl_0/OAI21X1_7/a_9_54# 1403
+R alu_ctl_0/NOR2X1_0/a_9_54# 1403
+R alu_ctl_0/NOR2X1_1/a_9_54# 1403
+R alu_ctl_0/NAND2X1_6/a_9_6# 548
+R funct_5 1049
+C alu_ctl_0/NOR2X1_1/Y GND 4.8
+R alu_ctl_0/NOR2X1_1/Y 1995
+R alu_ctl_0/NOR2X1_2/a_9_54# 1403
+C alu_ctl_0/NOR2X1_0/B GND 8.8
+R alu_ctl_0/NOR2X1_0/B 2788
+C op6 GND 10.4
+R op6 1130

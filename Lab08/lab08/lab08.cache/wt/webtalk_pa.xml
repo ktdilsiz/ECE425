@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Mar 28 14:40:27 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d971743bd2cd4fe78380c8eccd993f55" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="2" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+<property name="SetTopNode" value="2" type="JavaHandler"/>
+<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="SimulationClose" value="7" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="3" type="JavaHandler"/>
+<property name="SimulationRestart" value="2" type="JavaHandler"/>
+<property name="SimulationRun" value="13" type="JavaHandler"/>
+<property name="SimulationRunAll" value="4" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="3" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="4" type="JavaHandler"/>
+<property name="ViewTaskSimulation" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation], 9, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Run Synthesis], 17, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, [Synth 8-327] inferring latch for variable 'memwrite_reg' [/home/hany/ECE425/Lab08/sequential_examples/mips_fsm.sv:158]. ], 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, [Synth 8-327] inferring latch for variable 'memwrite_reg' [/home/hany/ECE425/Lab08/sequential_examples/mips_fsm.sv:158]. ], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, [Synth 8-87] always_comb on 'alusrca_reg' did not result in combinational logic [/home/hany/ECE425/Lab08/sequential_examples/mips_fsm.sv:57]. ], 1, true" value="3" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 536, 352" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 584, 349" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 136, 400" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 142, 402" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 152, 437" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 154, 418" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 157, 206" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 160, 412" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 161, 426" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 164, 399" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 166, 409" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 197, 367" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 208, 344" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 209, 353" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 237, 494" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 242, 205" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 242, 442" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 27, 381" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 270, 378" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 295, 326" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 30, 404" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 306, 261" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 32, 385" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 325, 198" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 340, 489" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 352, 213" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 47, 445" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 53, 439" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 53, 439, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 57, 437" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 57, 437, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 57, 446" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 57, 446, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 62, 440" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 79, 426" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 82, 443" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 86, 371" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 88, 366" value="1" type="GuiResourceData"/>
+<property name="mips_fsm.sv, 88, 370" value="1" type="GuiResourceData"/>
+<property name="mips_testbench.sv, 174, 312" value="1" type="GuiResourceData"/>
+<property name="mips_testbench.sv, 205, 340" value="1" type="GuiResourceData"/>
+<property name="mips_testbench.sv, 243, 341" value="1" type="GuiResourceData"/>
+<property name="mips_testbench.sv, 268, 289" value="1" type="GuiResourceData"/>
+<property name="mips_testbench.sv, 349, 261" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="3" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,18 @@
+| units: 30 tech: scmos format: MIT
+p a Vdd! a_n35_27# 2 30 -37 27
+p a a_n35_27# Vdd! 2 30 -29 27
+p b a_n35_27# y 2 30 -13 27
+p b y a_n35_27# 2 30 -5 27
+n a Gnd! y 2 15 -37 -9
+n a y Gnd! 2 15 -29 -9
+n b Gnd! y 2 15 -13 -9
+n b y Gnd! 2 15 -5 -9
+C Vdd! y 3.7
+C Vdd! a_n35_27# 3.6
+R Gnd! 4318
+C y GND 2.3
+R y 1161
+R a_n35_27# 2250
+R b 1815
+R a 1607
+R Vdd! 4472

@@ -1,0 +1,119 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP2 (build Nov 14, ) ###
+### created at 16:22:22 on Tue Mar  7 2017 (Linux AMD64) ###
+### Host Name: localhost.localdomain   User ID: hany   PID: 4573   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 557 315
+wv_move_window CustomWaveView -3 1
+wv_resize_window CustomWaveView 1920 971
+wv_move_window CustomWaveView -3 31
+sx_open_sim_file_read {nor2_1x_bench.tr0}
+wv_expand_tree_item MainWindow.hierview {D0:nor2_1x_bench.tr0}
+wv_select_tree_item MainWindow.hierview {D0:nor2_1x_bench.tr0}
+wv_select_tree_item MainWindow.hierview {D0:nor2_1x_bench.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(x3)
+wv_drag_list_item MainWindow.sigview v(x3)
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Delete Panel}
+wv_move_dialog Confirmation 869 498
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_list_item MainWindow.sigview v(0)
+wv_drag_list_item MainWindow.sigview v(0)
+wv_drag_list_item MainWindow.sigview v(0)
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a)
+wv_drag_list_item MainWindow.sigview v(a)
+wv_drag_enter WV1
+wv_drag_to WV1 2 599
+wv_drag_to WV1 215 678
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(b)
+wv_drag_list_item MainWindow.sigview v(b)
+wv_drag_enter WV1
+wv_drag_to WV1 20 674
+wv_drag_to WV1 143 755
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(y)
+wv_drag_list_item MainWindow.sigview v(y)
+wv_drag_enter WV1
+wv_drag_to WV1 6 775
+wv_drag_to WV1 27 782
+wv_drop_on WV1
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Delete Panel}
+wv_move_dialog Confirmation 869 498
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_move_window CustomWaveView -18 31
+wv_move_window CustomWaveView -67 31
+wv_move_window CustomWaveView -80 31
+wv_move_window CustomWaveView -93 31
+wv_move_window CustomWaveView -104 31
+wv_move_window CustomWaveView -111 31
+wv_move_window CustomWaveView -117 31
+wv_move_window CustomWaveView -123 31
+wv_move_window CustomWaveView -128 31
+wv_move_window CustomWaveView -132 31
+wv_move_window CustomWaveView -136 31
+wv_move_window CustomWaveView -140 31
+wv_move_window CustomWaveView -144 31
+wv_move_window CustomWaveView -148 31
+wv_move_window CustomWaveView -152 31
+wv_move_window CustomWaveView -153 31
+wv_move_window CustomWaveView -155 31
+wv_move_window CustomWaveView -156 31
+wv_move_window CustomWaveView -157 31
+wv_resize_window CustomWaveView 1886 971
+wv_resize_window CustomWaveView 1591 971
+wv_resize_window CustomWaveView 1450 971
+wv_resize_window CustomWaveView 1368 971
+wv_resize_window CustomWaveView 1294 971
+wv_resize_window CustomWaveView 1253 971
+wv_resize_window CustomWaveView 1237 971
+wv_move_window CustomWaveView -136 31
+wv_move_window CustomWaveView -113 31
+wv_move_window CustomWaveView -84 31
+wv_move_window CustomWaveView -51 31
+wv_move_window CustomWaveView -14 31
+wv_move_window CustomWaveView 25 31
+wv_move_window CustomWaveView 60 31
+wv_move_window CustomWaveView 91 31
+wv_move_window CustomWaveView 120 42
+wv_move_window CustomWaveView 145 42
+wv_move_window CustomWaveView 168 42
+wv_move_window CustomWaveView 185 45
+wv_move_window CustomWaveView 198 45
+wv_move_window CustomWaveView 209 45
+wv_move_window CustomWaveView 214 45
+wv_move_window CustomWaveView 220 44
+wv_move_window CustomWaveView 221 42
+wv_move_window CustomWaveView 222 42
+wv_move_window CustomWaveView 224 31
+wv_move_window CustomWaveView 227 31
+wv_move_window CustomWaveView 231 31
+wv_move_window CustomWaveView 238 31
+wv_move_window CustomWaveView 245 31
+wv_move_window CustomWaveView 252 31
+wv_move_window CustomWaveView 264 31
+wv_move_window CustomWaveView 273 31
+wv_move_window CustomWaveView 279 31
+wv_move_window CustomWaveView 285 31
+wv_move_window CustomWaveView 286 31
+wv_move_window CustomWaveView 287 31
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 817 498
+# wv_press_button Confirmation.Ok

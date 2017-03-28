@@ -1,0 +1,7 @@
+timestamp 1487099744
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use mux4_dp_1x mux4_dp_1x_0[0:0:112][0:7:110] 1 0 6 0 1 4

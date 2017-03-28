@@ -1,0 +1,12 @@
+{
+    "decoder_bench": [
+        "decoder_bench",
+        "fsNIE",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ]
+}
