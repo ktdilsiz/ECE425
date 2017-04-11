@@ -3,6 +3,6 @@ $DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP2-1 linux64' PARAM_COUNT=0
  tpdr_a_0         tpdf_a_0         tpd_a_0          tpdr_a_7        
  tpdf_a_7         tpd_a_7          trise            tfall           
  temper           alter#          
-    failed           failed           failed           failed       
-    failed           failed           failed           failed       
+  7.779e-10        3.247e-10        5.513e-10        7.874e-10      
+  3.235e-10        5.555e-10        2.435e-10        7.881e-11      
    70.0000        1               

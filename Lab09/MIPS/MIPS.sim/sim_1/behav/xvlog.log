@@ -1,0 +1,39 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/zerodetect.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zerodetect
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/mux4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/mux3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/shifter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/flopen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/flopenr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/mips_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/flop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2458] undeclared symbol shifterOut, assumed default net type wire [/home/hany/ECE425/Lab09/datapath.sv:55]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/exmemory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exmemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/Lab09/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hany/ECE425/Lab09/MIPS/MIPS.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
