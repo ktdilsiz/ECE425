@@ -1,0 +1,162 @@
+# Basic IRSIM test file shell for ECE 425 Lab 4.
+
+# In order to ensure that your layout will be testable by the instructors,
+# make sure that you can source this file without any errors, especially
+# errors for unknown node names.  The remainder of the file may or may not
+# be useful for your own testing.
+
+
+# Basic setup.
+l Gnd!
+h Vdd!
+# l less
+stepsize 100
+logfile alu.log
+analyzer a7 a6 a5 a4 a3 a2 a1 a0 right arith Shamt_2 Shamt_1 Shamt_0 Y Y7 Y6 Y5 Y4 Y3 Y2 Y1 Y0
+# Set up the vectors.
+vector A a7 a6 a5 a4 a3 a2 a1 a0
+vector Y Y7 Y6 Y5 Y4 Y3 Y2 Y1 Y0
+vector Z Z14 Z13 Z12 Z11 Z10 Z09 Z08 Z07 Z06 Z05 Z04 Z03 Z02 Z01 Z00
+vector Shamt Shamt_2 Shamt_1 Shamt_0
+
+# Add the top-level signals to the watch list.  This causes theie values to be
+# displayed after each step.
+w A right arith Shamt Y Z
+
+
+#
+# A sample test; you will need a few more ...
+#
+
+# shift left 1
+setvector A 00001111
+setvector Shamt 001
+l right
+l arith
+s
+assert Y 00011110
+
+# shift left 2
+setvector A 00001111
+setvector Shamt 010
+l right
+l arith
+s
+assert Y 00111100
+
+# shift left 2
+setvector A 00000011
+setvector Shamt 010
+l right
+l arith
+s
+assert Y 00001100
+
+
+# shift left 4
+setvector A 00001111
+setvector Shamt 100
+l right
+l arith
+s
+assert Y 11110000
+
+# shift left 4
+setvector A 00000011
+setvector Shamt 100
+l right
+l arith
+s
+assert Y 00110000
+
+# shift left 5
+setvector A 10101111
+setvector Shamt 101
+l right
+l arith
+s
+assert Y 11100000
+
+
+# shift right 1
+setvector A 10101111
+setvector Shamt 001
+h right
+l arith
+s
+assert Y 01010111
+
+# shift right 2
+setvector A 10101111
+setvector Shamt 010
+h right
+l arith
+s
+assert Y 00101011
+
+# shift right 2
+setvector A 10110011
+setvector Shamt 010
+h right
+l arith
+s
+assert Y 	00101100
+
+# shift right 4
+setvector A 00001111
+setvector Shamt 100
+h right
+l arith
+s
+assert Y 00000000
+
+# shift right 4
+setvector A 10110011
+setvector Shamt 100
+h right
+l arith
+s
+assert Y 00001011
+
+
+
+# arith shift right 1
+setvector A 10101111
+setvector Shamt 001
+h right
+h arith
+s
+assert Y 11010111
+
+# arith shift right 2
+setvector A 10101111
+setvector Shamt 010
+h right
+h arith
+s
+assert Y 10101011
+
+# arith shift right 2
+setvector A 10110011
+setvector Shamt 010
+h right
+h arith
+s
+assert Y 10101100
+
+# arith shift right 4
+setvector A 10101111
+setvector Shamt 100
+h right
+h arith
+s
+assert Y 10001010
+
+# arith shift right 4
+setvector A 10110011
+setvector Shamt 100
+h right
+h arith
+s
+assert Y 10001011
+
