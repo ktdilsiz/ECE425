@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1494276831
+timestamp 1494278851
 << error_p >>
 rect 1919 1315 1920 1324
 << error_s >>
@@ -3787,11 +3787,11 @@ timestamp 1484419738
 transform 1 0 -143 0 1 1805
 box -6 -4 34 96
 use mips_fsm  mips_fsm_0
-timestamp 1494273520
+timestamp 1494278851
 transform 1 0 -50 0 1 1491
 box 0 0 1072 580
 use aludec  aludec_0
-timestamp 1494273520
+timestamp 1494278851
 transform 1 0 1099 0 1 1495
 box 0 0 672 380
 use funnel_shifter  funnel_shifter_0
