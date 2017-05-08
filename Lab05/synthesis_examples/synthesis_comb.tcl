@@ -7,7 +7,7 @@
 #  Change the following to your top-level design name
 #############################
 
-set         design_name    "decoder"  
+set         design_name    "controller"  
 
 ## hacked to work with OSU ami05 library - JN 3/27/14
 
@@ -31,7 +31,7 @@ define_design_lib work -path ./work
 # Read the verilog file.  If you use submodules,
 # add commands to read thim first.
 #############################
-analyze -format verilog ./${design_name}.v
+analyze -format sverilog ./${design_name}.sv
 
 #############################
 #  Translate the design into generic hardware
