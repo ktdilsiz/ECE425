@@ -1,0 +1,168 @@
+# Basic IRSIM test file shell for ECE 425 Lab 4.
+
+# In order to ensure that your layout will be testable by the instructors,
+# make sure that you can source this file without any errors, especially
+# errors for unknown node names.  The remainder of the file may or may not
+# be useful for your own testing.
+
+
+# Basic setup.
+l Gnd!
+h Vdd!
+# l less
+stepsize 100
+logfile alu.log
+#analyzer a7 a6 a5 a4 a3 a2 a1 a0 right arith Shamt_2 Shamt_1 Shamt_0 Y7 Y6 Y5 Y4 Y3 Y2 Y1 Y0
+# Set up the vectors.
+vector ph ph1 ph2
+#reset
+vector memdata memdata7 memdata6 memdata5 memdata4 memdata3 memdata2 memdata1 memdata0
+#alusrca
+#memtoreg
+#iord
+#pcen
+#regwrire
+#regdsr
+vector pcsrc pcsrc_1_ pcsrc_0
+vector alusrcb alusrcb_1_ alusrcb_0_
+vector irwrite irwrite_3_ irwrite_2_ irwrite_1_ irwrite_0_
+vector alucontrol alucontrol_2_ alucontrol_1_ alucontrol_0_ 
+#zero
+vector op op_5_ op_4_ op_3_ op_2_ op_1_ op_0_
+vector funct funct_5_ funct_4_ funct_3_ funct_2_ right arith 
+vector adr adr7 adr6 adr5 adr4 adr3 adr2 adr1 adr0
+vector writedata writedata7 writedata6 writedata5 writedata4 writedata3 writedata2 writedata1 writedata0
+vector A a7 a6 a5 a4 a3 a2 a1 a0
+vector Y Y7 Y6 Y5 Y4 Y3 Y2 Y1 Y0
+# vector Z Z14 Z13 Z12 Z11 Z10 Z09 Z08 Z07 Z06 Z05 Z04 Z03 Z02 Z01 Z00
+# vector Zd Z14d1 Z14d0 Z13d1 Z13d0 Z12d1 Z12d0 Z11d1 Z11d0 Z10d1 Z10d0 Z09d1 Z09d0 Z08d1 Z08d0 Z07d1 Z07d0
+vector Shamt Shamt_2 Shamt_1 Shamt_0
+
+# Add the top-level signals to the watch list.  This causes theie values to be
+# displayed after each step.
+w A right arith Shamt Y funct adr writedata
+
+
+#
+# A sample test; you will need a few more ...
+#
+
+# reset
+setvector ph 10
+setvector memdata 01000100
+h reset
+l alusrca
+l memtoreg
+l iord
+h pcen
+l regwrite
+l regdst
+setvector pcsrc 00
+setvector alusrcb 01
+setvector irwrite 0001
+setvector alucontrol 010
+#zero
+#setvector op
+#setvector funct 000100
+#setvector adr 00000000
+#setvector writedata
+#l right
+#l arith
+s
+#assert Y 01111111
+
+# fetch1
+setvector ph 10
+setvector memdata 01000100
+l reset
+l alusrca
+l memtoreg
+l iord
+h pcen
+l regwrite
+l regdst
+setvector pcsrc 00
+setvector alusrcb 01
+setvector irwrite 0001
+setvector alucontrol 010
+#zero
+#setvector op
+#setvector funct 000100
+#setvector adr 00000000
+#setvector writedata
+#l right
+#l arith
+s
+#assert Y 01111111
+
+# fetch1
+setvector ph 01
+setvector memdata 01000100
+l reset
+l alusrca
+l memtoreg
+l iord
+h pcen
+l regwrite
+l regdst
+setvector pcsrc 00
+setvector alusrcb 01
+setvector irwrite 0001
+setvector alucontrol 010
+#zero
+#setvector op
+#setvector funct 000100
+#setvector adr 00000000
+#setvector writedata
+#l right
+#l arith
+s
+#assert Y 01111111
+
+# fetch2
+setvector ph 10
+setvector memdata 00000000
+l reset
+l alusrca
+l memtoreg
+l iord
+h pcen
+l regwrite
+l regdst
+setvector pcsrc 00
+setvector alusrcb 01
+setvector irwrite 0010
+setvector alucontrol 010
+#zero
+#setvector op
+#setvector funct 000100
+#setvector adr 00000000
+#setvector writedata
+#l right
+#l arith
+s
+#assert Y 01111111
+
+# fetch2
+setvector ph 01
+setvector memdata 00000000
+l reset
+l alusrca
+l memtoreg
+l iord
+h pcen
+l regwrite
+l regdst
+setvector pcsrc 00
+setvector alusrcb 01
+setvector irwrite 0010
+setvector alucontrol 010
+#zero
+#setvector op
+#setvector funct 000100
+#setvector adr 00000000
+#setvector writedata
+#l right
+#l arith
+s
+#assert Y 01111111

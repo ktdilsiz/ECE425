@@ -1,0 +1,38 @@
+h Vdd!
+l Gnd!
+analyzer ph1 ph2 d resetb en enb master slave q
+vector in ph1 ph2 d resetb en enb
+setvector in 001110
+s
+setvector in 011110
+s
+setvector in 010110
+s
+setvector in 000110
+s
+setvector in 101110
+s
+setvector in 001110
+s
+setvector in 011110
+s
+setvector in 001110
+s
+setvector in 100110
+s
+setvector in 000110
+s
+setvector in 011010
+s
+setvector in 001010
+s
+setvector in 101010
+s
+setvector in 001010
+s
+setvector in 010001
+s
+setvector in 000001
+s
+setvector in 100001
+s

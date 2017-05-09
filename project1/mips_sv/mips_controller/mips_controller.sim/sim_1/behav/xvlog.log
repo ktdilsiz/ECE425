@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/inv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/zerodetect.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zerodetect
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/orN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/mux4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/condinv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module condinv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/andN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/mux3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/flopenr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/flopen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/flop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/mips_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/exmemory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exmemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hany/ECE425/project/mips_sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hany/ECE425/project/mips_sv/mips_controller/mips_controller.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

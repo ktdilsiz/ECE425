@@ -1,0 +1,1720 @@
+timestamp 1494177534
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use inv_1x inv_1x_0 1 0 265 0 1 884
+use yzdetect_8 yzdetect_8_0 1 0 0 0 1 4
+use inv_1x_8 inv_1x_8_0 1 0 32 0 1 4
+use inv_1x_8 inv_1x_8_1 1 0 48 0 1 4
+use mux4_8_10space mux4_8_10space_0 1 0 58 0 1 0
+use adder_8 adder_8_0 1 0 168 0 1 4
+use mux4_1x_8 mux4_1x_8_0 1 0 296 0 1 4
+node "m2_272_15#" 1 2673.6 272 15 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "muxy7" 2 5314.8 160 41 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_125#" 1 2673.6 272 125 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_151#" 2 5314.8 160 151 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_235#" 1 2673.6 272 235 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_261#" 2 5314.8 160 261 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_345#" 1 2673.6 272 345 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_371#" 2 5314.8 160 371 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_455#" 1 2673.6 272 455 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_481#" 2 5314.8 160 481 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_565#" 1 2673.6 272 565 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_591#" 2 5314.8 160 591 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_675#" 1 2673.6 272 675 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_701#" 2 5314.8 160 701 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "m2_272_785#" 1 2673.6 272 785 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 78 276 104
+node "m2_160_811#" 2 5314.8 160 811 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 62 996 344
+node "op1" 0 276 328 922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "op0" 0 276 296 922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_273_872#" 21 36037.2 273 872 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3524 1786 642 238
+node "op2" 20 33504 153 63 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3340 1694 456 176
+node "op3_in" 19 31412.4 136 37 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3364 1690 0 0
+equiv "op3_in" "op3"
+node "op4_in" 19 30817.2 120 53 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3300 1658 0 0
+equiv "op4_in" "op4"
+node "op5_in" 19 31338 88 38 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3356 1686 0 0
+equiv "op5_in" "op5"
+node "op6_in" 19 31338 80 38 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3356 1686 0 0
+equiv "op6_in" "op6"
+node "m2_56_42#" 1 1125.6 56 42 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_32#" 1 3212.4 40 32 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "mux4s1_0" 3 5272.35 32 42 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179 114 846 294
+equiv "mux4s1_0" "a0"
+node "mux4s0_0" 2 3788.4 48 42 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+equiv "mux4s0_0" "b0"
+node "result0" 5 13813.2 0 6 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 184 2394 810
+node "result1" 6 14748 16 30 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 516 274 2394 810
+node "m2_56_152#" 1 1125.6 56 152 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_142#" 1 3001.2 40 142 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "a1" 3 5118 32 152 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 176 112 852 296
+node "b1" 2 3788.4 48 152 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "m2_56_262#" 1 1125.6 56 262 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_252#" 1 3001.2 40 252 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "a2" 3 5091.15 32 262 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 112 846 294
+node "b2" 2 3788.4 48 262 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "result2" 5 13074 0 226 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 184 2394 810
+node "result3" 6 14748 16 250 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 516 274 2394 810
+node "m2_56_372#" 1 1125.6 56 372 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_362#" 1 3001.2 40 362 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "zero" 0 276 8 367 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "a3" 3 5091.15 32 372 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 112 846 294
+node "b3" 2 3788.4 48 372 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "m2_56_482#" 1 1125.6 56 482 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_472#" 1 3001.2 40 472 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "a4" 3 5091.15 32 482 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 112 846 294
+node "result4" 5 13074 0 446 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 184 2394 810
+node "b4" 2 3788.4 48 482 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "result5" 7 15955.2 0 499 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 540 294 2562 890
+node "m2_56_592#" 1 1125.6 56 592 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_582#" 1 3001.2 40 582 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "a5" 3 5091.15 32 592 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 112 846 294
+node "b5" 2 3788.4 48 592 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "m2_56_702#" 1 1125.6 56 702 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_692#" 1 3001.2 40 692 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "a6" 3 5091.15 32 702 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 112 846 294
+node "b6" 2 3788.4 48 702 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "result6" 5 13074 0 666 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 184 2394 810
+node "result7" 6 14748 16 690 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 516 274 2394 810
+node "m2_56_812#" 1 1125.6 56 812 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 42 78 38
+node "m2_40_802#" 1 3001.2 40 802 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 468 168
+node "a7" 3 5091.15 32 812 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 112 846 294
+node "b7" 2 3788.4 48 812 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 612 216
+node "cout_adder_7" 3 6618 184 829 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 408 220 558 210
+node "m1_22_0#" 0 835.2 22 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_90#" 0 835.2 22 90 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_110#" 0 835.2 22 110 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_200#" 0 835.2 22 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_220#" 0 835.2 22 220 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_310#" 0 835.2 22 310 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_330#" 0 835.2 22 330 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_420#" 0 835.2 22 420 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_440#" 0 835.2 22 440 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_530#" 0 835.2 22 530 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_27_550#" 0 520.2 27 550 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 22 0 0 0 0
+node "m1_22_550#" 1 394.2 22 550 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 18 0 0 0 0
+node "m1_22_640#" 0 835.2 22 640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_660#" 0 835.2 22 660 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_750#" 0 835.2 22 750 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "less" 16 27189.6 352 763 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2872 1444 0 0
+node "m1_22_770#" 0 835.2 22 770 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+node "m1_22_860#" 0 835.2 22 860 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
+cap "b6" "op5_in" 409.44
+cap "m2_273_872#" "result3" 409.44
+cap "op2" "result6" 409.44
+cap "b7" "op3_in" 409.44
+cap "op4_in" "a6" 409.44
+cap "mux4s0_0" "op4_in" 409.44
+cap "op3_in" "b3" 409.44
+cap "result7" "m2_273_872#" 409.44
+cap "op6_in" "a5" 409.44
+cap "result5" "op3_in" 409.44
+cap "a1" "op6_in" 409.44
+cap "op6_in" "m2_40_472#" 409.44
+cap "op4_in" "a7" 409.44
+cap "m1_22_0#" "result0" 243.72
+cap "mux4s1_0" "op3_in" 409.44
+cap "result1" "m2_273_872#" 409.44
+cap "m2_160_371#" "m2_272_345#" 134.4
+cap "less" "result3" 409.44
+cap "a5" "op5_in" 409.44
+cap "m2_272_785#" "m2_160_811#" 134.4
+cap "op3_in" "b2" 409.44
+cap "a1" "op5_in" 409.44
+cap "m2_40_472#" "op5_in" 409.44
+cap "m2_40_252#" "op6_in" 409.44
+cap "result7" "less" 409.44
+cap "result2" "op3_in" 409.44
+cap "b6" "op4_in" 409.44
+cap "a2" "m2_160_261#" 409.44
+cap "m2_40_252#" "op5_in" 409.44
+cap "result7" "m1_22_770#" 243.72
+cap "result6" "op3_in" 409.44
+cap "result1" "less" 409.44
+cap "op6_in" "result3" 409.44
+cap "b6" "a6" 409.44
+cap "op2" "result4" 409.44
+cap "result7" "op6_in" 409.44
+cap "op6_in" "b4" 409.44
+cap "op4_in" "a5" 409.44
+cap "a4" "op6_in" 409.44
+cap "a1" "op4_in" 409.44
+cap "op5_in" "result3" 409.44
+cap "op5_in" "b4" 409.44
+cap "result7" "op5_in" 409.44
+cap "a4" "op5_in" 409.44
+cap "op2" "a6" 409.44
+cap "result1" "op6_in" 409.44
+cap "op6_in" "b1" 409.44
+cap "result1" "op5_in" 409.44
+cap "op2" "a7" 409.44
+cap "b1" "op5_in" 409.44
+cap "m1_22_440#" "result4" 243.72
+cap "op4_in" "result3" 409.44
+cap "op3_in" "result4" 409.44
+cap "result7" "op4_in" 409.44
+cap "op4_in" "b4" 409.44
+cap "a1" "m2_160_151#" 409.44
+cap "op4_in" "a4" 409.44
+cap "a2" "b2" 409.44
+cap "a4" "m2_160_481#" 409.44
+cap "a3" "b3" 409.44
+cap "result1" "op4_in" 409.44
+cap "mux4s0_0" "op3_in" 409.44
+cap "a6" "op3_in" 409.44
+cap "op4_in" "b1" 409.44
+cap "op2" "a5" 409.44
+cap "a1" "op2" 409.44
+cap "a7" "op3_in" 409.44
+cap "a2" "op6_in" 409.44
+cap "m2_272_675#" "m2_160_701#" 134.4
+cap "m2_40_362#" "op6_in" 409.44
+cap "m1_22_550#" "result5" 82.44
+cap "result6" "m1_22_660#" 243.72
+cap "a2" "op5_in" 409.44
+cap "a3" "m2_160_371#" 409.44
+cap "b6" "op3_in" 409.44
+cap "m2_40_362#" "op5_in" 409.44
+cap "a3" "op6_in" 409.44
+cap "m2_272_15#" "muxy7" 134.4
+cap "op6_in" "b5" 409.44
+cap "m2_160_591#" "m2_272_565#" 134.4
+cap "op2" "result3" 409.44
+cap "op2" "result7" 409.44
+cap "a3" "op5_in" 409.44
+cap "op2" "a4" 409.44
+cap "op3_in" "a5" 409.44
+cap "b5" "op5_in" 409.44
+cap "m2_273_872#" "result5" 409.44
+cap "a1" "op3_in" 409.44
+cap "op4_in" "a2" 409.44
+cap "result1" "op2" 409.44
+cap "result2" "m2_273_872#" 409.44
+cap "result5" "less" 409.44
+cap "a1" "b1" 409.44
+cap "a3" "op4_in" 409.44
+cap "result6" "m2_273_872#" 409.44
+cap "op4_in" "b5" 409.44
+cap "b7" "op6_in" 409.44
+cap "op3_in" "result3" 409.44
+cap "op6_in" "b3" 409.44
+cap "result2" "less" 409.44
+cap "op3_in" "b4" 409.44
+cap "result7" "op3_in" 409.44
+cap "a4" "op3_in" 409.44
+cap "b7" "op5_in" 409.44
+cap "a4" "b4" 409.44
+cap "m2_272_125#" "m2_160_151#" 134.4
+cap "b3" "op5_in" 409.44
+cap "result5" "op6_in" 409.44
+cap "result6" "less" 409.44
+cap "mux4s1_0" "op6_in" 409.44
+cap "result1" "op3_in" 409.44
+cap "m2_160_701#" "a6" 409.44
+cap "result5" "op5_in" 409.44
+cap "op6_in" "b2" 409.44
+cap "op3_in" "b1" 409.44
+cap "result2" "op6_in" 409.44
+cap "mux4s1_0" "op5_in" 409.44
+cap "op2" "a2" 409.44
+cap "b2" "op5_in" 409.44
+cap "result2" "op5_in" 409.44
+cap "b7" "op4_in" 409.44
+cap "result6" "op6_in" 409.44
+cap "op4_in" "b3" 409.44
+cap "m2_40_802#" "op6_in" 409.44
+cap "m2_273_872#" "result4" 409.44
+cap "a7" "m2_160_811#" 409.44
+cap "result6" "op5_in" 409.44
+cap "m2_40_802#" "op5_in" 409.44
+cap "op4_in" "result5" 409.44
+cap "a3" "op2" 409.44
+cap "op4_in" "mux4s1_0" 342.24
+cap "m2_40_692#" "op6_in" 409.44
+cap "op4_in" "b2" 409.44
+cap "less" "result4" 409.44
+cap "a5" "b5" 409.44
+cap "result2" "op4_in" 409.44
+cap "b7" "a7" 409.44
+cap "result2" "m1_22_220#" 243.72
+cap "m2_40_692#" "op5_in" 409.44
+cap "a2" "op3_in" 409.44
+cap "mux4s0_0" "mux4s1_0" 409.44
+cap "op4_in" "result6" 409.44
+cap "op6_in" "m2_40_582#" 409.44
+cap "op6_in" "result4" 409.44
+cap "m2_160_261#" "m2_272_235#" 134.4
+cap "m2_40_582#" "op5_in" 409.44
+cap "m1_22_330#" "result3" 243.72
+cap "a3" "op3_in" 409.44
+cap "op5_in" "result4" 409.44
+cap "m2_40_142#" "op6_in" 409.44
+cap "op3_in" "b5" 409.44
+cap "m1_27_550#" "result5" 128.52
+cap "a6" "op6_in" 409.44
+cap "mux4s0_0" "op6_in" 409.44
+cap "m2_272_455#" "m2_160_481#" 134.4
+cap "m2_40_142#" "op5_in" 409.44
+cap "result1" "m1_22_110#" 243.72
+cap "mux4s1_0" "muxy7" 409.44
+cap "mux4s0_0" "op5_in" 409.44
+cap "a6" "op5_in" 409.44
+cap "op2" "result5" 409.44
+cap "a7" "op6_in" 409.44
+cap "op4_in" "result4" 409.44
+cap "m2_160_591#" "a5" 409.44
+cap "op2" "result2" 409.44
+cap "a7" "op5_in" 409.44
+cap "b6" "op6_in" 409.44
+cap "a0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 9.72
+cap "result0" "yzdetect_8_0/nor2_1x_4/Gnd!" 452.88
+cap "yzdetect_8_0/nor2_1x_4/Vdd!" "yzdetect_8_0/a_1_" 281.79
+cap "a0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" 4.86
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" 40.32
+cap "b0" "a0" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 40.32
+cap "yzdetect_8_0/nor2_1x_4/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" 177.84
+cap "yzdetect_8_0/a_1_" "result0" 3.24
+cap "b0" "yzdetect_8_0/nor2_1x_4/Vdd!" 234
+cap "inv_1x_8_0/inv_1x_7/y" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 76.14
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" "inv_1x_8_1/inv_1x_7/y" 40.32
+cap "yzdetect_8_0/nor2_1x_4/y" "yzdetect_8_0/a_1_" 126
+cap "inv_1x_8_0/inv_1x_7/y" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" 4.86
+cap "b0" "inv_1x_8_1/inv_1x_7/y" 25.92
+cap "yzdetect_8_0/nor2_1x_4/Vdd!" "a0" 226.35
+cap "b0" "inv_1x_8_0/inv_1x_7/y" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_26_74#" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" 40.32
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" 3.24
+cap "a0" "inv_1x_8_1/inv_1x_7/y" 25.92
+cap "b0" "result0" 3.24
+cap "a0" "inv_1x_8_0/inv_1x_7/y" 25.92
+cap "yzdetect_8_0/nor2_1x_4/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" 199.98
+cap "yzdetect_8_0/nor2_1x_4/Vdd!" "inv_1x_8_1/inv_1x_7/y" 29.7
+cap "a0" "result0" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" "inv_1x_8_1/inv_1x_7/y" 40.32
+cap "inv_1x_8_0/inv_1x_7/y" "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" 4.86
+cap "inv_1x_8_0/inv_1x_7/y" "inv_1x_8_1/inv_1x_7/y" 35.64
+cap "yzdetect_8_0/nor2_1x_4/Vdd!" "result0" 16.2
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" 3.24
+cap "result0" "inv_1x_8_1/inv_1x_7/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 40.32
+cap "b0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 34.56
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" "muxy7" 36
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" 40.32
+cap "mux4s0_0" "mux4_8_10space_0/mux4_dp_1x_0[0]/a_39_7#" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_39_7#" "mux4s1_0" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_39_7#" "adder_8_0/cin" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/a_55_74#" "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" 24.3
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/a_39_7#" 3.24
+cap "mux4s0_0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" 46.8
+cap "mux4s0_0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" "mux4s1_0" 9.72
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/Gnd!" "result0" 362.88
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" "mux4s1_0" 24.84
+cap "mux4s0_0" "mux4s1_0" 16.2
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" 3.24
+cap "mux4s0_0" "result0" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[0]/a_39_7#" 114.12
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" 3.24
+cap "adder_8_0/cin" "mux4s1_0" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0b" 61.92
+cap "result0" "mux4s1_0" 6.48
+cap "mux4s0_0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0b" 12.96
+cap "result0" "adder_8_0/cin" 3.24
+cap "mux4s1_0" "muxy7" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" 12.96
+cap "adder_8_0/cin" "muxy7" 43.74
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/s0b" "mux4s1_0" 19.44
+cap "result0" "muxy7" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" 208.89
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s0b" 3.24
+cap "mux4s0_0" "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" 118.8
+cap "adder_8_0/c_1_" "adder_8_0/cin" 77.76
+cap "mux4s0_0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s1b" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" 164.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" "mux4s1_0" 291.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/s1b" "mux4s1_0" 11.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" "adder_8_0/cin" 410.67
+cap "result0" "mux4_8_10space_0/mux4_dp_1x_0[0]/s1b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" "mux4_8_10space_0/mux4_dp_1x_0[0]/a_47_74#" 112.95
+cap "result0" "adder_8_0/fulladder_7/b" 9.72
+cap "adder_8_0/cin" "result0" 6.48
+cap "result0" "adder_8_0/fulladder_7/a" 9.72
+cap "adder_8_0/cin" "adder_8_0/fulladder_7/b" 11.34
+cap "adder_8_0/fulladder_7/a_69_7#" "muxy7" 83.16
+cap "result0" "adder_8_0/fulladder_7/Gnd!" 375.84
+cap "result0" "adder_8_0/fulladder_7/a_21_7#" 6.48
+cap "adder_8_0/cin" "adder_8_0/fulladder_7/Vdd!" 65.7
+cap "adder_8_0/cin" "adder_8_0/fulladder_7/a_21_7#" 146.88
+cap "adder_8_0/cin" "adder_8_0/c_1_" 45.72
+cap "result0" "adder_8_0/fulladder_7/a_69_7#" 3.24
+cap "adder_8_0/s_0_" "adder_8_0/fulladder_7/Gnd!" 26.55
+cap "adder_8_0/s_0_" "adder_8_0/fulladder_7/a_21_7#" 9.72
+cap "adder_8_0/c_1_" "adder_8_0/s_0_" 70.47
+cap "adder_8_0/fulladder_7/b" "muxy7" 251.64
+cap "adder_8_0/cin" "muxy7" 6.48
+cap "adder_8_0/fulladder_7/a" "muxy7" 16.2
+cap "adder_8_0/fulladder_7/Vdd!" "muxy7" 115.2
+cap "adder_8_0/c_1_" "muxy7" 73.44
+cap "adder_8_0/fulladder_7/a_21_7#" "muxy7" 86.4
+cap "adder_8_0/s_0_" "muxy7" 73.44
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/mux4_dp_1x_7/s1" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_7/d2" "mux4_1x_8_0/mux4_dp_1x_7/a_47_74#" 40.32
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/d0_0_" 3.24
+cap "mux4_1x_8_0/d0_0_" "mux4_1x_8_0/mux4_dp_1x_7/a_6_7#" 69.21
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/mux4_dp_1x_7/s1b" 3.24
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/mux4_dp_1x_7/s0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_7/s0b" "mux4_1x_8_0/y_0_" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_7/d2" "adder_8_0/fulladder_7/Vdd!" 225.18
+cap "mux4_1x_8_0/mux4_dp_1x_7/d2" "mux4_1x_8_0/mux4_dp_1x_7/s0" 40.32
+cap "mux4_1x_8_0/d1_0_" "mux4_1x_8_0/d0_0_" 6.48
+cap "mux4_1x_8_0/d1_0_" "adder_8_0/fulladder_7/Vdd!" 55.8
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/mux4_dp_1x_7/a_39_7#" 3.24
+cap "mux4_1x_8_0/d0_0_" "adder_8_0/fulladder_7/Gnd!" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_7/s0b" "mux4_1x_8_0/d1_0_" 90.72
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/mux4_dp_1x_7/d2" 3.24
+cap "mux4_1x_8_0/d1_0_" "mux4_1x_8_0/mux4_dp_1x_7/s0" 6.48
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/d3_0_" 3.24
+cap "mux4_1x_8_0/d1_0_" "mux4_1x_8_0/y_0_" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_7/d2" "mux4_1x_8_0/d3_0_" 56.7
+cap "mux4_1x_8_0/y_0_" "adder_8_0/fulladder_7/Gnd!" 362.88
+cap "mux4_1x_8_0/mux4_dp_1x_7/a_13_7#" "mux4_1x_8_0/d0_0_" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_7/s0b" "mux4_1x_8_0/d0_0_" 9.72
+cap "mux4_1x_8_0/d0_0_" "mux4_1x_8_0/mux4_dp_1x_7/s0" 40.32
+cap "mux4_1x_8_0/y_0_" "mux4_1x_8_0/mux4_dp_1x_7/Gnd!" 27.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "inv_1x_8_0/inv_1x_6/y" 50.22
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_26_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 16.2
+cap "yzdetect_8_0/nand2_1x_1/b" "result1" 3.24
+cap "yzdetect_8_0/nand2_1x_1/A" "result1" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_26_74#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 24.3
+cap "yzdetect_8_0/nand2_1x_1/Vdd!" "yzdetect_8_0/nand2_1x_1/Y" 126.9
+cap "yzdetect_8_0/nand2_1x_1/Vdd!" "a1" 232.2
+cap "a1" "inv_1x_8_1/inv_1x_6/y" 25.92
+cap "b1" "a1" 9.72
+cap "result1" "a1" 3.24
+cap "yzdetect_8_0/nand2_1x_1/Vdd!" "inv_1x_8_1/inv_1x_6/y" 29.7
+cap "yzdetect_8_0/nand2_1x_1/Vdd!" "b1" 234
+cap "a1" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 4.86
+cap "inv_1x_8_0/inv_1x_6/y" "a1" 25.92
+cap "b1" "inv_1x_8_1/inv_1x_6/y" 25.92
+cap "yzdetect_8_0/nand2_1x_1/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" 108.54
+cap "result1" "inv_1x_8_1/inv_1x_6/y" 3.24
+cap "b1" "result1" 3.24
+cap "inv_1x_8_1/inv_1x_6/y" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" 40.32
+cap "yzdetect_8_0/nand2_1x_1/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 86.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "a1" 9.72
+cap "inv_1x_8_1/inv_1x_6/y" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 40.32
+cap "inv_1x_8_0/inv_1x_6/y" "inv_1x_8_1/inv_1x_6/y" 35.64
+cap "b1" "inv_1x_8_0/inv_1x_6/y" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" 40.32
+cap "result1" "yzdetect_8_0/nand2_1x_1/Gnd!" 343.08
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" 40.32
+cap "yzdetect_8_0/nand2_1x_1/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" 111.42
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "b1" 34.56
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 40.32
+cap "inv_1x_8_0/inv_1x_6/y" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 4.86
+cap "yzdetect_8_0/nand2_1x_1/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "result1" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0b" 61.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/y" "adder_8_0/fulladder_6/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 24.84
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/Gnd!" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/Gnd!" "op2" 165.69
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1b" 11.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "result1" 1.62
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/y" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1b" "result1" 3.24
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 72.72
+cap "result1" "adder_8_0/fulladder_6/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_55_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/y" "result1" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" "mux4_8_10space_0/mux4_dp_1x_0[1]/a_55_74#" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 117.45
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "result1" 6.48
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 294.03
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0b" 19.44
+cap "result1" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" 64.35
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1b" 114.12
+cap "result1" "mux4_8_10space_0/mux4_dp_1x_0[1]/s0b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 118.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 94.5
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/Gnd!" "result1" 301.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1b" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/a_47_74#" 112.95
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/y" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 32.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_39_7#" "result1" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" 93.78
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 270
+cap "adder_8_0/s_1_" "m2_160_151#" 73.44
+cap "adder_8_0/s_1_" "adder_8_0/fulladder_6/Gnd!" 26.55
+cap "adder_8_0/fulladder_6/a_21_7#" "m2_160_151#" 86.4
+cap "adder_8_0/fulladder_6/Gnd!" "result1" 375.84
+cap "adder_8_0/fulladder_6/b" "result1" 9.72
+cap "adder_8_0/fulladder_6/Vdd!" "m2_160_151#" 115.2
+cap "adder_8_0/fulladder_6/a_21_7#" "adder_8_0/s_1_" 9.72
+cap "adder_8_0/fulladder_6/a" "result1" 9.72
+cap "adder_8_0/fulladder_6/c" "result1" 6.48
+cap "adder_8_0/fulladder_6/a_69_7#" "result1" 3.24
+cap "adder_8_0/c_2_" "m2_160_151#" 73.44
+cap "adder_8_0/fulladder_6/b" "m2_160_151#" 251.64
+cap "adder_8_0/fulladder_6/a_21_7#" "result1" 6.48
+cap "adder_8_0/fulladder_6/a" "m2_160_151#" 16.2
+cap "adder_8_0/fulladder_6/a_69_7#" "m2_160_151#" 83.16
+cap "adder_8_0/fulladder_6/c" "m2_160_151#" 6.48
+cap "adder_8_0/s_1_" "adder_8_0/c_2_" 70.47
+cap "adder_8_0/fulladder_6/Gnd!" "mux4_1x_8_0/mux4_dp_1x_6/y" 281.88
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/s1b" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_6/a_39_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/d2" "m2_273_872#" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/a_39_7#" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_6/a_55_74#" "mux4_1x_8_0/mux4_dp_1x_6/d2" 24.3
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0" "mux4_1x_8_0/mux4_dp_1x_6/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0" "mux4_1x_8_0/mux4_dp_1x_6/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_6/d2" "mux4_1x_8_0/mux4_dp_1x_6/a_55_7#" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_6/d0" "mux4_1x_8_0/mux4_dp_1x_6/a_13_7#" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0b" "mux4_1x_8_0/mux4_dp_1x_6/d2" 72.72
+cap "adder_8_0/fulladder_6/Gnd!" "mux4_1x_8_0/mux4_dp_1x_6/d0" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0b" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/d2" "adder_8_0/fulladder_6/Vdd!" 94.5
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/s0b" 79.92
+cap "adder_8_0/fulladder_6/Vdd!" "m2_273_872#" 135.54
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/d1" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_6/a_47_7#" "mux4_1x_8_0/mux4_dp_1x_6/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0" "mux4_1x_8_0/mux4_dp_1x_6/d1" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_6/a_47_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0" "mux4_1x_8_0/mux4_dp_1x_6/d0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/d0" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_6/a_6_7#" "mux4_1x_8_0/mux4_dp_1x_6/d0" 69.21
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0b" "mux4_1x_8_0/mux4_dp_1x_6/d1" 133.2
+cap "mux4_1x_8_0/mux4_dp_1x_6/s0b" "mux4_1x_8_0/mux4_dp_1x_6/d0" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_6/d2" "mux4_1x_8_0/mux4_dp_1x_6/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/d1" "adder_8_0/fulladder_6/Vdd!" 52.2
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/s1" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_6/a_47_74#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/d1" "mux4_1x_8_0/mux4_dp_1x_6/d0" 6.48
+cap "adder_8_0/fulladder_6/Gnd!" "mux4_1x_8_0/mux4_dp_1x_6/d2" 80.64
+cap "adder_8_0/fulladder_6/Gnd!" "m2_273_872#" 111.42
+cap "mux4_1x_8_0/mux4_dp_1x_6/d3" "m2_273_872#" 102.6
+cap "mux4_1x_8_0/mux4_dp_1x_6/d2" "mux4_1x_8_0/mux4_dp_1x_6/a_39_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_6/y" "mux4_1x_8_0/mux4_dp_1x_6/Gnd!" 27.72
+cap "result2" "a2" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "yzdetect_8_0/nor2_1x_3/Gnd!" 111.42
+cap "yzdetect_8_0/m1_9_153#" "yzdetect_8_0/nor2_1x_3/Gnd!" 80.64
+cap "result2" "b2" 3.24
+cap "yzdetect_8_0/m1_9_153#" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 97.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 59.4
+cap "inv_1x_8_0/inv_1x_5/y" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 4.86
+cap "inv_1x_8_1/inv_1x_5/y" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 29.7
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_26_7#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 7.74
+cap "result2" "yzdetect_8_0/nor2_1x_3/Gnd!" 397.8
+cap "inv_1x_8_1/inv_1x_5/y" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 40.32
+cap "result2" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "a2" 9.72
+cap "a2" "b2" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_26_74#" 5.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" "yzdetect_8_0/a_3_" 145.8
+cap "inv_1x_8_0/inv_1x_5/y" "inv_1x_8_1/inv_1x_5/y" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "b2" 34.56
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "inv_1x_8_1/inv_1x_5/y" 40.32
+cap "result2" "yzdetect_8_0/m1_9_153#" 73.44
+cap "result2" "yzdetect_8_0/nor2_1x_3/y" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_6_7#" 40.32
+cap "yzdetect_8_0/a_3_" "yzdetect_8_0/nor2_1x_3/y" 108.36
+cap "a2" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 226.35
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_6_7#" 40.32
+cap "result2" "inv_1x_8_1/inv_1x_5/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" "b2" 234
+cap "a2" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 4.86
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 80.64
+cap "a2" "inv_1x_8_0/inv_1x_5/y" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 40.32
+cap "result2" "yzdetect_8_0/a_3_" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "inv_1x_8_0/inv_1x_5/y" 50.22
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" "yzdetect_8_0/nand2_1x_1/Vdd!" 91.44
+cap "inv_1x_8_0/inv_1x_5/y" "b2" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_6_74#" 40.32
+cap "a2" "inv_1x_8_1/inv_1x_5/y" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "yzdetect_8_0/nand2_1x_1/Vdd!" 91.44
+cap "yzdetect_8_0/m1_9_153#" "yzdetect_8_0/nand2_1x_1/Vdd!" 64.44
+cap "yzdetect_8_0/nor2_1x_3/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" 75.6
+cap "inv_1x_8_1/inv_1x_5/y" "b2" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s1b" "result2" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_55_7#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 19.44
+cap "adder_8_0/fulladder_5/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 270
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" "result2" 3.24
+cap "result2" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 6.48
+cap "result2" "adder_8_0/fulladder_5/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 24.84
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 91.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/y" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/y" "adder_8_0/fulladder_5/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "result2" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 40.32
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 91.44
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" 91.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 72.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 16.2
+cap "adder_8_0/fulladder_5/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 83.7
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_55_74#" 5.4
+cap "result2" "mux4_8_10space_0/mux4_dp_1x_0[2]/y" 3.24
+cap "adder_8_0/fulladder_5/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/y" 32.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 68.22
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Gnd!" "result2" 301.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" "result2" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 49.77
+cap "adder_8_0/fulladder_5/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 103.95
+cap "op2" "adder_8_0/fulladder_5/Vdd!" 178.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "adder_8_0/fulladder_5/Vdd!" 118.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "result2" 1.62
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "result2" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" 114.12
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 11.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 80.64
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[2]/Gnd!" 165.69
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 93.78
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" 64.35
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 26.73
+cap "result2" "adder_8_0/fulladder_5/Gnd!" 375.84
+cap "adder_8_0/s_2_" "m2_160_261#" 73.44
+cap "m2_160_261#" "adder_8_0/fulladder_5/a_69_7#" 83.16
+cap "adder_8_0/s_2_" "adder_8_0/fulladder_5/Gnd!" 26.55
+cap "result2" "adder_8_0/fulladder_5/c" 6.48
+cap "result2" "adder_8_0/fulladder_5/b" 9.72
+cap "m2_160_261#" "adder_8_0/fulladder_5/c" 6.48
+cap "adder_8_0/fulladder_5/b" "m2_160_261#" 251.64
+cap "m2_160_261#" "mux4_1x_8_0/mux4_dp_1x_5/Vdd!" 115.2
+cap "adder_8_0/c_3_" "m2_160_261#" 73.44
+cap "adder_8_0/fulladder_5/a_21_7#" "result2" 6.48
+cap "adder_8_0/fulladder_5/a" "result2" 9.72
+cap "adder_8_0/c_3_" "adder_8_0/s_2_" 70.47
+cap "adder_8_0/fulladder_5/a_21_7#" "m2_160_261#" 86.4
+cap "adder_8_0/fulladder_5/a" "m2_160_261#" 16.2
+cap "result2" "adder_8_0/fulladder_5/a_69_7#" 3.24
+cap "adder_8_0/fulladder_5/a_21_7#" "adder_8_0/s_2_" 9.72
+cap "mux4_1x_8_0/mux4_dp_1x_5/d0" "mux4_1x_8_0/mux4_dp_1x_5/s0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/s1" "mux4_1x_8_0/mux4_dp_1x_5/y" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_5/a_47_74#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/a_47_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/s0" "mux4_1x_8_0/mux4_dp_1x_5/y" 79.92
+cap "adder_8_0/fulladder_6/Vdd!" "m2_273_872#" 91.44
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/Vdd!" 83.7
+cap "mux4_1x_8_0/mux4_dp_1x_5/a_39_7#" "mux4_1x_8_0/mux4_dp_1x_5/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_5/d0" "mux4_1x_8_0/mux4_dp_1x_5/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_5/s0b" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/Vdd!" "m2_273_872#" 7.74
+cap "mux4_1x_8_0/mux4_dp_1x_5/d0" "mux4_1x_8_0/mux4_dp_1x_5/a_6_7#" 69.21
+cap "mux4_1x_8_0/mux4_dp_1x_5/d1" "mux4_1x_8_0/mux4_dp_1x_5/Vdd!" 52.2
+cap "mux4_1x_8_0/mux4_dp_1x_5/d0" "mux4_1x_8_0/mux4_dp_1x_5/s0b" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_5/s0b" "mux4_1x_8_0/mux4_dp_1x_5/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_5/d0" "mux4_1x_8_0/mux4_dp_1x_5/a_13_7#" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_5/a_47_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/Vdd!" "m2_273_872#" 86.4
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/a_55_74#" 5.4
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "adder_8_0/fulladder_5/Gnd!" 80.64
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "m2_273_872#" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/s0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/a_39_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/s1b" "mux4_1x_8_0/mux4_dp_1x_5/y" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_5/d1" "mux4_1x_8_0/mux4_dp_1x_5/s0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/d1" "mux4_1x_8_0/mux4_dp_1x_5/d0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "adder_8_0/fulladder_6/Vdd!" 91.44
+cap "mux4_1x_8_0/mux4_dp_1x_5/d1" "mux4_1x_8_0/mux4_dp_1x_5/y" 3.24
+cap "adder_8_0/fulladder_5/Gnd!" "m2_273_872#" 111.42
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/a_55_7#" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_5/s0b" 72.72
+cap "mux4_1x_8_0/mux4_dp_1x_5/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/d3" "m2_273_872#" 78.3
+cap "mux4_1x_8_0/mux4_dp_1x_5/d0" "adder_8_0/fulladder_5/Gnd!" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_5/a_39_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/d1" "mux4_1x_8_0/mux4_dp_1x_5/s0b" 133.2
+cap "adder_8_0/fulladder_5/Gnd!" "mux4_1x_8_0/mux4_dp_1x_5/y" 281.88
+cap "mux4_1x_8_0/mux4_dp_1x_5/Gnd!" "mux4_1x_8_0/mux4_dp_1x_5/y" 27.72
+cap "result3" "a3" 3.24
+cap "inv_1x_8_1/inv_1x_4/y" "a3" 25.92
+cap "yzdetect_8_0/nor2_1x_3/Vdd!" "yzdetect_8_0/nor2_1x_2/b" 91.44
+cap "result3" "yzdetect_8_0/nor2_1x_2/b" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" "a3" 4.86
+cap "b3" "a3" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" "yzdetect_8_0/nor2_1x_2/Gnd!" 80.64
+cap "result3" "yzdetect_8_0/nor2_1x_3/y" 17.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" 48.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_26_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 16.2
+cap "inv_1x_8_0/inv_1x_4/y" "a3" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" "a3" 9.72
+cap "yzdetect_8_0/nor2_1x_3/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" 132.84
+cap "inv_1x_8_1/inv_1x_4/y" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" 40.32
+cap "inv_1x_8_1/inv_1x_4/y" "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" 29.7
+cap "inv_1x_8_1/inv_1x_4/y" "result3" 3.24
+cap "yzdetect_8_0/nor2_1x_3/Vdd!" "result3" 135.99
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_26_74#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 18.9
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 64.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" "b3" 234
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" 24.3
+cap "b3" "result3" 3.24
+cap "inv_1x_8_1/inv_1x_4/y" "b3" 25.92
+cap "yzdetect_8_0/nor2_1x_3/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 102.24
+cap "inv_1x_8_1/inv_1x_4/y" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 40.32
+cap "inv_1x_8_1/inv_1x_4/y" "inv_1x_8_0/inv_1x_4/y" 35.64
+cap "yzdetect_8_0/nor2_1x_2/b" "yzdetect_8_0/nor2_1x_2/Gnd!" 80.64
+cap "yzdetect_8_0/nor2_1x_2/a" "result3" 3.24
+cap "inv_1x_8_0/inv_1x_4/y" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 4.86
+cap "inv_1x_8_0/inv_1x_4/y" "b3" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" "b3" 34.56
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" "yzdetect_8_0/nor2_1x_2/Gnd!" 111.42
+cap "inv_1x_8_0/inv_1x_4/y" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 50.22
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" "a3" 226.35
+cap "result3" "yzdetect_8_0/nor2_1x_2/Gnd!" 380.52
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 93.78
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "adder_8_0/fulladder_4/Vdd!" 70.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "result3" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 102.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1b" 11.34
+cap "result3" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/y" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 44.73
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 12.15
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[2]/a_55_74#" 18.9
+cap "result3" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "op2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/a_47_7#" 40.32
+cap "op2" "adder_8_0/fulladder_4/Vdd!" 140.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" 19.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" 24.84
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" 180.54
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 73.44
+cap "adder_8_0/fulladder_4/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 118.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" 72.72
+cap "result3" "adder_8_0/fulladder_4/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "result3" 3.24
+cap "result3" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 1.62
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1b" 114.12
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 64.35
+cap "adder_8_0/fulladder_4/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 97.2
+cap "result3" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 104.94
+cap "result3" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/y" "adder_8_0/fulladder_4/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/y" "adder_8_0/fulladder_4/Vdd!" 32.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Gnd!" "op2" 165.69
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/y" "result3" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/a_55_7#" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/Gnd!" "result3" 301.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "adder_8_0/fulladder_4/Vdd!" 270
+cap "result3" "adder_8_0/fulladder_4/c" 6.48
+cap "m2_160_371#" "adder_8_0/c_4_" 73.44
+cap "m2_160_371#" "adder_8_0/fulladder_4/a_21_7#" 86.4
+cap "result3" "adder_8_0/fulladder_4/Gnd!" 375.84
+cap "m2_160_371#" "adder_8_0/fulladder_4/a_69_7#" 83.16
+cap "adder_8_0/s_3_" "adder_8_0/fulladder_4/Gnd!" 26.55
+cap "result3" "adder_8_0/fulladder_4/a_21_7#" 6.48
+cap "m2_160_371#" "adder_8_0/fulladder_4/a" 16.2
+cap "adder_8_0/s_3_" "adder_8_0/fulladder_4/a_21_7#" 9.72
+cap "adder_8_0/s_3_" "adder_8_0/c_4_" 70.47
+cap "result3" "adder_8_0/fulladder_4/a_69_7#" 3.24
+cap "m2_160_371#" "adder_8_0/fulladder_4/b" 251.64
+cap "adder_8_0/s_3_" "m2_160_371#" 73.44
+cap "m2_160_371#" "adder_8_0/fulladder_4/c" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_4/Vdd!" "m2_160_371#" 115.2
+cap "result3" "adder_8_0/fulladder_4/a" 9.72
+cap "result3" "adder_8_0/fulladder_4/b" 9.72
+cap "mux4_1x_8_0/mux4_dp_1x_4/y" "mux4_1x_8_0/mux4_dp_1x_4/a_39_7#" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_4/y" "mux4_1x_8_0/mux4_dp_1x_4/d1" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0" "mux4_1x_8_0/mux4_dp_1x_4/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_4/d0" "mux4_1x_8_0/mux4_dp_1x_4/y" 3.24
+cap "adder_8_0/fulladder_4/Gnd!" "m2_273_872#" 111.42
+cap "mux4_1x_8_0/mux4_dp_1x_4/d3" "m2_273_872#" 62.1
+cap "mux4_1x_8_0/mux4_dp_1x_5/a_55_74#" "mux4_1x_8_0/mux4_dp_1x_4/d2" 18.9
+cap "mux4_1x_8_0/mux4_dp_1x_4/y" "mux4_1x_8_0/mux4_dp_1x_4/s0b" 79.92
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_5/d3" 24.3
+cap "mux4_1x_8_0/mux4_dp_1x_4/d2" "mux4_1x_8_0/mux4_dp_1x_4/a_39_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_4/Vdd!" "mux4_1x_8_0/mux4_dp_1x_4/d2" 70.2
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0" "mux4_1x_8_0/mux4_dp_1x_4/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0b" "mux4_1x_8_0/mux4_dp_1x_4/d2" 72.72
+cap "mux4_1x_8_0/mux4_dp_1x_4/a_39_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_4/Vdd!" "m2_273_872#" 75.6
+cap "mux4_1x_8_0/mux4_dp_1x_4/d0" "adder_8_0/fulladder_4/Gnd!" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_4/y" "mux4_1x_8_0/mux4_dp_1x_4/s1b" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0b" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_4/a_6_7#" "mux4_1x_8_0/mux4_dp_1x_4/d0" 69.21
+cap "mux4_1x_8_0/mux4_dp_1x_4/Vdd!" "mux4_1x_8_0/mux4_dp_1x_4/d1" 52.2
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0" "mux4_1x_8_0/mux4_dp_1x_4/d1" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_4/d0" "mux4_1x_8_0/mux4_dp_1x_4/d1" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_4/d2" "adder_8_0/fulladder_5/Vdd!" 102.24
+cap "mux4_1x_8_0/mux4_dp_1x_4/s0" "mux4_1x_8_0/mux4_dp_1x_4/d0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_4/d2" 24.3
+cap "mux4_1x_8_0/mux4_dp_1x_4/a_55_7#" "mux4_1x_8_0/mux4_dp_1x_4/d2" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_4/a_47_7#" "mux4_1x_8_0/mux4_dp_1x_4/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_4/y" "adder_8_0/fulladder_4/Gnd!" 281.88
+cap "mux4_1x_8_0/mux4_dp_1x_4/d1" "mux4_1x_8_0/mux4_dp_1x_4/s0b" 133.2
+cap "mux4_1x_8_0/mux4_dp_1x_4/a_13_7#" "mux4_1x_8_0/mux4_dp_1x_4/d0" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_4/d0" "mux4_1x_8_0/mux4_dp_1x_4/s0b" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_4/s1" "mux4_1x_8_0/mux4_dp_1x_4/y" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_4/a_47_7#" "m2_273_872#" 40.32
+cap "m2_273_872#" "adder_8_0/fulladder_5/Vdd!" 132.84
+cap "adder_8_0/fulladder_4/Gnd!" "mux4_1x_8_0/mux4_dp_1x_4/d2" 80.64
+cap "mux4_1x_8_0/mux4_dp_1x_4/d2" "m2_273_872#" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_4/Gnd!" "mux4_1x_8_0/mux4_dp_1x_4/y" 27.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" 40.32
+cap "a4" "inv_1x_8_1/inv_1x_3/y" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" 32.4
+cap "a4" "inv_1x_8_0/inv_1x_3/y" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" 40.5
+cap "result4" "yzdetect_8_0/nor2_1x_1/Gnd!" 423.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_26_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" 48.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "yzdetect_8_0/a_5_" 82.8
+cap "yzdetect_8_0/nor2_1x_1/y" "yzdetect_8_0/a_5_" 88.92
+cap "a4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "inv_1x_8_1/inv_1x_3/y" 29.7
+cap "inv_1x_8_0/inv_1x_3/y" "b4" 9.72
+cap "a4" "result4" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" "inv_1x_8_1/inv_1x_3/y" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "inv_1x_8_1/inv_1x_3/y" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "inv_1x_8_0/inv_1x_3/y" 4.86
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" 40.32
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" "yzdetect_8_0/nor2_1x_1/Gnd!" 111.42
+cap "result4" "b4" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_26_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "yzdetect_8_0/nor2_1x_1/Gnd!" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" 40.32
+cap "a4" "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" 226.35
+cap "inv_1x_8_0/inv_1x_3/y" "inv_1x_8_1/inv_1x_3/y" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" "yzdetect_8_0/nor2_1x_2/Vdd!" 151.38
+cap "a4" "b4" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "yzdetect_8_0/nor2_1x_2/Vdd!" 113.04
+cap "result4" "yzdetect_8_0/a_5_" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "inv_1x_8_0/inv_1x_3/y" 50.22
+cap "a4" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 4.86
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "b4" 75.6
+cap "result4" "inv_1x_8_1/inv_1x_3/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 40.5
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[4]/Gnd!" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/y" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 40.32
+cap "op2" "adder_8_0/fulladder_3/Vdd!" 86.4
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[4]/Gnd!" 165.69
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" 3.24
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1b" 3.24
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 21.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 93.78
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 24.84
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/a_47_74#" 40.32
+cap "adder_8_0/fulladder_3/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 64.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 80.64
+cap "result4" "adder_8_0/fulladder_3/c" 76.68
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/Gnd!" 301.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 19.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 112.95
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 11.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" 40.32
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 6.48
+cap "adder_8_0/fulladder_3/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" 270
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[3]/a_55_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_55_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" 114.12
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" 115.74
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" 40.32
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/y" "adder_8_0/fulladder_3/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/y" "adder_8_0/fulladder_3/Vdd!" 32.4
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" 3.24
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 3.24
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" 245.07
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 72.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" 17.55
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" 111.69
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" 37.8
+cap "result4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 1.62
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_47_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "adder_8_0/fulladder_3/Vdd!" 37.8
+cap "adder_8_0/s_4_" "adder_8_0/c_5_" 70.47
+cap "adder_8_0/fulladder_3/b" "m2_160_481#" 251.64
+cap "adder_8_0/fulladder_3/a_69_7#" "m2_160_481#" 83.16
+cap "adder_8_0/fulladder_3/b" "result4" 9.72
+cap "adder_8_0/fulladder_3/a_69_7#" "result4" 3.24
+cap "adder_8_0/fulladder_3/Gnd!" "adder_8_0/s_4_" 26.55
+cap "m2_160_481#" "adder_8_0/c_5_" 73.44
+cap "adder_8_0/s_4_" "adder_8_0/fulladder_3/a_21_7#" 9.72
+cap "adder_8_0/s_4_" "m2_160_481#" 73.44
+cap "adder_8_0/fulladder_3/c" "m2_160_481#" 6.48
+cap "m2_160_481#" "mux4_1x_8_0/mux4_dp_1x_3/Vdd!" 115.2
+cap "adder_8_0/fulladder_3/c" "result4" 6.48
+cap "adder_8_0/fulladder_3/Gnd!" "result4" 375.84
+cap "adder_8_0/fulladder_3/a" "m2_160_481#" 16.2
+cap "adder_8_0/fulladder_3/a" "result4" 9.72
+cap "m2_160_481#" "adder_8_0/fulladder_3/a_21_7#" 86.4
+cap "adder_8_0/fulladder_3/a_21_7#" "result4" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_3/d1" "mux4_1x_8_0/mux4_dp_1x_3/Vdd!" 52.2
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_3/d3" 45.9
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_3/a_39_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0b" "mux4_1x_8_0/mux4_dp_1x_3/d0" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0b" "m2_273_872#" 40.32
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_4/d3" 40.5
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_3/a_39_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "m2_273_872#" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_3/d1" "mux4_1x_8_0/mux4_dp_1x_3/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0" "mux4_1x_8_0/mux4_dp_1x_3/d0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/d1" "mux4_1x_8_0/mux4_dp_1x_3/s0b" 133.2
+cap "adder_8_0/fulladder_3/Gnd!" "mux4_1x_8_0/mux4_dp_1x_3/y" 281.88
+cap "mux4_1x_8_0/mux4_dp_1x_3/a_6_7#" "mux4_1x_8_0/mux4_dp_1x_3/d0" 69.21
+cap "mux4_1x_8_0/mux4_dp_1x_3/d1" "mux4_1x_8_0/mux4_dp_1x_3/d0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_4/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_3/a_55_7#" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_3/d1" "mux4_1x_8_0/mux4_dp_1x_3/s0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_3/d0" "mux4_1x_8_0/mux4_dp_1x_3/a_13_7#" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "adder_8_0/fulladder_3/Gnd!" 80.64
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_4/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_3/Vdd!" 37.8
+cap "mux4_1x_8_0/mux4_dp_1x_3/s1b" "mux4_1x_8_0/mux4_dp_1x_3/y" 76.68
+cap "adder_8_0/fulladder_3/Gnd!" "mux4_1x_8_0/mux4_dp_1x_3/d0" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_3/a_47_7#" "mux4_1x_8_0/mux4_dp_1x_3/d2" 40.32
+cap "adder_8_0/fulladder_3/Gnd!" "m2_273_872#" 111.42
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "adder_8_0/fulladder_4/Vdd!" 115.74
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_3/Vdd!" 59.4
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0b" "mux4_1x_8_0/mux4_dp_1x_3/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_3/a_47_7#" "m2_273_872#" 40.32
+cap "m2_273_872#" "adder_8_0/fulladder_4/Vdd!" 151.38
+cap "mux4_1x_8_0/mux4_dp_1x_3/y" "mux4_1x_8_0/mux4_dp_1x_3/a_39_7#" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_3/s1" "mux4_1x_8_0/mux4_dp_1x_3/y" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_4/a_55_74#" 24.3
+cap "mux4_1x_8_0/mux4_dp_1x_3/y" "mux4_1x_8_0/mux4_dp_1x_3/d0" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0" "mux4_1x_8_0/mux4_dp_1x_3/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_3/s0b" 72.72
+cap "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_4/d2" 37.8
+cap "mux4_1x_8_0/mux4_dp_1x_3/y" "mux4_1x_8_0/mux4_dp_1x_3/Gnd!" 27.72
+cap "b5" "inv_1x_8_0/inv_1x_2/y" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" 56.7
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_6_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" 40.32
+cap "inv_1x_8_1/inv_1x_2/y" "inv_1x_8_0/inv_1x_2/y" 35.64
+cap "yzdetect_8_0/nor2_1x_1/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" 129.24
+cap "inv_1x_8_0/inv_1x_2/Gnd!" "result5" 210.6
+cap "yzdetect_8_0/nor2_1x_1/y" "result5" 23.04
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "a5" 21.6
+cap "yzdetect_8_0/nor2_1x_1/a" "result5" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" 5.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "b5" 21.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" "inv_1x_8_0/inv_1x_2/Gnd!" 111.42
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "inv_1x_8_1/inv_1x_2/y" 29.7
+cap "yzdetect_8_0/nand2_1x_0/Gnd!" "result5" 162.72
+cap "inv_1x_8_1/inv_1x_2/y" "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" 40.32
+cap "yzdetect_8_0/nand2_1x_0/b" "result5" 125.64
+cap "inv_1x_8_0/inv_1x_2/y" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 50.22
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_26_7#" 16.2
+cap "yzdetect_8_0/nor2_1x_1/Vdd!" "result5" 376.56
+cap "result5" "a5" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "inv_1x_8_0/inv_1x_2/y" 4.86
+cap "yzdetect_8_0/nand2_1x_0/A" "result5" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_6_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" 40.32
+cap "b4" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 34.56
+cap "yzdetect_8_0/nor2_1x_1/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" 167.58
+cap "result5" "b5" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 40.32
+cap "inv_1x_8_1/inv_1x_2/y" "result5" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/a_26_74#" 24.3
+cap "inv_1x_8_1/inv_1x_3/a" "b4" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" 10.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "inv_1x_8_0/inv_1x_2/Gnd!" 80.64
+cap "inv_1x_8_1/inv_1x_3/y" "b4" 25.92
+cap "inv_1x_8_1/inv_1x_2/y" "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" 56.7
+cap "yzdetect_8_0/nor2_1x_1/Vdd!" "b4" 158.4
+cap "result5" "adder_8_0/c_5_" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 72.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 148.14
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 40.32
+cap "adder_8_0/fulladder_2/Vdd!" "op2" 32.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" 21.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 118.8
+cap "adder_8_0/fulladder_2/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" 32.4
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" 6.48
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 1.62
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_47_7#" 40.32
+cap "adder_8_0/fulladder_2/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 5.4
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1b" 114.12
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/y" "adder_8_0/c_5_" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/y" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 17.55
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Gnd!" "op2" 165.69
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 144.09
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 40.32
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" "op2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 112.95
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_55_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 40.32
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_47_7#" 93.78
+cap "adder_8_0/fulladder_2/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 10.8
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1b" 6.48
+cap "adder_8_0/fulladder_2/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/y" 32.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/a_55_74#" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" 24.3
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/Gnd!" 301.32
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1b" 3.24
+cap "result5" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "op2" 299.07
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" 6.48
+cap "adder_8_0/fulladder_2/b" "m2_160_591#" 251.64
+cap "result5" "adder_8_0/fulladder_2/a_21_7#" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_2/Vdd!" "m2_160_591#" 115.2
+cap "adder_8_0/c_5_" "m2_160_591#" 6.48
+cap "result5" "adder_8_0/fulladder_2/a_69_7#" 3.24
+cap "result5" "adder_8_0/fulladder_2/b" 9.72
+cap "result5" "adder_8_0/c_5_" 6.48
+cap "adder_8_0/fulladder_2/a" "m2_160_591#" 16.2
+cap "adder_8_0/fulladder_2/cout" "adder_8_0/s_5_" 70.47
+cap "adder_8_0/fulladder_2/cout" "m2_160_591#" 73.44
+cap "adder_8_0/fulladder_2/Gnd!" "adder_8_0/s_5_" 26.55
+cap "result5" "adder_8_0/fulladder_2/a" 9.72
+cap "m2_160_591#" "adder_8_0/s_5_" 73.44
+cap "adder_8_0/fulladder_2/a_21_7#" "adder_8_0/s_5_" 9.72
+cap "adder_8_0/fulladder_2/Gnd!" "result5" 375.84
+cap "adder_8_0/fulladder_2/a_21_7#" "m2_160_591#" 86.4
+cap "m2_160_591#" "adder_8_0/fulladder_2/a_69_7#" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_2/s1b" "mux4_1x_8_0/mux4_dp_1x_2/y" 76.68
+cap "adder_8_0/fulladder_3/Vdd!" "m2_273_872#" 167.58
+cap "mux4_1x_8_0/mux4_dp_1x_3/a_47_74#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0" "mux4_1x_8_0/mux4_dp_1x_2/d1" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_2/d0" "mux4_1x_8_0/mux4_dp_1x_2/a_6_7#" 69.21
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_2/a_47_7#" 40.32
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_2/d3" 45.9
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "adder_8_0/fulladder_3/Vdd!" 148.14
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_3/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/a_39_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0" "mux4_1x_8_0/mux4_dp_1x_2/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_2/a_47_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/Vdd!" "mux4_1x_8_0/mux4_dp_1x_2/d1" 52.2
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_3/s0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/s0" "mux4_1x_8_0/mux4_dp_1x_2/y" 73.44
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_2/a_55_7#" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0b" "mux4_1x_8_0/mux4_dp_1x_2/d1" 133.2
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0" "mux4_1x_8_0/mux4_dp_1x_2/y" 3.24
+cap "m2_273_872#" "adder_8_0/fulladder_2/Gnd!" 111.42
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_3/a_55_74#" 24.3
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_2/Vdd!" 10.8
+cap "mux4_1x_8_0/mux4_dp_1x_2/y" "mux4_1x_8_0/mux4_dp_1x_2/d1" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_2/a_39_7#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/a_39_7#" "mux4_1x_8_0/mux4_dp_1x_2/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_2/d0" "mux4_1x_8_0/mux4_dp_1x_2/s0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_3/d3" "m2_273_872#" 56.7
+cap "mux4_1x_8_0/mux4_dp_1x_2/d0" "mux4_1x_8_0/mux4_dp_1x_2/d1" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0b" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "adder_8_0/fulladder_2/Gnd!" 80.64
+cap "adder_8_0/fulladder_2/Gnd!" "mux4_1x_8_0/mux4_dp_1x_2/y" 281.88
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_2/Vdd!" 5.4
+cap "mux4_1x_8_0/mux4_dp_1x_2/d0" "adder_8_0/fulladder_2/Gnd!" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_2/s0b" 72.72
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0b" "mux4_1x_8_0/mux4_dp_1x_2/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0b" "mux4_1x_8_0/mux4_dp_1x_2/d0" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_2/d0" "mux4_1x_8_0/mux4_dp_1x_2/a_13_7#" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_2/s1" "mux4_1x_8_0/mux4_dp_1x_2/y" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_2/d0" "mux4_1x_8_0/mux4_dp_1x_2/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_2/Gnd!" "mux4_1x_8_0/mux4_dp_1x_2/y" 27.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 40.32
+cap "inv_1x_8_0/inv_1x_1/y" "b6" 9.72
+cap "inv_1x_8_0/inv_1x_2/y" "a5" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "a5" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_26_7#" 16.2
+cap "inv_1x_8_0/inv_1x_1/y" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 50.22
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" 40.32
+cap "yzdetect_8_0/nor2_1x_0/y" "yzdetect_8_0/a_7_" 7.56
+cap "result6" "inv_1x_8_1/inv_1x_1/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_6_74#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_6_7#" "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" 40.32
+cap "inv_1x_8_0/inv_1x_1/y" "inv_1x_8_1/inv_1x_1/y" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_26_74#" 24.3
+cap "b5" "yzdetect_8_0/nand2_1x_0/Vdd!" 212.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "yzdetect_8_0/nand2_1x_0/Vdd!" 167.04
+cap "b5" "inv_1x_8_1/inv_1x_2/y" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 40.32
+cap "yzdetect_8_0/nor2_1x_0/Gnd!" "result6" 410.76
+cap "yzdetect_8_0/nor2_1x_0/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" 111.42
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "b5" 34.56
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "a5" 4.86
+cap "b5" "a5" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 40.32
+cap "yzdetect_8_0/a_7_" "result6" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_6_7#" 40.32
+cap "yzdetect_8_0/nor2_1x_0/y" "result6" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_6_74#" "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" 40.32
+cap "inv_1x_8_0/inv_1x_1/y" "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" 4.86
+cap "result6" "b6" 3.24
+cap "result6" "a6" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "yzdetect_8_0/nor2_1x_0/Gnd!" 80.64
+cap "yzdetect_8_0/nand2_1x_0/Vdd!" "a5" 204.75
+cap "inv_1x_8_1/inv_1x_2/y" "a5" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" "yzdetect_8_0/nand2_1x_0/Vdd!" 194.58
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" 11.34
+cap "result6" "mux4_8_10space_0/mux4_dp_1x_0[6]/Gnd!" 301.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" 17.55
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 9.72
+cap "result6" "adder_8_0/c_6_" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/y" "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" 5.68434e-14
+cap "result6" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" 3.24
+cap "result6" "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" 114.12
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "result6" 1.62
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_47_74#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 40.32
+cap "result6" "mux4_8_10space_0/mux4_dp_1x_0[6]/y" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_47_74#" 112.95
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 24.84
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" 19.44
+cap "result6" "mux4_8_10space_0/mux4_dp_1x_0[6]/s1b" 3.24
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[6]/Gnd!" 165.69
+cap "result6" "adder_8_0/fulladder_1/c" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_55_7#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" 9.72
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/y" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" 25.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" 237.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "result6" 3.24
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" 353.07
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "mux4_8_10space_0/mux4_dp_1x_0[6]/s1b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" 118.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" "mux4_8_10space_0/mux4_dp_1x_0[6]/Gnd!" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "mux4_8_10space_0/mux4_dp_1x_0[5]/a_39_7#" 73.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "result6" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" 21.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/a_55_74#" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_47_7#" "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" 93.78
+cap "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 180.54
+cap "result6" "adder_8_0/a_6_" 3.24
+cap "result6" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" 198.09
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/d2" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" 43.2
+cap "result6" "adder_8_0/fulladder_1/Gnd!" 375.84
+cap "adder_8_0/fulladder_1/c" "result6" 3.24
+cap "result6" "adder_8_0/fulladder_1/a_69_7#" 3.24
+cap "result6" "adder_8_0/fulladder_1/a" 9.72
+cap "adder_8_0/fulladder_1/cout" "adder_8_0/s_6_" 70.47
+cap "adder_8_0/fulladder_1/b" "result6" 9.72
+cap "adder_8_0/fulladder_1/a_21_7#" "adder_8_0/s_6_" 9.72
+cap "adder_8_0/fulladder_1/a_21_7#" "result6" 6.48
+cap "adder_8_0/s_6_" "adder_8_0/fulladder_1/Gnd!" 26.55
+cap "adder_8_0/fulladder_1/c" "result6" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/d2" "mux4_1x_8_0/mux4_dp_1x_2/d2" 43.2
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0" "mux4_1x_8_0/mux4_dp_1x_2/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0" "mux4_1x_8_0/mux4_dp_1x_1/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0b" "mux4_1x_8_0/mux4_dp_1x_1/y" 79.92
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_2/a_55_74#" 24.3
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_55_7#" "mux4_1x_8_0/mux4_dp_1x_2/d2" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0" "mux4_1x_8_0/mux4_dp_1x_1/d0" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/d3" "m2_273_872#" 56.7
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_39_7#" "mux4_1x_8_0/mux4_dp_1x_2/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_47_7#" "m2_273_872#" 40.32
+cap "adder_8_0/fulladder_2/Vdd!" "mux4_1x_8_0/mux4_dp_1x_2/d2" 180.54
+cap "mux4_1x_8_0/mux4_dp_1x_1/s1b" "mux4_1x_8_0/mux4_dp_1x_1/y" 76.68
+cap "mux4_1x_8_0/mux4_dp_1x_1/d1" "mux4_1x_8_0/mux4_dp_1x_1/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_13_7#" "mux4_1x_8_0/mux4_dp_1x_1/d0" 8.91
+cap "mux4_1x_8_0/mux4_dp_1x_1/d0" "adder_8_0/fulladder_1/Gnd!" 13.05
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0" "mux4_1x_8_0/mux4_dp_1x_1/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_2/a_47_74#" "mux4_1x_8_0/mux4_dp_1x_2/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_1/y" "adder_8_0/fulladder_1/Gnd!" 281.88
+cap "adder_8_0/fulladder_1/Gnd!" "m2_273_872#" 111.42
+cap "mux4_1x_8_0/mux4_dp_1x_1/d0" "mux4_1x_8_0/mux4_dp_1x_1/a_6_7#" 69.21
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0" "mux4_1x_8_0/mux4_dp_1x_1/y" 73.44
+cap "mux4_1x_8_0/mux4_dp_1x_2/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_1/s1" "mux4_1x_8_0/mux4_dp_1x_1/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_39_7#" "mux4_1x_8_0/mux4_dp_1x_1/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0b" "mux4_1x_8_0/mux4_dp_1x_2/d2" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_1/d3" "m2_273_872#" 45.9
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_47_7#" "mux4_1x_8_0/mux4_dp_1x_2/d2" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/d2" "m2_273_872#" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_39_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_2/s1" "mux4_1x_8_0/mux4_dp_1x_1/y" 73.44
+cap "adder_8_0/fulladder_2/Vdd!" "m2_273_872#" 216.18
+cap "mux4_1x_8_0/mux4_dp_1x_2/a_47_74#" "m2_273_872#" 40.32
+cap "adder_8_0/fulladder_1/Gnd!" "mux4_1x_8_0/mux4_dp_1x_2/d2" 80.64
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0b" "mux4_1x_8_0/mux4_dp_1x_1/d0" 83.16
+cap "mux4_1x_8_0/mux4_dp_1x_1/d0" "mux4_1x_8_0/mux4_dp_1x_1/y" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/y" "mux4_1x_8_0/mux4_dp_1x_1/Gnd!" 27.72
+cap "op6" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 40.32
+cap "b6" "inv_1x_8_1/inv_1x_1/y" 25.92
+cap "op6" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_6_7#" 40.32
+cap "op5" "inv_1x_8_1/inv_1x_1/y" 40.32
+cap "inv_1x_8_0/inv_1x_0/a" "result7" 3.24
+cap "a6" "b6" 9.72
+cap "yzdetect_8_0/nor2_1x_0/Vdd!" "inv_1x_8_1/inv_1x_1/y" 29.7
+cap "op5" "a6" 4.86
+cap "yzdetect_8_0/nor2_1x_0/y" "result7" 118.44
+cap "yzdetect_8_0/a_6_" "yzdetect_8_0/nor2_1x_0/Vdd!" 16.2
+cap "a6" "yzdetect_8_0/nor2_1x_0/Vdd!" 226.35
+cap "op6" "inv_1x_8_1/inv_1x_1/y" 40.32
+cap "b6" "yzdetect_8_0/nor2_1x_0/Vdd!" 234
+cap "op5" "yzdetect_8_0/nor2_1x_0/Vdd!" 177.84
+cap "op5" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_6_74#" 40.32
+cap "inv_1x_8_1/inv_1x_0/a" "result7" 3.24
+cap "op5" "inv_1x_8_0/inv_1x_0/Gnd!" 80.64
+cap "op5" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_26_7#" 16.2
+cap "inv_1x_8_0/inv_1x_1/y" "a6" 25.92
+cap "a6" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 9.72
+cap "b6" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 34.56
+cap "op6" "yzdetect_8_0/nor2_1x_0/Vdd!" 199.98
+cap "op5" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 40.32
+cap "op6" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_6_74#" 40.32
+cap "yzdetect_8_0/nor2_1x_0/Vdd!" "result7" 281.79
+cap "op6" "inv_1x_8_0/inv_1x_0/Gnd!" 111.42
+cap "op5" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_6_7#" 40.32
+cap "inv_1x_8_0/inv_1x_0/Gnd!" "result7" 210.6
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" "result7" 3.24
+cap "a6" "inv_1x_8_1/inv_1x_1/y" 25.92
+cap "op5" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_26_74#" 24.3
+cap "op4" "mux4_8_10space_0/mux4_dp_1x_0[7]/Gnd!" 80.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "op4" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_47_74#" "op3" 112.95
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" 11.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" 19.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "op3" 9.72
+cap "result7" "mux4_8_10space_0/mux4_dp_1x_0[7]/Gnd!" 301.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "op3" 46.8
+cap "op3" "mux4_8_10space_0/mux4_dp_1x_0[7]/Gnd!" 80.64
+cap "result7" "adder_8_0/c_7_" 73.44
+cap "result7" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" 3.24
+cap "result7" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 118.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" 270
+cap "op4" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" 56.52
+cap "result7" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" 1.62
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[7]/Gnd!" 165.69
+cap "op3" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" 17.55
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/y" "adder_8_0/fulladder_1/c" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_55_7#" "op4" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/y" "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" 32.4
+cap "op3" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" 61.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" "op4" 185.94
+cap "result7" "op3" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/d2" "op4" 43.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 73.44
+cap "result7" "adder_8_0/fulladder_0/b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" "op3" 208.89
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "result7" 3.24
+cap "result7" "adder_8_0/a_7_" 3.24
+cap "result7" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" 16.2
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_47_7#" "op4" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" "op2" 385.47
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/y" "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_47_74#" "op4" 40.32
+cap "result7" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/a_55_74#" "op4" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "op4" 24.84
+cap "result7" "adder_8_0/fulladder_0/c" 3.24
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_47_7#" "op3" 93.78
+cap "adder_8_0/fulladder_1/Vdd!" "m2_160_701#" 115.2
+cap "adder_8_0/fulladder_0/a" "result7" 9.72
+cap "adder_8_0/fulladder_0/c" "result7" 3.24
+cap "result7" "adder_8_0/fulladder_0/a_21_7#" 6.48
+cap "adder_8_0/c_7_" "m2_160_701#" 73.44
+cap "adder_8_0/fulladder_1/a" "m2_160_701#" 16.2
+cap "adder_8_0/fulladder_0/c" "result7" 3.24
+cap "adder_8_0/fulladder_0/Gnd!" "result7" 375.84
+cap "adder_8_0/fulladder_1/s" "m2_160_701#" 73.44
+cap "adder_8_0/fulladder_0/cout" "adder_8_0/s_7_" 70.47
+cap "adder_8_0/s_7_" "adder_8_0/fulladder_0/a_21_7#" 9.72
+cap "adder_8_0/fulladder_0/a_69_7#" "result7" 3.24
+cap "adder_8_0/fulladder_1/a_21_7#" "m2_160_701#" 86.4
+cap "adder_8_0/s_7_" "adder_8_0/fulladder_0/Gnd!" 26.55
+cap "adder_8_0/fulladder_1/b" "m2_160_701#" 251.64
+cap "adder_8_0/fulladder_0/b" "result7" 3.24
+cap "adder_8_0/fulladder_0/b" "result7" 3.24
+cap "adder_8_0/fulladder_1/a_69_7#" "m2_160_701#" 73.44
+cap "adder_8_0/fulladder_0/b" "result7" 3.24
+cap "adder_8_0/fulladder_1/a_69_7#" "m2_160_701#" 9.72
+cap "adder_8_0/fulladder_1/c" "m2_160_701#" 6.48
+cap "result7" "adder_8_0/fulladder_0/Gnd!" 281.88
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_1/s1" 73.44
+cap "mux4_1x_8_0/mux4_dp_1x_1/d1" "mux4_1x_8_0/mux4_dp_1x_1/d0" 6.48
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_1/s0b" 73.44
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_0/d3" 45.9
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_0/s0b" 3.24
+cap "m2_273_872#" "adder_8_0/fulladder_0/Gnd!" 111.42
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_0/a_39_7#" 3.24
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_0/s0" 3.24
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_1/s0b" 40.32
+cap "m2_273_872#" "adder_8_0/fulladder_1/Vdd!" 226.98
+cap "mux4_1x_8_0/mux4_dp_1x_1/d1" "mux4_1x_8_0/mux4_dp_1x_1/s0b" 133.2
+cap "mux4_1x_8_0/mux4_dp_1x_1/d1" "adder_8_0/fulladder_1/Vdd!" 52.2
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0" "less" 40.32
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_1/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_0/a_47_7#" "less" 40.32
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_0/s0b" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_0/s1" "result7" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_0/d0" "adder_8_0/fulladder_0/Gnd!" 13.05
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_1/s0" 73.44
+cap "mux4_1x_8_0/mux4_dp_1x_0/s0" "result7" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0b" "mux4_1x_8_0/mux4_dp_1x_0/d0" 73.44
+cap "mux4_1x_8_0/mux4_dp_1x_1/s1b" "result7" 76.68
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_0/d0" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_0/s0b" "mux4_1x_8_0/mux4_dp_1x_0/d0" 9.72
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_1/d1" "mux4_1x_8_0/mux4_dp_1x_1/s0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_0/a_47_7#" "m2_273_872#" 40.32
+cap "less" "adder_8_0/fulladder_0/Gnd!" 80.64
+cap "mux4_1x_8_0/mux4_dp_1x_1/s0b" "less" 56.52
+cap "mux4_1x_8_0/mux4_dp_1x_0/a_55_7#" "less" 16.2
+cap "adder_8_0/fulladder_1/Vdd!" "less" 185.94
+cap "less" "mux4_1x_8_0/mux4_dp_1x_0/d2" 43.2
+cap "result7" "mux4_1x_8_0/mux4_dp_1x_0/d1" 3.24
+cap "mux4_1x_8_0/mux4_dp_1x_1/d3" "m2_273_872#" 56.7
+cap "less" "mux4_1x_8_0/mux4_dp_1x_1/a_47_74#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_0/a_6_7#" "mux4_1x_8_0/mux4_dp_1x_0/d0" 69.21
+cap "mux4_1x_8_0/mux4_dp_1x_1/a_55_74#" "less" 24.3
+cap "mux4_1x_8_0/mux4_dp_1x_0/a_13_7#" "mux4_1x_8_0/mux4_dp_1x_0/d0" 8.91
+cap "m2_273_872#" "less" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_0/Gnd!" "result7" 27.72
+cap "mux4_1x_8_0/mux4_dp_1x_0/y" "result7" 191.52
+cap "inv_1x_8_1/inv_1x_0/y" "op6_in" 40.32
+cap "op5_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_6_74#" 40.32
+cap "op5_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_26_74#" 24.3
+cap "inv_1x_8_1/inv_1x_0/y" "op5_in" 40.32
+cap "op6_in" "inv_1x_8_0/inv_1x_0/Vdd!" 199.98
+cap "inv_1x_8_1/inv_1x_0/y" "inv_1x_8_0/inv_1x_0/Vdd!" 29.7
+cap "inv_1x_8_1/inv_1x_0/y" "b7" 25.92
+cap "inv_1x_8_1/inv_1x_0/y" "a7" 25.92
+cap "inv_1x_8_1/inv_1x_0/y" "inv_1x_8_0/inv_1x_0/y" 35.64
+cap "op6_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" 80.64
+cap "op5_in" "inv_1x_8_0/inv_1x_0/Vdd!" 177.84
+cap "a7" "op5_in" 4.86
+cap "op5_in" "inv_1x_8_0/inv_1x_0/y" 4.86
+cap "b7" "inv_1x_8_0/inv_1x_0/Vdd!" 234
+cap "a7" "inv_1x_8_0/inv_1x_0/Vdd!" 226.35
+cap "b7" "inv_1x_8_0/inv_1x_0/y" 9.72
+cap "b7" "a7" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "op5_in" 80.64
+cap "a7" "inv_1x_8_0/inv_1x_0/y" 25.92
+cap "b7" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" 34.56
+cap "op6_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_6_74#" 40.32
+cap "a7" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "inv_1x_8_0/inv_1x_0/y" 50.22
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" 12.96
+cap "cout_adder_7" "adder_8_0/fulladder_0/a_n2_65#" 161.28
+cap "cout_adder_7" "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" 161.64
+cap "op4_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 24.84
+cap "op2" "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" 385.47
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "op4_in" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 11.34
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" 6.48
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/y" "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" 32.4
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_55_74#" "op4_in" 24.3
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 83.16
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 19.44
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/y" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 35.64
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" 73.44
+cap "adder_8_0/fulladder_0/c" "mux4_8_10space_0/mux4_dp_1x_0[7]/y" 76.68
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" 12.96
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 270
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_47_74#" "op3_in" 112.95
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" 118.8
+cap "op3_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" "op3_in" 61.92
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 16.2
+cap "op3_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" 208.89
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_47_74#" "op4_in" 40.32
+cap "op3_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" 9.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" "op4_in" 40.32
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" "op4_in" 72.72
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "op3_in" 46.8
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" "mux4_8_10space_0/mux4_dp_1x_0[7]/a_39_7#" 114.12
+cap "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" "op4_in" 185.94
+cap "m2_160_811#" "adder_8_0/fulladder_0/a_69_7#" 83.16
+cap "m2_273_872#" "inv_1x_0/y" 90.72
+cap "m2_160_811#" "cout_adder_7" 73.44
+cap "m2_160_811#" "adder_8_0/fulladder_0/Vdd!" 115.2
+cap "m2_160_811#" "adder_8_0/fulladder_0/s" 73.44
+cap "inv_1x_0/Gnd!" "m2_273_872#" 80.64
+cap "m2_160_811#" "adder_8_0/fulladder_0/a_21_7#" 86.4
+cap "m2_160_811#" "adder_8_0/fulladder_0/c" 6.48
+cap "adder_8_0/fulladder_0/b" "m2_160_811#" 251.64
+cap "m2_160_811#" "adder_8_0/fulladder_0/a" 16.2
+cap "mux4_1x_8_0/mux4_dp_1x_0/d3" "m2_273_872#" 56.7
+cap "mux4_1x_8_0/mux4_dp_1x_0/s1b" "m2_273_872#" 139.68
+cap "mux4_1x_8_0/mux4_dp_1x_0/d2" "m2_273_872#" 10.08
+cap "mux4_1x_8_0/mux4_dp_1x_0/s0" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_0/d1" "mux4_1x_8_0/mux4_dp_1x_0/s0" 6.48
+cap "m2_273_872#" "mux4_1x_8_0/mux4_dp_1x_0/a_47_74#" 40.32
+cap "adder_8_0/fulladder_0/Vdd!" "m2_273_872#" 226.98
+cap "mux4_1x_8_0/mux4_dp_1x_0/d2" "adder_8_0/fulladder_0/Vdd!" 21.6
+cap "mux4_1x_8_0/mux4_dp_1x_0/a_39_7#" "m2_273_872#" 40.32
+cap "mux4_1x_8_0/mux4_dp_1x_0/d2" "mux4_1x_8_0/mux4_dp_1x_0/a_39_7#" 40.32
+cap "adder_8_0/fulladder_0/Vdd!" "mux4_1x_8_0/mux4_dp_1x_0/d1" 52.2
+cap "mux4_1x_8_0/mux4_dp_1x_0/s0b" "m2_273_872#" 180
+cap "mux4_1x_8_0/mux4_dp_1x_0/d2" "mux4_1x_8_0/mux4_dp_1x_0/s0b" 72.72
+cap "mux4_1x_8_0/mux4_dp_1x_0/d1" "mux4_1x_8_0/mux4_dp_1x_0/s0b" 133.2
+cap "mux4_1x_8_0/mux4_dp_1x_0/d1" "mux4_1x_8_0/mux4_dp_1x_0/d0" 6.48
+cap "mux4_1x_8_0/mux4_dp_1x_0/s1" "m2_273_872#" 73.44
+cap "mux4_1x_8_0/mux4_dp_1x_0/s0" "mux4_1x_8_0/mux4_dp_1x_0/d0" 40.32
+cap "inv_1x_0/a" "inv_1x_0/Vdd!" 20.7
+merge "mux4_1x_8_0/mux4_dp_1x_0/y" "yzdetect_8_0/nor2_1x_0/b" -10536.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 -112 -1814 -616
+merge "yzdetect_8_0/nor2_1x_0/b" "yzdetect_8_0/a_7_"
+merge "yzdetect_8_0/a_7_" "result7"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/s0b" "inv_1x_8_1/inv_1x_1/y" -607.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0
+merge "inv_1x_8_1/inv_1x_1/y" "m2_56_702#"
+merge "mux4_1x_8_0/mux4_dp_1x_1/Gnd!" "adder_8_0/fulladder_1/Gnd!" -1944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_1/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[6]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/Gnd!" "inv_1x_8_1/inv_1x_1/Gnd!"
+merge "inv_1x_8_1/inv_1x_1/Gnd!" "inv_1x_8_0/inv_1x_1/Gnd!"
+merge "inv_1x_8_0/inv_1x_1/Gnd!" "yzdetect_8_0/nor2_1x_0/Gnd!"
+merge "yzdetect_8_0/nor2_1x_0/Gnd!" "m1_22_660#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/s0" "inv_1x_8_1/inv_1x_2/a" -1113.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_1/inv_1x_2/a" "b5"
+merge "mux4_1x_8_0/mux4_dp_1x_3/Gnd!" "adder_8_0/fulladder_3/Gnd!" -1944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_3/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/Gnd!" "inv_1x_8_1/inv_1x_3/Gnd!"
+merge "inv_1x_8_1/inv_1x_3/Gnd!" "inv_1x_8_0/inv_1x_3/Gnd!"
+merge "inv_1x_8_0/inv_1x_3/Gnd!" "yzdetect_8_0/nor2_1x_1/Gnd!"
+merge "yzdetect_8_0/nor2_1x_1/Gnd!" "m1_22_440#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/s0b" "inv_1x_8_1/inv_1x_3/y" -577.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "inv_1x_8_1/inv_1x_3/y" "m2_56_482#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/d1" "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" -1327.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -30 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/d1" "mux4_8_10space_0/mux4_dp_1x_0[4]/d1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/d1" "mux4_8_10space_0/mux4_dp_1x_0[3]/d1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/d1" "mux4_8_10space_0/mux4_dp_1x_0[2]/d1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/d1" "mux4_8_10space_0/mux4_dp_1x_0[1]/d1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/d1" "mux4_8_10space_0/mux4_dp_1x_0[0]/d1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/d1" "op5_in"
+merge "op5_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/d1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/d1" "op5"
+merge "mux4_1x_8_0/mux4_dp_1x_5/Gnd!" "adder_8_0/fulladder_5/Gnd!" -1944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_5/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/Gnd!" "inv_1x_8_1/inv_1x_5/Gnd!"
+merge "inv_1x_8_1/inv_1x_5/Gnd!" "inv_1x_8_0/inv_1x_5/Gnd!"
+merge "inv_1x_8_0/inv_1x_5/Gnd!" "yzdetect_8_0/nor2_1x_3/Gnd!"
+merge "yzdetect_8_0/nor2_1x_3/Gnd!" "m1_22_220#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/s0b" "inv_1x_8_1/inv_1x_6/y" -577.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "inv_1x_8_1/inv_1x_6/y" "m2_56_152#"
+merge "mux4_1x_8_0/mux4_dp_1x_6/d1" "adder_8_0/b_1_" -3725.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -600 -200
+merge "adder_8_0/b_1_" "mux4_8_10space_0/mux4_dp_1x_0[1]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/y" "m2_160_151#"
+merge "inv_1x_0/y" "mux4_1x_8_0/mux4_dp_1x_7/d2" -32005.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3136 -1588 -438 -152
+merge "mux4_1x_8_0/mux4_dp_1x_7/d2" "m2_273_872#"
+merge "mux4_1x_8_0/mux4_dp_1x_2/d1" "adder_8_0/b_5_" -3529.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -48 -400 -200
+merge "adder_8_0/b_5_" "mux4_8_10space_0/mux4_dp_1x_0[5]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/y" "m2_160_591#"
+merge "mux4_1x_8_0/mux4_dp_1x_4/d1" "adder_8_0/b_3_" -3725.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -600 -200
+merge "adder_8_0/b_3_" "mux4_8_10space_0/mux4_dp_1x_0[3]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/y" "m2_160_371#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/s1b" "inv_1x_8_0/inv_1x_4/y" -774.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_0/inv_1x_4/y" "m2_40_362#"
+merge "mux4_1x_8_0/mux4_dp_1x_0/d2" "mux4_1x_8_0/mux4_dp_1x_1/d2" -5231.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -168 -112 0 0
+merge "mux4_1x_8_0/mux4_dp_1x_1/d2" "mux4_1x_8_0/mux4_dp_1x_2/d2"
+merge "mux4_1x_8_0/mux4_dp_1x_2/d2" "mux4_1x_8_0/mux4_dp_1x_3/d2"
+merge "mux4_1x_8_0/mux4_dp_1x_3/d2" "mux4_1x_8_0/mux4_dp_1x_4/d2"
+merge "mux4_1x_8_0/mux4_dp_1x_4/d2" "mux4_1x_8_0/mux4_dp_1x_5/d2"
+merge "mux4_1x_8_0/mux4_dp_1x_5/d2" "mux4_1x_8_0/mux4_dp_1x_6/d2"
+merge "mux4_1x_8_0/mux4_dp_1x_6/d2" "less"
+merge "adder_8_0/b_7_" "mux4_8_10space_0/mux4_dp_1x_0[7]/y" -3682.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -48 -600 -200
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/y" "mux4_1x_8_0/mux4_dp_1x_0/d1"
+merge "mux4_1x_8_0/mux4_dp_1x_0/d1" "m2_160_811#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/s1" "adder_8_0/a_6_" -1606.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -50 0 0
+merge "adder_8_0/a_6_" "inv_1x_8_0/inv_1x_1/a"
+merge "inv_1x_8_0/inv_1x_1/a" "a6"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/s0" "inv_1x_8_1/inv_1x_1/a" -1135.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -32 0 0
+merge "inv_1x_8_1/inv_1x_1/a" "b6"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/d2" "mux4_8_10space_0/mux4_dp_1x_0[6]/d2" -5280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -168 -112 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/d2" "mux4_8_10space_0/mux4_dp_1x_0[5]/d2"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/d2" "mux4_8_10space_0/mux4_dp_1x_0[4]/d2"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/d2" "mux4_8_10space_0/mux4_dp_1x_0[3]/d2"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/d2" "mux4_8_10space_0/mux4_dp_1x_0[2]/d2"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/d2" "mux4_8_10space_0/mux4_dp_1x_0[1]/d2"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/d2" "mux4_8_10space_0/mux4_dp_1x_0[0]/d2"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/d2" "op4_in"
+merge "mux4_1x_8_0/mux4_dp_1x_6/Gnd!" "adder_8_0/fulladder_6/Gnd!" -1944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_6/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/Gnd!" "inv_1x_8_1/inv_1x_6/Gnd!"
+merge "inv_1x_8_1/inv_1x_6/Gnd!" "inv_1x_8_0/inv_1x_6/Gnd!"
+merge "inv_1x_8_0/inv_1x_6/Gnd!" "yzdetect_8_0/nand2_1x_1/Gnd!"
+merge "yzdetect_8_0/nand2_1x_1/Gnd!" "m1_22_110#"
+merge "mux4_1x_8_0/mux4_dp_1x_2/Vdd!" "adder_8_0/fulladder_2/Vdd!" -7876.8 0 0 0 0 -1600 -532 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_2/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/Vdd!" "inv_1x_8_1/inv_1x_2/Vdd!"
+merge "inv_1x_8_1/inv_1x_2/Vdd!" "inv_1x_8_0/inv_1x_2/Vdd!"
+merge "inv_1x_8_0/inv_1x_2/Vdd!" "yzdetect_8_0/nand2_1x_0/Vdd!"
+merge "yzdetect_8_0/nand2_1x_0/Vdd!" "m1_22_640#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/s1" "inv_1x_8_0/inv_1x_0/a" -1488.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -46 0 0
+merge "inv_1x_8_0/inv_1x_0/a" "adder_8_0/a_7_"
+merge "adder_8_0/a_7_" "a7"
+merge "mux4_1x_8_0/mux4_dp_1x_4/d0" "adder_8_0/s_3_" -783.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "adder_8_0/s_3_" "m2_272_345#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/s0" "inv_1x_8_1/inv_1x_0/a" -1113.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_1/inv_1x_0/a" "b7"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/d3" "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" -5349.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 -122 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/d3" "mux4_8_10space_0/mux4_dp_1x_0[5]/d3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/d3" "mux4_8_10space_0/mux4_dp_1x_0[4]/d3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/d3" "mux4_8_10space_0/mux4_dp_1x_0[3]/d3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/d3" "mux4_8_10space_0/mux4_dp_1x_0[2]/d3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/d3" "mux4_8_10space_0/mux4_dp_1x_0[1]/d3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/d3" "mux4_8_10space_0/mux4_dp_1x_0[0]/d3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/d3" "op3_in"
+merge "mux4_1x_8_0/mux4_dp_1x_3/y" "yzdetect_8_0/a_4_" -6798.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1200 -400
+merge "yzdetect_8_0/a_4_" "result4"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/s0b" "inv_1x_8_1/inv_1x_5/y" -577.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "inv_1x_8_1/inv_1x_5/y" "m2_56_262#"
+merge "adder_8_0/a_1_" "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" -1527 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/s1" "inv_1x_8_0/inv_1x_6/a"
+merge "inv_1x_8_0/inv_1x_6/a" "a1"
+merge "mux4_1x_8_0/mux4_dp_1x_0/Gnd!" "adder_8_0/fulladder_0/Gnd!" -1612.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -80 0 0 0 0
+merge "adder_8_0/fulladder_0/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[7]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/Gnd!" "inv_1x_8_1/inv_1x_0/Gnd!"
+merge "inv_1x_8_1/inv_1x_0/Gnd!" "inv_1x_8_0/inv_1x_0/Gnd!"
+merge "inv_1x_8_0/inv_1x_0/Gnd!" "m1_22_770#"
+merge "mux4_1x_8_0/mux4_dp_1x_4/y" "yzdetect_8_0/a_3_" -7131.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1200 -400
+merge "yzdetect_8_0/a_3_" "result3"
+merge "mux4_1x_8_0/y_0_" "yzdetect_8_0/a_0_" -6882.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1200 -400
+merge "yzdetect_8_0/a_0_" "result0"
+merge "adder_8_0/a_0_" "mux4_8_10space_0/mux4_dp_1x_0[0]/s1" -993 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/s1" "inv_1x_8_0/inv_1x_7/a"
+merge "inv_1x_8_0/inv_1x_7/a" "a0"
+merge "a0" "mux4s1_0"
+merge "inv_1x_8_0/inv_1x_0/y" "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" -528.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 225 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/s1b" "m2_40_802#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/d0" "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" -1182.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 -24 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/d0" "mux4_8_10space_0/mux4_dp_1x_0[4]/d0"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/d0" "mux4_8_10space_0/mux4_dp_1x_0[3]/d0"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/d0" "mux4_8_10space_0/mux4_dp_1x_0[2]/d0"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/d0" "mux4_8_10space_0/mux4_dp_1x_0[1]/d0"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/d0" "mux4_8_10space_0/mux4_dp_1x_0[0]/d0"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/d0" "op6_in"
+merge "op6_in" "mux4_8_10space_0/mux4_dp_1x_0[7]/d0"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/d0" "op6"
+merge "mux4_1x_8_0/mux4_dp_1x_6/y" "yzdetect_8_0/a_1_" -7106.55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1200 -400
+merge "yzdetect_8_0/a_1_" "result1"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/s0" "inv_1x_8_1/inv_1x_4/a" -562.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -32 540 0
+merge "inv_1x_8_1/inv_1x_4/a" "b3"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/s0b" "inv_1x_8_1/inv_1x_7/y" -577.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "inv_1x_8_1/inv_1x_7/y" "m2_56_42#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/s1b" "inv_1x_8_0/inv_1x_5/y" -774.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_0/inv_1x_5/y" "m2_40_252#"
+merge "mux4_1x_8_0/mux4_dp_1x_5/y" "yzdetect_8_0/a_2_" -6819.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1200 -400
+merge "yzdetect_8_0/a_2_" "result2"
+merge "mux4_1x_8_0/mux4_dp_1x_0/d0" "adder_8_0/s_7_" -1982.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -92 -66 -150 -56
+merge "adder_8_0/s_7_" "m2_272_785#"
+merge "adder_8_0/a_3_" "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" -1521.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/s1" "inv_1x_8_0/inv_1x_4/a"
+merge "inv_1x_8_0/inv_1x_4/a" "a3"
+merge "mux4_1x_8_0/mux4_dp_1x_7/Gnd!" "adder_8_0/fulladder_7/Gnd!" -1944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_7/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[0]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/Gnd!" "inv_1x_8_1/inv_1x_7/Gnd!"
+merge "inv_1x_8_1/inv_1x_7/Gnd!" "inv_1x_8_0/inv_1x_7/Gnd!"
+merge "inv_1x_8_0/inv_1x_7/Gnd!" "yzdetect_8_0/nor2_1x_4/Gnd!"
+merge "yzdetect_8_0/nor2_1x_4/Gnd!" "m1_22_0#"
+merge "mux4_1x_8_0/mux4_dp_1x_1/Vdd!" "adder_8_0/fulladder_1/Vdd!" -8568 0 0 0 0 -1792 -624 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_1/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/Vdd!" "inv_1x_8_1/inv_1x_1/Vdd!"
+merge "inv_1x_8_1/inv_1x_1/Vdd!" "inv_1x_8_0/inv_1x_1/Vdd!"
+merge "inv_1x_8_0/inv_1x_1/Vdd!" "yzdetect_8_0/nor2_1x_0/Vdd!"
+merge "yzdetect_8_0/nor2_1x_0/Vdd!" "m1_22_750#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/s0" "inv_1x_8_1/inv_1x_6/a" -1113.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_1/inv_1x_6/a" "b1"
+merge "mux4_1x_8_0/mux4_dp_1x_0/Vdd!" "adder_8_0/fulladder_0/Vdd!" -8150.4 0 0 0 0 -1792 -512 0 0 0 0 0 0 0 0 0 0 16 -80 0 0 0 0
+merge "adder_8_0/fulladder_0/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/Vdd!" "inv_1x_8_1/inv_1x_0/Vdd!"
+merge "inv_1x_8_1/inv_1x_0/Vdd!" "inv_1x_8_0/inv_1x_0/Vdd!"
+merge "inv_1x_8_0/inv_1x_0/Vdd!" "m1_22_860#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[7]/s0b" "inv_1x_8_1/inv_1x_0/y" -577.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "inv_1x_8_1/inv_1x_0/y" "m2_56_812#"
+merge "adder_8_0/a_4_" "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" -1513.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38 -46 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/s1" "inv_1x_8_0/inv_1x_3/a"
+merge "inv_1x_8_0/inv_1x_3/a" "a4"
+merge "mux4_1x_8_0/mux4_dp_1x_3/Vdd!" "adder_8_0/fulladder_3/Vdd!" -6724.8 0 0 0 0 -1280 -432 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_3/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/Vdd!" "inv_1x_8_1/inv_1x_3/Vdd!"
+merge "inv_1x_8_1/inv_1x_3/Vdd!" "inv_1x_8_0/inv_1x_3/Vdd!"
+merge "inv_1x_8_0/inv_1x_3/Vdd!" "yzdetect_8_0/nor2_1x_1/Vdd!"
+merge "yzdetect_8_0/nor2_1x_1/Vdd!" "m1_22_530#"
+merge "mux4_1x_8_0/d0_0_" "adder_8_0/s_0_" -761.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "adder_8_0/s_0_" "m2_272_15#"
+merge "mux4_1x_8_0/mux4_dp_1x_6/Vdd!" "adder_8_0/fulladder_6/Vdd!" -8784 0 0 0 0 -1792 -624 0 0 0 0 0 0 0 0 0 0 -64 -96 0 0 0 0
+merge "adder_8_0/fulladder_6/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/Vdd!" "inv_1x_8_1/inv_1x_6/Vdd!"
+merge "inv_1x_8_1/inv_1x_6/Vdd!" "inv_1x_8_0/inv_1x_6/Vdd!"
+merge "inv_1x_8_0/inv_1x_6/Vdd!" "yzdetect_8_0/nand2_1x_1/Vdd!"
+merge "yzdetect_8_0/nand2_1x_1/Vdd!" "m1_22_200#"
+merge "mux4_1x_8_0/mux4_dp_1x_7/Vdd!" "adder_8_0/fulladder_7/Vdd!" -8902.8 0 0 0 0 -1792 -656 0 0 0 0 0 0 0 0 0 0 -108 -96 0 0 0 0
+merge "adder_8_0/fulladder_7/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/Vdd!" "inv_1x_8_1/inv_1x_7/Vdd!"
+merge "inv_1x_8_1/inv_1x_7/Vdd!" "inv_1x_8_0/inv_1x_7/Vdd!"
+merge "inv_1x_8_0/inv_1x_7/Vdd!" "yzdetect_8_0/nor2_1x_4/Vdd!"
+merge "yzdetect_8_0/nor2_1x_4/Vdd!" "m1_22_90#"
+merge "mux4_1x_8_0/mux4_dp_1x_2/y" "yzdetect_8_0/a_5_" -7205.55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -36 -1200 -400
+merge "yzdetect_8_0/a_5_" "result5"
+merge "mux4_1x_8_0/mux4_dp_1x_1/y" "yzdetect_8_0/a_6_" -6809.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1200 -400
+merge "yzdetect_8_0/a_6_" "result6"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/s0" "mux4s0_0" -540.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[1]/s1b" "inv_1x_8_0/inv_1x_6/y" -774.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_0/inv_1x_6/y" "m2_40_142#"
+merge "mux4_1x_8_0/mux4_dp_1x_1/d0" "adder_8_0/s_6_" -794.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0
+merge "adder_8_0/s_6_" "m2_272_675#"
+merge "mux4_1x_8_0/mux4_dp_1x_3/d0" "adder_8_0/s_4_" -783.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "adder_8_0/s_4_" "m2_272_455#"
+merge "mux4_1x_8_0/mux4_dp_1x_5/d0" "adder_8_0/s_2_" -783.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "adder_8_0/s_2_" "m2_272_235#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/s0b" "inv_1x_8_1/inv_1x_4/y" -577.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "inv_1x_8_1/inv_1x_4/y" "m2_56_372#"
+merge "adder_8_0/a_2_" "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" -1521.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/s1" "inv_1x_8_0/inv_1x_5/a"
+merge "inv_1x_8_0/inv_1x_5/a" "a2"
+merge "mux4_1x_8_0/s0" "op0" -254.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "mux4_1x_8_0/mux4_dp_1x_4/Gnd!" "adder_8_0/fulladder_4/Gnd!" -1944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_4/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/Gnd!" "inv_1x_8_1/inv_1x_4/Gnd!"
+merge "inv_1x_8_1/inv_1x_4/Gnd!" "inv_1x_8_0/inv_1x_4/Gnd!"
+merge "inv_1x_8_0/inv_1x_4/Gnd!" "yzdetect_8_0/nor2_1x_2/Gnd!"
+merge "yzdetect_8_0/nor2_1x_2/Gnd!" "m1_22_330#"
+merge "inv_1x_0/a" "adder_8_0/cout" -790.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -32 0 0
+merge "adder_8_0/cout" "cout_adder_7"
+merge "mux4_1x_8_0/s1" "op1" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/s1b" "inv_1x_8_0/inv_1x_3/y" -774.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_0/inv_1x_3/y" "m2_40_472#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/s1b" "inv_1x_8_0/inv_1x_1/y" -785.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0
+merge "inv_1x_8_0/inv_1x_1/y" "m2_40_692#"
+merge "mux4_1x_8_0/mux4_dp_1x_5/d1" "adder_8_0/b_2_" -3725.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -600 -200
+merge "adder_8_0/b_2_" "mux4_8_10space_0/mux4_dp_1x_0[2]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/y" "m2_160_261#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/s0" "inv_1x_8_1/inv_1x_5/a" -1113.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_1/inv_1x_5/a" "b2"
+merge "mux4_1x_8_0/mux4_dp_1x_3/d1" "adder_8_0/b_4_" -3725.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -600 -200
+merge "adder_8_0/b_4_" "mux4_8_10space_0/mux4_dp_1x_0[4]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/y" "m2_160_481#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[4]/s0" "inv_1x_8_1/inv_1x_3/a" -2524.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -56 -270 -96
+merge "inv_1x_8_1/inv_1x_3/a" "b4"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/s1b" "inv_1x_8_0/inv_1x_7/y" -801.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_8_0/inv_1x_7/y" "m2_40_32#"
+merge "mux4_1x_8_0/mux4_dp_1x_4/Vdd!" "adder_8_0/fulladder_4/Vdd!" -5572.8 0 0 0 0 -960 -332 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_4/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[3]/Vdd!" "inv_1x_8_1/inv_1x_4/Vdd!"
+merge "inv_1x_8_1/inv_1x_4/Vdd!" "inv_1x_8_0/inv_1x_4/Vdd!"
+merge "inv_1x_8_0/inv_1x_4/Vdd!" "yzdetect_8_0/nor2_1x_2/Vdd!"
+merge "yzdetect_8_0/nor2_1x_2/Vdd!" "m1_22_420#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/s0b" "inv_1x_8_1/inv_1x_2/y" -604.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -30 0 0
+merge "inv_1x_8_1/inv_1x_2/y" "m2_56_592#"
+merge "adder_8_0/a_5_" "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" -1518.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42 -46 0 0
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/s1" "inv_1x_8_0/inv_1x_2/a"
+merge "inv_1x_8_0/inv_1x_2/a" "a5"
+merge "mux4_1x_8_0/mux4_dp_1x_1/d1" "adder_8_0/b_6_" -3561.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -48 -400 -200
+merge "adder_8_0/b_6_" "mux4_8_10space_0/mux4_dp_1x_0[6]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[6]/y" "m2_160_701#"
+merge "mux4_1x_8_0/d1_0_" "adder_8_0/b_0_" -3718.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -600 -200
+merge "adder_8_0/b_0_" "mux4_8_10space_0/mux4_dp_1x_0[0]/y"
+merge "mux4_8_10space_0/mux4_dp_1x_0[0]/y" "muxy7"
+merge "adder_8_0/cin" "op2" -27275.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2800 -1416 0 0
+merge "mux4_1x_8_0/mux4_dp_1x_6/d0" "adder_8_0/s_1_" -783.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "adder_8_0/s_1_" "m2_272_125#"
+merge "yzdetect_8_0/nand2_1x_0/Gnd!" "m1_22_550#" -331.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "mux4_1x_8_0/mux4_dp_1x_5/Vdd!" "adder_8_0/fulladder_5/Vdd!" -4420.8 0 0 0 0 -640 -232 0 0 0 0 0 0 0 0 0 0 16 -96 0 0 0 0
+merge "adder_8_0/fulladder_5/Vdd!" "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[2]/Vdd!" "inv_1x_8_1/inv_1x_5/Vdd!"
+merge "inv_1x_8_1/inv_1x_5/Vdd!" "inv_1x_8_0/inv_1x_5/Vdd!"
+merge "inv_1x_8_0/inv_1x_5/Vdd!" "yzdetect_8_0/nor2_1x_3/Vdd!"
+merge "yzdetect_8_0/nor2_1x_3/Vdd!" "m1_22_310#"
+merge "yzdetect_8_0/zero" "zero" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_1x_8_0/mux4_dp_1x_2/d0" "adder_8_0/s_5_" -740.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0
+merge "adder_8_0/s_5_" "m2_272_565#"
+merge "mux4_1x_8_0/mux4_dp_1x_2/Gnd!" "adder_8_0/fulladder_2/Gnd!" -1612.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -80 0 0 0 0
+merge "adder_8_0/fulladder_2/Gnd!" "mux4_8_10space_0/mux4_dp_1x_0[5]/Gnd!"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/Gnd!" "inv_1x_8_1/inv_1x_2/Gnd!"
+merge "inv_1x_8_1/inv_1x_2/Gnd!" "inv_1x_8_0/inv_1x_2/Gnd!"
+merge "inv_1x_8_0/inv_1x_2/Gnd!" "m1_27_550#"
+merge "mux4_8_10space_0/mux4_dp_1x_0[5]/s1b" "inv_1x_8_0/inv_1x_2/y" -752.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -32 0 0
+merge "inv_1x_8_0/inv_1x_2/y" "m2_40_582#"
+merge "inv_1x_8_1/inv_1x_7/a" "b0" -573 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0

@@ -1,0 +1,1517 @@
+timestamp 1493748514
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use mux2_dp_1x mux2_dp_1x_0 1 0 -348 0 1 3
+use mux2_dp_1x mux2_dp_1x_1 1 0 -300 0 1 3
+use mux2_dp_1x mux2_dp_1x_2 1 0 -252 0 1 3
+use mux2_dp_1x mux2_dp_1x_3 1 0 -204 0 1 3
+use mux2_dp_1x mux2_dp_1x_4 1 0 -156 0 1 3
+use mux2_dp_1x mux2_dp_1x_5 1 0 -108 0 1 3
+use mux2_dp_1x mux2_dp_1x_6 1 0 -60 0 1 3
+use mux2_dp_1x mux2_dp_1x_7 1 0 -12 0 1 3
+use and2_1x and2_1x_0 1 0 36 0 1 3
+use and2_1x and2_1x_1 1 0 68 0 1 3
+use and2_1x and2_1x_2 1 0 100 0 1 3
+use and2_1x and2_1x_3 1 0 132 0 1 3
+use and2_1x and2_1x_4 1 0 164 0 1 3
+use and2_1x and2_1x_5 1 0 196 0 1 3
+use and2_1x and2_1x_6 1 0 228 0 1 3
+use inv_1x inv_1x_0 1 0 -316 0 1 -127
+use and2_1x and2_1x_7 1 0 -300 0 1 -127
+use mux2_dp_1x mux2_dp_1x_20 1 0 -268 0 1 -127
+use mux2_dp_1x mux2_dp_1x_17 1 0 -220 0 1 -127
+use mux2_dp_1x mux2_dp_1x_16 1 0 -172 0 1 -127
+use mux2_dp_1x mux2_dp_1x_15 1 0 -124 0 1 -127
+use mux2_dp_1x mux2_dp_1x_14 1 0 -76 0 1 -127
+use mux2_dp_1x mux2_dp_1x_13 1 0 -28 0 1 -127
+use mux2_dp_1x mux2_dp_1x_12 1 0 20 0 1 -127
+use mux2_dp_1x mux2_dp_1x_11 1 0 68 0 1 -127
+use mux2_dp_1x mux2_dp_1x_10 1 0 116 0 1 -127
+use mux2_dp_1x mux2_dp_1x_9 1 0 164 0 1 -127
+use mux2_dp_1x mux2_dp_1x_8 1 0 212 0 1 -127
+use inv_1x inv_1x_1 1 0 -244 0 1 -257
+use xor2_1x xor2_1x_0 1 0 -228 0 1 -257
+use mux2_dp_1x mux2_dp_1x_27 1 0 -172 0 1 -257
+use mux2_dp_1x mux2_dp_1x_26 1 0 -124 0 1 -257
+use mux2_dp_1x mux2_dp_1x_25 1 0 -76 0 1 -257
+use mux2_dp_1x mux2_dp_1x_24 1 0 -28 0 1 -257
+use mux2_dp_1x mux2_dp_1x_23 1 0 20 0 1 -257
+use mux2_dp_1x mux2_dp_1x_22 1 0 68 0 1 -257
+use mux2_dp_1x mux2_dp_1x_21 1 0 116 0 1 -257
+use mux2_dp_1x mux2_dp_1x_19 1 0 164 0 1 -257
+use mux2_dp_1x mux2_dp_1x_18 1 0 212 0 1 -257
+use inv_1x inv_1x_3 1 0 -284 0 1 -387
+use inv_1x inv_1x_2 1 0 -268 0 1 -387
+use xor2_1x xor2_1x_2 1 0 -236 0 1 -387
+use xor2_1x xor2_1x_1 1 0 -180 0 1 -387
+use mux2_dp_1x mux2_dp_1x_35 1 0 -124 0 1 -387
+use mux2_dp_1x mux2_dp_1x_34 1 0 -76 0 1 -387
+use mux2_dp_1x mux2_dp_1x_33 1 0 -28 0 1 -387
+use mux2_dp_1x mux2_dp_1x_32 1 0 20 0 1 -387
+use mux2_dp_1x mux2_dp_1x_31 1 0 68 0 1 -387
+use mux2_dp_1x mux2_dp_1x_30 1 0 116 0 1 -387
+use mux2_dp_1x mux2_dp_1x_29 1 0 164 0 1 -387
+use mux2_dp_1x mux2_dp_1x_28 1 0 212 0 1 -387
+node "Y0" 1 2024.4 252 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y1" 1 2024.4 204 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y2" 1 2024.4 156 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y3" 1 2024.4 108 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y4" 1 2024.4 60 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y5" 1 2024.4 12 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y6" 1 2024.4 -36 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "Y7" 1 2024.4 -84 -396 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0
+node "m2_196_n343#" 6 10477.2 196 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 536 132 56
+node "m2_148_n343#" 6 10477.2 148 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 536 132 56
+node "m2_100_n343#" 6 10477.2 100 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 536 132 56
+node "m2_52_n343#" 6 10477.2 52 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 536 132 56
+node "m2_4_n343#" 6 10477.2 4 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 536 132 56
+node "m2_n44_n343#" 6 10477.2 -44 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 536 132 56
+node "m2_n260_n367#" 8 15921.6 -260 -367 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 320 232 2952 1008
+node "m2_n132_n220#" 3 5474.4 -132 -220 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 516 274 84 40
+node "m2_244_n343#" 3 5582.4 244 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 528 280 84 40
+node "m2_n92_n343#" 6 10510.8 -92 -343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 132 56
+node "m2_188_n212#" 0 350.4 188 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_140_n212#" 0 350.4 140 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_92_n212#" 0 350.4 92 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_44_n212#" 0 350.4 44 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_n4_n212#" 0 350.4 -4 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_n52_n212#" 0 350.4 -52 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_n100_n212#" 0 350.4 -100 -212 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "m2_n268_n349#" 9 17108.4 -268 -349 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 452 306 3096 1056
+node "s2mux00" 3 5582.4 244 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 528 280 84 40
+node "s2mux01" 5 8306.4 196 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 708 370 366 146
+node "s2mux02" 7 11666.4 148 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 462 178
+node "s2mux03" 8 13214.4 100 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1188 618 462 178
+node "s2mux04" 7 11745.6 52 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 456 176
+node "s2mux05" 7 11745.6 4 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 456 176
+node "s2mux06" 7 11745.6 -44 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 456 176
+node "s2mux07" 7 11745.6 -92 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 456 176
+node "s2mux08" 7 11772 -140 -213 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1028 538 470 178
+node "s2mux09" 4 6522 -180 -135 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 520 276 372 136
+node "Z00" 3 5751.6 228 -29 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 528 280 132 56
+node "Z01" 3 4888.8 196 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 512 264 0 0
+node "Z02" 3 5751.6 148 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 528 280 132 56
+node "Z03" 3 6057.6 100 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 524 278 234 90
+node "Z04" 6 10613.4 52 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 688 368 990 348
+node "m2_52_n39#" 0 350.4 52 -39 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "Z05" 6 10713.6 4 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 716 382 996 344
+node "Z06" 6 11314.8 -44 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 756 402 996 344
+node "m2_n36_37#" 0 350.4 -36 37 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "Z07" 7 13084.8 -92 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 896 480 1042 394
+node "m2_n84_37#" 0 350.4 -84 37 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "Z08" 8 14712.6 -140 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1052 566 1118 396
+node "m2_n132_37#" 0 350.4 -132 37 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "s2mux10" 4 6627.6 -228 -121 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 520 276 372 136
+node "m2_n244_n239#" 1 2562 -244 -239 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 72 276 104
+node "m2_n284_n349#" 11 20462.1 -284 -349 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 776 476 3207 1094
+node "xorOutinverse" 10 19362 -276 -349 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 712 436 3018 1018
+node "Z09" 9 14780.4 -188 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1064 572 1098 414
+node "Z11" 4 6424.8 -164 38 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 528 280 306 126
+node "Z12" 4 6212.4 -211 -39 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 524 278 270 102
+node "m2_n260_n81#" 11 21441.6 -260 -81 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 744 468 3480 1184
+node "m2_n244_n136#" 11 19702.8 -244 -136 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 688 440 3198 1090
+node "Z10" 9 14883.6 -236 -83 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1080 580 1098 414
+node "Z13" 3 6205.2 -260 -39 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 520 276 276 104
+node "Z14" 4 6784.8 -308 -2 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 540 294 312 128
+node "arithAndA7" 16 27846 -316 -11 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2064 1096 2190 742
+equiv "arithAndA7" "Z14d0"
+equiv "arithAndA7" "Z08d0"
+equiv "arithAndA7" "Z09d0"
+equiv "arithAndA7" "Z10d0"
+equiv "arithAndA7" "Z11d0"
+equiv "arithAndA7" "Z12d0"
+equiv "arithAndA7" "Z13d0"
+node "Shamt_1" 2 3427.2 -249 -340 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 60 46 690 242
+node "Shamt_0" 1 1762.8 -249 -331 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 40 36 354 130
+node "Shamt_2" 1 2506.8 -243 -202 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 32 32 366 134
+node "arith" 1 2269.2 -330 -97 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 32 32 312 116
+node "rightinverse" 24 43922.1 -308 -89 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2644 1426 4284 1500
+equiv "rightinverse" "rightinverse"
+equiv "rightinverse" "rightb"
+node "right" 27 48939.6 -316 -89 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2648 1508 5676 1916
+node "a7" 23 47824.8 -350 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2448 1240 1208 644 1164 412
+node "Z13d1" 16 35766 -350 109 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 452 242 0 0
+equiv "Z13d1" "a6"
+node "Z12d1" 17 35989.2 -350 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 508 270 0 0
+equiv "Z12d1" "a5"
+node "Z11d1" 17 36212.4 -350 123 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 564 298 0 0
+equiv "Z11d1" "a4"
+node "Z10d1" 17 36435.6 -350 130 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 620 326 0 0
+equiv "Z10d1" "a3"
+node "Z09d1" 18 36658.8 -350 137 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 676 354 0 0
+equiv "Z09d1" "a2"
+node "Z08d1" 18 36882 -350 144 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 732 382 0 0
+equiv "Z08d1" "a1"
+node "Z07d1" 18 37105.2 -350 151 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2432 1224 788 410 0 0
+equiv "Z07d1" "a0"
+node "Gnd!" 613 1252.8 -252 -389 poc 0 0 32 32 0 0 0 0 0 0 0 0 0 0 0 0 128 48 0 0 0 0
+node "Vdd!" 9225 3628.8 -270 -301 nw 64 64 0 0 640 176 0 0 0 0 0 0 0 0 0 0 256 80 0 0 0 0
+equiv "Vdd!" "Vdd!"
+cap "m2_n244_n136#" "Z05" 818.88
+cap "Z08" "m2_n36_37#" 275.04
+cap "s2mux04" "xorOutinverse" 773.04
+cap "Z01" "Z04" 409.44
+cap "Z13d1" "right" 363.6
+cap "s2mux05" "s2mux06" 1228.32
+cap "Z05" "Z06" 818.88
+cap "Z11d1" "rightinverse" 409.44
+cap "m2_140_n212#" "xorOutinverse" 275.04
+cap "Z09d1" "a7" 551.04
+cap "Z13d1" "Z08d1" 551.04
+cap "Z13d1" "Z10d1" 551.04
+cap "xorOutinverse" "s2mux09" 363.6
+cap "m2_n260_n81#" "Z09" 773.04
+cap "s2mux10" "s2mux09" 818.88
+cap "Z11" "Z08" 409.44
+cap "m2_n268_n349#" "m2_n132_n220#" 409.44
+cap "m2_n260_n81#" "Z12" 363.6
+cap "Vdd!" "Shamt_0" 825.6
+cap "m2_100_n343#" "m2_n260_n367#" 773.04
+cap "s2mux07" "s2mux06" 409.44
+cap "Z11" "Z10" 409.44
+cap "m2_n260_n81#" "Z03" 409.44
+cap "xorOutinverse" "s2mux06" 773.04
+cap "Z09d1" "right" 363.6
+cap "right" "Z09" 818.88
+cap "Z13d1" "rightinverse" 409.44
+cap "m2_n284_n349#" "s2mux02" 818.88
+cap "m2_n132_37#" "Z10" 275.04
+cap "m2_92_n212#" "xorOutinverse" 275.04
+cap "s2mux08" "m2_n284_n349#" 818.88
+cap "right" "Z12" 409.44
+cap "Z09d1" "Z10d1" 551.04
+cap "Z08d1" "Z09d1" 551.04
+cap "Z07" "m2_n260_n81#" 773.04
+cap "Z03" "right" 409.44
+cap "m2_n260_n81#" "Z08" 773.04
+cap "Z07d1" "a7" 551.04
+cap "m2_n244_n136#" "Z09" 818.88
+cap "Z13" "Z10" 409.44
+cap "m2_n244_n136#" "Z12" 409.44
+cap "arithAndA7" "Z09" 1637.76
+cap "m2_n260_n81#" "Z10" 773.04
+cap "arithAndA7" "Z12" 409.44
+cap "Z13d1" "Z11d1" 551.04
+cap "s2mux01" "m2_n284_n349#" 409.44
+cap "m2_n244_n136#" "Z03" 409.44
+cap "Z02" "m2_n260_n81#" 409.44
+cap "Z07" "right" 818.88
+cap "Z09" "Z06" 409.44
+cap "Z09d1" "rightinverse" 409.44
+cap "Z07d1" "right" 363.6
+cap "m2_n260_n81#" "Z04" 773.04
+cap "Z08" "right" 818.88
+cap "m2_n284_n349#" "s2mux05" 818.88
+cap "s2mux04" "s2mux03" 1228.32
+cap "Z03" "Z06" 409.44
+cap "right" "Z10" 818.88
+cap "Z01" "m2_n260_n81#" 409.44
+cap "Z07d1" "Z10d1" 551.04
+cap "Z08d1" "Z07d1" 551.04
+cap "Z07" "m2_n244_n136#" 818.88
+cap "m2_n284_n349#" "m2_n268_n349#" 1228.32
+cap "Z02" "right" 409.44
+cap "Z07" "arithAndA7" 818.88
+cap "m2_n244_n136#" "Z08" 818.88
+cap "m2_n260_n81#" "Shamt_2" 409.44
+cap "s2mux01" "s2mux00" 409.44
+cap "s2mux07" "m2_n284_n349#" 818.88
+cap "Z09d1" "Z11d1" 551.04
+cap "Z08" "arithAndA7" 1228.32
+cap "s2mux01" "s2mux02" 1228.32
+cap "right" "Z04" 409.44
+cap "Z12d1" "a7" 551.04
+cap "Z07" "Z06" 409.44
+cap "xorOutinverse" "m2_n284_n349#" 818.88
+cap "m2_n244_n136#" "Z10" 818.88
+cap "m2_n44_n343#" "m2_n268_n349#" 818.88
+cap "arithAndA7" "Z10" 1637.76
+cap "xorOutinverse" "m2_n4_n212#" 275.04
+cap "Z01" "right" 409.44
+cap "Z02" "m2_n244_n136#" 409.44
+cap "Z08" "Z06" 409.44
+cap "Z07d1" "rightinverse" 409.44
+cap "Vdd!" "m2_n284_n349#" 211.2
+cap "m2_4_n343#" "m2_n268_n349#" 818.88
+cap "Z03" "Z05" 409.44
+cap "m2_n244_n136#" "Z04" 818.88
+cap "right" "Z12d1" 363.6
+cap "Z01" "m2_n244_n136#" 409.44
+cap "Z11" "m2_n260_n81#" 363.6
+cap "Z13d1" "Z09d1" 551.04
+cap "Z08d1" "Z12d1" 551.04
+cap "s2mux08" "s2mux07" 1228.32
+cap "Z10d1" "Z12d1" 551.04
+cap "Z04" "Z06" 818.88
+cap "m2_196_n343#" "m2_n268_n349#" 818.88
+cap "xorOutinverse" "s2mux02" 773.04
+cap "s2mux08" "xorOutinverse" 773.04
+cap "Z07" "Z05" 409.44
+cap "m2_n44_n343#" "m2_n260_n367#" 773.04
+cap "Z07d1" "Z11d1" 551.04
+cap "Z08" "Z05" 409.44
+cap "m2_n260_n367#" "m2_4_n343#" 773.04
+cap "Z11" "right" 409.44
+cap "Z12d1" "rightinverse" 409.44
+cap "Z13" "m2_n260_n81#" 363.6
+cap "Z02" "Z05" 409.44
+cap "s2mux01" "xorOutinverse" 409.44
+cap "m2_n260_n81#" "Z14" 363.6
+cap "a7" "Z14" 409.44
+cap "Z05" "Z04" 818.88
+cap "Z11" "m2_n244_n136#" 409.44
+cap "Z13d1" "Z07d1" 551.04
+cap "m2_n260_n367#" "m2_196_n343#" 773.04
+cap "xorOutinverse" "s2mux05" 773.04
+cap "Z11" "arithAndA7" 409.44
+cap "Z12" "Z09" 409.44
+cap "m2_n260_n81#" "xorOutinverse" 409.44
+cap "arith" "rightinverse" 409.44
+cap "m2_n260_n81#" "s2mux10" 409.44
+cap "Z13" "right" 409.44
+cap "Z12d1" "Z11d1" 551.04
+cap "m2_n260_n81#" "right" 409.44
+cap "s2mux03" "m2_n284_n349#" 818.88
+cap "right" "Z14" 409.44
+cap "m2_n268_n349#" "m2_52_n343#" 818.88
+cap "right" "a7" 409.44
+cap "s2mux07" "xorOutinverse" 773.04
+cap "Vdd!" "m2_n268_n349#" 211.2
+cap "s2mux10" "xorOutinverse" 363.6
+cap "Z07" "Z09" 409.44
+cap "Z13" "m2_n244_n136#" 409.44
+cap "Z08d1" "a7" 551.04
+cap "Z10d1" "a7" 551.04
+cap "Z09d1" "Z07d1" 551.04
+cap "s2mux04" "m2_n284_n349#" 818.88
+cap "Z00" "right" 409.44
+cap "m2_n260_n81#" "m2_n244_n136#" 818.88
+cap "Z13" "arithAndA7" 409.44
+cap "Z08" "Z09" 409.44
+cap "m2_n260_n81#" "arithAndA7" 409.44
+cap "arithAndA7" "Z14" 409.44
+cap "arithAndA7" "a7" 409.44
+cap "Z10" "Z09" 409.44
+cap "Z13d1" "Z12d1" 551.04
+cap "m2_n268_n349#" "m2_n92_n343#" 818.88
+cap "s2mux03" "s2mux02" 818.88
+cap "m2_n260_n81#" "Z06" 773.04
+cap "Z10" "Z12" 409.44
+cap "Z08d1" "right" 363.6
+cap "Z10d1" "right" 363.6
+cap "m2_n284_n349#" "s2mux09" 409.44
+cap "m2_n260_n367#" "m2_52_n343#" 773.04
+cap "m2_188_n212#" "xorOutinverse" 275.04
+cap "Z09" "m2_n84_37#" 275.04
+cap "m2_n260_n81#" "rightinverse" 727.2
+cap "Vdd!" "Shamt_1" 825.6
+cap "a7" "rightinverse" 818.88
+cap "m2_148_n343#" "m2_n268_n349#" 818.88
+cap "arithAndA7" "right" 4775.76
+cap "Z08d1" "Z10d1" 551.04
+cap "m2_n284_n349#" "s2mux06" 818.88
+cap "Z07" "Z08" 409.44
+cap "m2_n52_n212#" "xorOutinverse" 275.04
+cap "xorOutinverse" "rightinverse" 409.44
+cap "Z03" "Z04" 363.6
+cap "right" "Z06" 409.44
+cap "Z07" "Z10" 409.44
+cap "right" "rightinverse" 1228.32
+cap "Z09d1" "Z12d1" 551.04
+cap "Vdd!" "rightinverse" 123.9
+cap "m2_n260_n367#" "m2_n92_n343#" 773.04
+cap "Z08" "Z10" 409.44
+cap "Z11d1" "a7" 551.04
+cap "m2_44_n212#" "xorOutinverse" 275.04
+cap "m2_n260_n81#" "Z05" 773.04
+cap "s2mux08" "s2mux09" 409.44
+cap "Z08d1" "rightinverse" 409.44
+cap "Z10d1" "rightinverse" 409.44
+cap "m2_n260_n367#" "rightinverse" 409.44
+cap "m2_n244_n136#" "Z06" 818.88
+cap "Z07" "Z04" 363.6
+cap "m2_n260_n367#" "m2_148_n343#" 773.04
+cap "Z05" "m2_52_n39#" 275.04
+cap "arithAndA7" "rightinverse" 818.88
+cap "m2_n244_n239#" "rightinverse" 342.24
+cap "right" "Z11d1" 363.6
+cap "s2mux04" "s2mux05" 409.44
+cap "Z05" "right" 409.44
+cap "s2mux03" "xorOutinverse" 773.04
+cap "m2_n100_n212#" "xorOutinverse" 275.04
+cap "Z11" "Z09" 409.44
+cap "Z02" "Z04" 409.44
+cap "Z13d1" "a7" 960.48
+cap "Z08d1" "Z11d1" 551.04
+cap "Z10d1" "Z11d1" 551.04
+cap "Z07d1" "Z12d1" 551.04
+cap "m2_100_n343#" "m2_n268_n349#" 818.88
+cap "inv_1x_3/y" "Vdd!" 66.6
+cap "inv_1x_3/a" "Vdd!" 198
+cap "inv_1x_2/y" "inv_1x_2/a" 31.86
+cap "inv_1x_3/y" "rightinverse" 25.92
+cap "inv_1x_3/a" "rightinverse" 9.72
+cap "inv_1x_2/a" "Vdd!" 253.62
+cap "inv_1x_3/a" "inv_1x_2/a" 9.72
+cap "rightinverse" "inv_1x_2/a" 9.72
+cap "inv_1x_2/y" "inv_1x_3/a" 25.92
+cap "inv_1x_2/y" "Shamt_0" 14.58
+cap "inv_1x_2/y" "rightinverse" 42.12
+cap "Vdd!" "Shamt_1" 268.2
+cap "inv_1x_2/y" "xor2_1x_1/a_3_8#" 73.44
+cap "inv_1x_2/a" "xor2_1x_1/a_18_62#" 17.82
+cap "inv_1x_2/y" "xor2_1x_2/a_3_8#" 92.88
+cap "inv_1x_2/y" "xor2_1x_2/a_28_46#" 83.16
+cap "inv_1x_2/a" "xor2_1x_1/y" 17.82
+cap "inv_1x_2/y" "xor2_1x_2/a_31_8#" 8.91
+cap "Shamt_1" "rightinverse" 3.24
+cap "Shamt_1" "Shamt_0" 15.66
+cap "xor2_1x_1/a_3_8#" "Shamt_1" 73.44
+cap "inv_1x_2/a" "xor2_1x_2/a_31_62#" 17.82
+cap "inv_1x_2/a" "Vdd!" 232.2
+cap "xor2_1x_1/a_18_62#" "xor2_1x_1/y" 17.82
+cap "inv_1x_2/y" "xor2_1x_1/b" 9.72
+cap "Shamt_1" "xor2_1x_2/a_3_8#" 73.44
+cap "Shamt_1" "xor2_1x_2/a_28_46#" 163.08
+cap "xor2_1x_2/a_31_62#" "xor2_1x_1/y" 17.82
+cap "inv_1x_2/a" "Shamt_0" 92.88
+cap "Vdd!" "xor2_1x_1/y" 290.88
+cap "inv_1x_2/a" "xor2_1x_2/a_18_62#" 17.82
+cap "inv_1x_2/a" "rightinverse" 102.6
+cap "Shamt_1" "xor2_1x_1/b" 14.04
+cap "inv_1x_2/a" "xor2_1x_1/a_3_8#" 63.9
+cap "inv_1x_2/a" "xor2_1x_2/a_28_46#" 63.9
+cap "inv_1x_2/a" "xor2_1x_2/a_3_8#" 63.9
+cap "rightinverse" "xor2_1x_1/y" 9.72
+cap "Shamt_0" "xor2_1x_1/y" 14.58
+cap "xor2_1x_1/a_3_8#" "xor2_1x_1/y" 83.16
+cap "xor2_1x_2/a_18_62#" "xor2_1x_1/y" 17.82
+cap "inv_1x_2/a" "xor2_1x_1/b" 9.72
+cap "Vdd!" "Shamt_0" 117
+cap "xor2_1x_2/a_28_46#" "xor2_1x_1/y" 83.16
+cap "xor2_1x_2/a_3_8#" "xor2_1x_1/y" 83.16
+cap "Vdd!" "rightinverse" 24.3
+cap "inv_1x_2/y" "xor2_1x_1/a_18_8#" 8.91
+cap "inv_1x_2/y" "inv_1x_2/a" 79.38
+cap "xor2_1x_1/b" "xor2_1x_1/y" 9.72
+cap "rightinverse" "Shamt_0" 12.96
+cap "xor2_1x_1/a_3_8#" "rightinverse" 135.36
+cap "xor2_1x_2/a_28_46#" "Shamt_0" 4.86
+cap "inv_1x_2/y" "xor2_1x_2/a_18_8#" 8.91
+cap "xor2_1x_2/a_3_8#" "Shamt_0" 113.94
+cap "xor2_1x_2/a_28_46#" "rightinverse" 76.68
+cap "rightinverse" "xor2_1x_2/a_3_8#" 287.46
+cap "inv_1x_2/y" "xor2_1x_1/y" 2.97
+cap "inv_1x_2/y" "Gnd!" 47.79
+cap "inv_1x_2/a" "Shamt_1" 73.44
+cap "Y7" "mux2_dp_1x_35/s" 25.92
+cap "xor2_1x_1/a_28_46#" "xor2_1x_1/y" 9.72
+cap "xor2_1x_1/a_28_46#" "mux2_dp_1x_35/s" 63.9
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/b" 4.86
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/a_3_8#" 19.44
+cap "mux2_dp_1x_35/sb" "mux2_dp_1x_35/a_17_7#" 83.16
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/a_31_8#" 8.91
+cap "xor2_1x_1/b" "xor2_1x_1/y" 73.44
+cap "mux2_dp_1x_35/a_17_7#" "mux2_dp_1x_35/s" 47.52
+cap "xor2_1x_1/b" "xor2_1x_1/Vdd!" 30.6
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/Gnd!" 15.93
+cap "xor2_1x_1/b" "mux2_dp_1x_35/s" 9.72
+cap "xor2_1x_1/b" "xor2_1x_1/a_28_46#" 93.96
+cap "Y7" "xor2_1x_1/Gnd!" 80.64
+cap "mux2_dp_1x_35/s" "mux2_dp_1x_35/a_25_74#" 27.27
+cap "mux2_dp_1x_35/s" "xor2_1x_1/a_31_62#" 5.94
+cap "xor2_1x_1/y" "xor2_1x_1/a_31_62#" 58.95
+cap "xor2_1x_1/a" "xor2_1x_1/y" 61.02
+cap "mux2_dp_1x_35/a_12_74#" "mux2_dp_1x_35/s" 17.82
+cap "mux2_dp_1x_35/sb" "mux2_dp_1x_34/a_17_7#" 73.44
+cap "mux2_dp_1x_35/sb" "mux2_dp_1x_35/d1" 9.72
+cap "mux2_dp_1x_35/sb" "mux2_dp_1x_35/d0" 27
+cap "xor2_1x_1/b" "xor2_1x_1/a" 10.8
+cap "mux2_dp_1x_35/s" "mux2_dp_1x_34/a_17_7#" 73.44
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/y" 76.41
+cap "mux2_dp_1x_35/sb" "mux2_dp_1x_34/d1" 1.62
+cap "mux2_dp_1x_35/d0" "mux2_dp_1x_35/s" 14.58
+cap "mux2_dp_1x_35/d0" "xor2_1x_1/Vdd!" 301.23
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/Vdd!" 142.2
+cap "mux2_dp_1x_35/d1" "xor2_1x_1/Vdd!" 204.3
+cap "mux2_dp_1x_35/sb" "xor2_1x_1/a_28_46#" 83.16
+cap "mux2_dp_1x_35/sb" "Y7" 30.24
+cap "mux2_dp_1x_35/s" "mux2_dp_1x_35/d1" 9.72
+cap "mux2_dp_1x_35/sb" "mux2_dp_1x_35/s" 31.86
+cap "mux2_dp_1x_34/d1" "xor2_1x_1/Vdd!" 204.3
+cap "xor2_1x_1/y" "mux2_dp_1x_35/s" 31.86
+cap "xor2_1x_1/y" "xor2_1x_1/Vdd!" 76.05
+cap "mux2_dp_1x_35/s" "xor2_1x_1/Vdd!" 259.11
+cap "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_32/d1" 204.3
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_34/Vdd!" 244.8
+cap "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_34/s" 195.3
+cap "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_33/d1" 204.3
+cap "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_34/d0" 301.23
+cap "mux2_dp_1x_34/Gnd!" "Y5" 80.64
+cap "mux2_dp_1x_34/s" "mux2_dp_1x_33/a_17_7#" 83.16
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_33/a_17_7#" 83.16
+cap "mux2_dp_1x_32/a_17_7#" "mux2_dp_1x_34/s" 73.44
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_32/a_17_7#" 73.44
+cap "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_33/d0" 301.23
+cap "mux2_dp_1x_34/s" "Y5" 25.92
+cap "mux2_dp_1x_34/sb" "Y5" 30.24
+cap "mux2_dp_1x_34/s" "mux2_dp_1x_34/a_17_7#" 9.72
+cap "mux2_dp_1x_34/Gnd!" "Y6" 80.64
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_32/d1" 1.62
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_34/a_17_7#" 9.72
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_34/s" 48.6
+cap "mux2_dp_1x_34/d0" "mux2_dp_1x_34/s" 9.72
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_33/d1" 1.62
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_34/d0" 27
+cap "mux2_dp_1x_34/s" "Y6" 25.92
+cap "mux2_dp_1x_34/sb" "Y6" 30.24
+cap "mux2_dp_1x_34/sb" "mux2_dp_1x_33/d0" 27
+cap "mux2_dp_1x_34/s" "mux2_dp_1x_33/d0" 9.72
+cap "mux2_dp_1x_31/a_17_7#" "mux2_dp_1x_32/s" 83.16
+cap "mux2_dp_1x_32/Vdd!" "mux2_dp_1x_30/d1" 204.3
+cap "mux2_dp_1x_31/sb" "mux2_dp_1x_31/d0" 27
+cap "mux2_dp_1x_32/s" "mux2_dp_1x_31/d0" 9.72
+cap "mux2_dp_1x_31/sb" "mux2_dp_1x_32/d0" 27
+cap "mux2_dp_1x_31/sb" "mux2_dp_1x_32/Vdd!" 241.2
+cap "mux2_dp_1x_31/sb" "Y4" 30.24
+cap "mux2_dp_1x_32/s" "mux2_dp_1x_32/d0" 9.72
+cap "mux2_dp_1x_31/d1" "mux2_dp_1x_32/Vdd!" 204.3
+cap "mux2_dp_1x_32/s" "mux2_dp_1x_32/Vdd!" 198
+cap "mux2_dp_1x_31/sb" "mux2_dp_1x_30/d1" 1.62
+cap "mux2_dp_1x_32/s" "Y4" 25.92
+cap "mux2_dp_1x_31/sb" "Y3" 30.24
+cap "mux2_dp_1x_30/d0" "mux2_dp_1x_31/sb" 8.64
+cap "mux2_dp_1x_32/s" "Y3" 25.92
+cap "mux2_dp_1x_31/d0" "mux2_dp_1x_32/Vdd!" 301.23
+cap "mux2_dp_1x_31/sb" "mux2_dp_1x_30/a_17_7#" 73.44
+cap "mux2_dp_1x_32/Gnd!" "Y4" 80.64
+cap "mux2_dp_1x_32/s" "mux2_dp_1x_30/a_17_7#" 73.44
+cap "mux2_dp_1x_32/Vdd!" "mux2_dp_1x_32/d0" 301.23
+cap "mux2_dp_1x_32/a_17_7#" "mux2_dp_1x_31/sb" 9.72
+cap "mux2_dp_1x_31/a_17_7#" "mux2_dp_1x_31/sb" 83.16
+cap "mux2_dp_1x_31/sb" "mux2_dp_1x_31/d1" 1.62
+cap "mux2_dp_1x_32/Gnd!" "Y3" 80.64
+cap "mux2_dp_1x_32/a_17_7#" "mux2_dp_1x_32/s" 9.72
+cap "mux2_dp_1x_32/s" "mux2_dp_1x_31/sb" 44.28
+cap "mux2_dp_1x_29/sb" "Y1" 30.24
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_30/a_17_7#" 9.72
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_30/d0" 18.36
+cap "Y1" "mux2_dp_1x_30/Gnd!" 80.64
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_29/d0" 27
+cap "mux2_dp_1x_30/s" "Y1" 25.92
+cap "mux2_dp_1x_30/s" "mux2_dp_1x_29/sb" 39.96
+cap "mux2_dp_1x_30/s" "mux2_dp_1x_30/a_17_7#" 9.72
+cap "mux2_dp_1x_30/s" "mux2_dp_1x_29/d0" 9.72
+cap "mux2_dp_1x_30/s" "mux2_dp_1x_30/d0" 9.72
+cap "mux2_dp_1x_30/Vdd!" "mux2_dp_1x_28/d1" 204.3
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_30/Vdd!" 178.2
+cap "mux2_dp_1x_30/d0" "mux2_dp_1x_30/Vdd!" 301.23
+cap "mux2_dp_1x_30/Vdd!" "mux2_dp_1x_29/d0" 301.23
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_29/d1" 1.62
+cap "mux2_dp_1x_30/s" "mux2_dp_1x_30/Vdd!" 192.6
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_29/a_17_7#" 83.16
+cap "mux2_dp_1x_28/d0" "mux2_dp_1x_30/s" 4.86
+cap "Y2" "mux2_dp_1x_29/sb" 30.24
+cap "mux2_dp_1x_30/s" "mux2_dp_1x_29/a_17_7#" 83.16
+cap "Y2" "mux2_dp_1x_30/Gnd!" 80.64
+cap "Y2" "mux2_dp_1x_30/s" 25.92
+cap "mux2_dp_1x_30/Vdd!" "mux2_dp_1x_29/d1" 204.3
+cap "mux2_dp_1x_29/sb" "mux2_dp_1x_28/d1" 1.62
+cap "mux2_dp_1x_28/a_17_7#" "mux2_dp_1x_30/s" 73.44
+cap "Y0" "mux2_dp_1x_28/Gnd!" 80.64
+cap "mux2_dp_1x_28/d0" "mux2_dp_1x_28/Vdd!" 301.23
+cap "xorOutinverse" "Vdd!" 41.04
+cap "inv_1x_1/a" "inv_1x_1/y" 25.92
+cap "inv_1x_1/a" "xor2_1x_0/a" 23.76
+cap "Shamt_2" "mux2_dp_1x_27/Vdd!" 149.4
+cap "mux2_dp_1x_27/Vdd!" "mux2_dp_1x_27/sb" 279
+cap "Shamt_2" "mux2_dp_1x_27/sb" 11.34
+cap "mux2_dp_1x_27/Vdd!" "xor2_1x_0/a" 19.8
+cap "Shamt_2" "xor2_1x_0/a_3_8#" 116.1
+cap "xor2_1x_0/a_3_8#" "mux2_dp_1x_27/sb" 73.44
+cap "xor2_1x_0/a_28_46#" "mux2_dp_1x_27/sb" 163.08
+cap "xor2_1x_0/a_28_46#" "Shamt_2" 3.24
+cap "mux2_dp_1x_27/d1" "mux2_dp_1x_27/Vdd!" 29.7
+cap "Shamt_2" "xor2_1x_0/a" 3.24
+cap "mux2_dp_1x_27/sb" "xor2_1x_0/a" 3.24
+cap "inv_1x_1/y" "xor2_1x_0/a" 8.64
+cap "mux2_dp_1x_27/d1" "mux2_dp_1x_27/sb" 1.62
+cap "xor2_1x_0/a_3_8#" "xor2_1x_0/a" 61.2
+cap "inv_1x_1/a" "xor2_1x_0/a_18_8#" 14.85
+cap "inv_1x_1/a" "Shamt_2" 92.88
+cap "inv_1x_1/a" "mux2_dp_1x_27/sb" 83.16
+cap "inv_1x_1/a" "inv_1x_1/Gnd!" 26.55
+cap "inv_1x_1/a" "xor2_1x_0/a_3_8#" 73.44
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_25/d1" 1.62
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_26/y" 25.92
+cap "mux2_dp_1x_27/s" "xor2_1x_1/Vdd!" 41.04
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_27/y" 25.92
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_27/a_17_7#" 83.16
+cap "mux2_dp_1x_26/a_17_7#" "mux2_dp_1x_26/y" 101.88
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_27/s" 78.66
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_27/a_17_7#" 47.52
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_26/a_17_7#" 83.16
+cap "mux2_dp_1x_25/Vdd!" "mux2_dp_1x_26/y" 21.6
+cap "mux2_dp_1x_25/Vdd!" "mux2_dp_1x_27/y" 15.3
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_27/d0" 18.36
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_26/a_17_7#" 83.16
+cap "mux2_dp_1x_25/d1" "mux2_dp_1x_25/Vdd!" 29.7
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_27/d0" 48.42
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_25/Vdd!" 198
+cap "mux2_dp_1x_27/Gnd!" "mux2_dp_1x_26/y" 246.33
+cap "mux2_dp_1x_27/y" "mux2_dp_1x_27/Gnd!" 80.64
+cap "mux2_dp_1x_27/y" "mux2_dp_1x_26/d1" 74.52
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_25/Vdd!" 246.6
+cap "mux2_dp_1x_25/Vdd!" "m2_n100_n212#" 21.6
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_26/d1" 1.62
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_26/d0" 18.36
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_27/Gnd!" 80.64
+cap "mux2_dp_1x_27/a_25_7#" "mux2_dp_1x_27/s" 24.3
+cap "mux2_dp_1x_27/d0" "mux2_dp_1x_25/Vdd!" 70.2
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_26/d0" 9.72
+cap "m2_n100_n212#" "mux2_dp_1x_26/d0" 20.16
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_25/a_17_7#" 73.44
+cap "xor2_1x_1/Vdd!" "mux2_dp_1x_26/y" 82.08
+cap "mux2_dp_1x_27/y" "xor2_1x_1/Vdd!" 41.04
+cap "mux2_dp_1x_25/d1" "mux2_dp_1x_26/y" 74.52
+cap "mux2_dp_1x_27/s" "mux2_dp_1x_25/a_17_7#" 73.44
+cap "mux2_dp_1x_25/Vdd!" "mux2_dp_1x_26/d1" 29.7
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_26/y" 30.24
+cap "mux2_dp_1x_27/sb" "mux2_dp_1x_27/y" 30.24
+cap "mux2_dp_1x_25/Vdd!" "mux2_dp_1x_26/d0" 70.2
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_23/Vdd!" 21.6
+cap "mux2_dp_1x_25/s" "mux2_dp_1x_23/a_17_7#" 73.44
+cap "mux2_dp_1x_25/s" "mux2_dp_1x_24/y" 25.92
+cap "mux2_dp_1x_25/s" "mux2_dp_1x_25/sb" 48.6
+cap "mux2_dp_1x_25/s" "mux2_dp_1x_24/a_17_7#" 83.16
+cap "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_24/d0" 70.2
+cap "m2_n52_n212#" "mux2_dp_1x_25/d0" 20.16
+cap "mux2_dp_1x_25/d0" "mux2_dp_1x_23/Vdd!" 70.2
+cap "m2_n4_n212#" "mux2_dp_1x_24/d0" 20.16
+cap "mux2_dp_1x_25/a_17_7#" "mux2_dp_1x_25/sb" 9.72
+cap "m2_n52_n212#" "mux2_dp_1x_23/Vdd!" 21.6
+cap "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_23/d1" 29.7
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_34/Vdd!" 82.08
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_25/sb" 30.24
+cap "mux2_dp_1x_25/Gnd!" "mux2_dp_1x_24/y" 246.33
+cap "m2_n4_n212#" "mux2_dp_1x_23/Vdd!" 21.6
+cap "mux2_dp_1x_24/d0" "mux2_dp_1x_25/sb" 18.36
+cap "mux2_dp_1x_25/d0" "mux2_dp_1x_25/sb" 18.36
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_24/d1" 74.52
+cap "mux2_dp_1x_23/d1" "mux2_dp_1x_25/sb" 1.62
+cap "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_24/y" 21.6
+cap "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_25/sb" 216
+cap "mux2_dp_1x_23/d1" "mux2_dp_1x_24/y" 74.52
+cap "mux2_dp_1x_25/s" "mux2_dp_1x_25/a_17_7#" 9.72
+cap "mux2_dp_1x_24/d1" "mux2_dp_1x_23/Vdd!" 29.7
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_25/s" 25.92
+cap "mux2_dp_1x_23/a_17_7#" "mux2_dp_1x_25/sb" 73.44
+cap "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_24/y" 82.08
+cap "mux2_dp_1x_24/y" "mux2_dp_1x_25/sb" 30.24
+cap "mux2_dp_1x_24/a_17_7#" "mux2_dp_1x_24/y" 101.88
+cap "mux2_dp_1x_24/a_17_7#" "mux2_dp_1x_25/sb" 83.16
+cap "mux2_dp_1x_25/s" "mux2_dp_1x_24/d0" 9.72
+cap "mux2_dp_1x_25/d0" "mux2_dp_1x_25/s" 9.72
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_25/a_17_7#" 101.88
+cap "mux2_dp_1x_25/y" "mux2_dp_1x_25/Gnd!" 246.33
+cap "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_25/s" 195.3
+cap "mux2_dp_1x_24/d1" "mux2_dp_1x_25/sb" 1.62
+cap "mux2_dp_1x_21/Vdd!" "m2_92_n212#" 21.6
+cap "mux2_dp_1x_21/Vdd!" "m2_44_n212#" 21.6
+cap "mux2_dp_1x_22/sb" "mux2_dp_1x_22/d1" 1.62
+cap "mux2_dp_1x_22/d0" "mux2_dp_1x_22/sb" 18.36
+cap "mux2_dp_1x_23/a_17_7#" "mux2_dp_1x_22/sb" 9.72
+cap "mux2_dp_1x_22/a_17_7#" "mux2_dp_1x_22/y" 101.88
+cap "mux2_dp_1x_22/d0" "mux2_dp_1x_21/Vdd!" 70.2
+cap "mux2_dp_1x_21/Vdd!" "mux2_dp_1x_22/d1" 29.7
+cap "mux2_dp_1x_23/a_17_7#" "mux2_dp_1x_23/s" 9.72
+cap "mux2_dp_1x_21/Vdd!" "mux2_dp_1x_22/sb" 198
+cap "mux2_dp_1x_22/d0" "mux2_dp_1x_23/s" 9.72
+cap "mux2_dp_1x_23/s" "mux2_dp_1x_22/sb" 44.28
+cap "mux2_dp_1x_21/Vdd!" "mux2_dp_1x_23/s" 198
+cap "mux2_dp_1x_21/a_17_7#" "mux2_dp_1x_22/sb" 73.44
+cap "mux2_dp_1x_23/y" "mux2_dp_1x_22/d1" 74.52
+cap "mux2_dp_1x_23/a_17_7#" "mux2_dp_1x_23/y" 101.88
+cap "mux2_dp_1x_22/sb" "mux2_dp_1x_22/y" 30.24
+cap "mux2_dp_1x_23/y" "mux2_dp_1x_22/sb" 30.24
+cap "mux2_dp_1x_21/Vdd!" "mux2_dp_1x_22/y" 21.6
+cap "mux2_dp_1x_23/y" "mux2_dp_1x_21/Vdd!" 21.6
+cap "mux2_dp_1x_21/d1" "mux2_dp_1x_22/sb" 1.62
+cap "mux2_dp_1x_21/a_17_7#" "mux2_dp_1x_23/s" 73.44
+cap "mux2_dp_1x_21/d1" "mux2_dp_1x_21/Vdd!" 29.7
+cap "mux2_dp_1x_23/s" "mux2_dp_1x_22/y" 25.92
+cap "mux2_dp_1x_23/y" "mux2_dp_1x_23/s" 25.92
+cap "m2_140_n212#" "mux2_dp_1x_21/d0" 20.16
+cap "m2_140_n212#" "mux2_dp_1x_21/Vdd!" 21.6
+cap "mux2_dp_1x_23/Gnd!" "mux2_dp_1x_22/y" 246.33
+cap "mux2_dp_1x_23/y" "mux2_dp_1x_23/Gnd!" 246.33
+cap "mux2_dp_1x_23/d0" "m2_44_n212#" 20.16
+cap "mux2_dp_1x_22/a_17_7#" "mux2_dp_1x_22/sb" 83.16
+cap "mux2_dp_1x_23/d0" "mux2_dp_1x_22/sb" 18.36
+cap "mux2_dp_1x_23/d0" "mux2_dp_1x_21/Vdd!" 70.2
+cap "mux2_dp_1x_21/d1" "mux2_dp_1x_22/y" 74.52
+cap "mux2_dp_1x_22/d0" "m2_92_n212#" 20.16
+cap "mux2_dp_1x_23/d0" "mux2_dp_1x_23/s" 9.72
+cap "mux2_dp_1x_32/Vdd!" "mux2_dp_1x_22/y" 82.08
+cap "mux2_dp_1x_23/y" "mux2_dp_1x_32/Vdd!" 82.08
+cap "mux2_dp_1x_22/a_17_7#" "mux2_dp_1x_23/s" 83.16
+cap "mux2_dp_1x_19/sb" "mux2_dp_1x_18/d1" 1.62
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_21/s" 192.6
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_19/y" 21.6
+cap "mux2_dp_1x_19/sb" "mux2_dp_1x_21/y" 30.24
+cap "mux2_dp_1x_21/Gnd!" "mux2_dp_1x_21/y" 246.33
+cap "mux2_dp_1x_19/a_17_7#" "mux2_dp_1x_19/sb" 83.16
+cap "mux2_dp_1x_18/y" "mux2_dp_1x_18/a_17_7#" 5.4
+cap "mux2_dp_1x_19/d0" "mux2_dp_1x_21/s" 9.72
+cap "mux2_dp_1x_19/y" "mux2_dp_1x_30/Vdd!" 82.08
+cap "mux2_dp_1x_21/y" "mux2_dp_1x_19/d1" 74.52
+cap "mux2_dp_1x_21/d0" "mux2_dp_1x_21/s" 9.72
+cap "mux2_dp_1x_18/y" "mux2_dp_1x_18/Vdd!" 0.9
+cap "mux2_dp_1x_19/sb" "mux2_dp_1x_21/s" 39.96
+cap "mux2_dp_1x_19/y" "mux2_dp_1x_19/sb" 30.24
+cap "mux2_dp_1x_21/Gnd!" "mux2_dp_1x_19/y" 246.33
+cap "mux2_dp_1x_19/d0" "mux2_dp_1x_18/Vdd!" 70.2
+cap "mux2_dp_1x_21/a_17_7#" "mux2_dp_1x_19/sb" 9.72
+cap "mux2_dp_1x_21/y" "mux2_dp_1x_21/s" 25.92
+cap "mux2_dp_1x_19/y" "mux2_dp_1x_18/d1" 74.52
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_21/d0" 70.2
+cap "mux2_dp_1x_18/Vdd!" "m2_188_n212#" 21.6
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_19/sb" 163.8
+cap "mux2_dp_1x_19/a_17_7#" "mux2_dp_1x_21/s" 83.16
+cap "mux2_dp_1x_19/y" "mux2_dp_1x_19/a_17_7#" 101.88
+cap "mux2_dp_1x_21/a_17_7#" "mux2_dp_1x_21/y" 101.88
+cap "mux2_dp_1x_19/d0" "m2_188_n212#" 20.16
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_19/d1" 29.7
+cap "mux2_dp_1x_19/d0" "mux2_dp_1x_19/sb" 18.36
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_18/d1" 29.7
+cap "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_21/y" 21.6
+cap "mux2_dp_1x_19/y" "mux2_dp_1x_21/s" 25.92
+cap "mux2_dp_1x_19/sb" "mux2_dp_1x_21/d0" 18.36
+cap "mux2_dp_1x_18/d0" "mux2_dp_1x_21/s" 4.86
+cap "mux2_dp_1x_18/a_17_7#" "mux2_dp_1x_21/s" 73.44
+cap "mux2_dp_1x_21/a_17_7#" "mux2_dp_1x_21/s" 9.72
+cap "mux2_dp_1x_30/Vdd!" "mux2_dp_1x_21/y" 82.08
+cap "mux2_dp_1x_19/sb" "mux2_dp_1x_19/d1" 1.62
+cap "mux2_dp_1x_28/Vdd!" "mux2_dp_1x_18/y" 41.04
+cap "mux2_dp_1x_18/y" "mux2_dp_1x_18/a_17_7#" 96.48
+cap "mux2_dp_1x_18/Gnd!" "mux2_dp_1x_18/y" 165.69
+cap "mux2_dp_1x_18/d0" "mux2_dp_1x_18/Vdd!" 70.2
+cap "mux2_dp_1x_18/y" "mux2_dp_1x_18/Vdd!" 9
+cap "arith" "inv_1x_0/a" 3.24
+cap "arith" "and2_1x_7/a_5_5#" 3.24
+cap "arith" "and2_1x_7/y" 8.64
+cap "inv_1x_0/Gnd!" "inv_1x_0/y" 80.64
+cap "s2mux10" "mux2_dp_1x_17/a_17_7#" 34.92
+cap "m2_n260_n81#" "inv_1x_1/y" 221.76
+cap "mux2_dp_1x_20/Gnd!" "m2_n260_n81#" 165.69
+cap "mux2_dp_1x_20/Gnd!" "xor2_1x_0/y" 80.64
+cap "mux2_dp_1x_20/sb" "xor2_1x_0/y" 34.38
+cap "s2mux09" "s2mux10" 8.28
+cap "mux2_dp_1x_17/sb" "s2mux10" 9.72
+cap "s2mux10" "mux2_dp_1x_20/Gnd!" 144.36
+cap "s2mux10" "mux2_dp_1x_17/d1" 9.72
+cap "inv_1x_1/Vdd!" "xor2_1x_0/y" 113.04
+cap "inv_1x_1/Vdd!" "m2_n260_n81#" 107.64
+cap "s2mux10" "mux2_dp_1x_17/a_25_7#" 11.88
+cap "s2mux09" "mux2_dp_1x_20/Gnd!" 99
+cap "s2mux10" "mux2_dp_1x_17/a_12_7#" 11.88
+cap "s2mux10" "mux2_dp_1x_17/d0" 9.72
+cap "inv_1x_1/Vdd!" "s2mux10" 215.64
+cap "mux2_dp_1x_20/a_25_7#" "xor2_1x_0/y" 24.3
+cap "s2mux10" "mux2_dp_1x_27/d1" 10.8
+cap "s2mux10" "mux2_dp_1x_17/s" 9.72
+cap "mux2_dp_1x_15/a_12_7#" "s2mux08" 11.88
+cap "s2mux07" "s2mux08" 8.28
+cap "s2mux07" "mux2_dp_1x_27/Vdd!" 272.07
+cap "mux2_dp_1x_15/s" "s2mux08" 9.72
+cap "s2mux09" "mux2_dp_1x_26/d1" 10.8
+cap "s2mux08" "mux2_dp_1x_27/Vdd!" 487.71
+cap "s2mux09" "mux2_dp_1x_27/Vdd!" 215.64
+cap "s2mux07" "mux2_dp_1x_16/Gnd!" 269.01
+cap "mux2_dp_1x_16/Gnd!" "s2mux08" 286.65
+cap "mux2_dp_1x_15/d1" "s2mux08" 9.72
+cap "mux2_dp_1x_25/d1" "s2mux08" 10.8
+cap "mux2_dp_1x_16/Gnd!" "s2mux09" 35.64
+cap "s2mux08" "mux2_dp_1x_15/a_17_7#" 34.92
+cap "mux2_dp_1x_15/d0" "s2mux08" 9.72
+cap "mux2_dp_1x_15/a_25_7#" "s2mux08" 11.88
+cap "mux2_dp_1x_15/sb" "s2mux08" 9.72
+cap "mux2_dp_1x_23/d1" "s2mux06" 10.8
+cap "s2mux05" "s2mux06" 8.28
+cap "mux2_dp_1x_13/a_25_7#" "s2mux06" 11.88
+cap "mux2_dp_1x_13/s" "s2mux06" 9.72
+cap "s2mux07" "mux2_dp_1x_14/Gnd!" 31.32
+cap "mux2_dp_1x_13/d1" "s2mux06" 9.72
+cap "mux2_dp_1x_14/Gnd!" "s2mux06" 286.65
+cap "mux2_dp_1x_24/d1" "s2mux07" 10.8
+cap "mux2_dp_1x_13/sb" "s2mux06" 9.72
+cap "mux2_dp_1x_25/Vdd!" "s2mux05" 272.07
+cap "mux2_dp_1x_13/a_12_7#" "s2mux06" 11.88
+cap "mux2_dp_1x_25/Vdd!" "mux2_dp_1x_25/s" -5.68434e-14
+cap "mux2_dp_1x_13/d0" "s2mux06" 9.72
+cap "s2mux05" "mux2_dp_1x_14/Gnd!" 273.33
+cap "mux2_dp_1x_25/Vdd!" "s2mux07" 215.64
+cap "mux2_dp_1x_13/a_17_7#" "s2mux06" 34.92
+cap "mux2_dp_1x_25/Vdd!" "s2mux06" 487.71
+cap "s2mux04" "mux2_dp_1x_12/Gnd!" 286.65
+cap "mux2_dp_1x_23/Vdd!" "s2mux03" 272.07
+cap "s2mux05" "mux2_dp_1x_22/d1" 10.8
+cap "s2mux04" "mux2_dp_1x_11/a_17_7#" 34.92
+cap "s2mux05" "mux2_dp_1x_23/Vdd!" 215.64
+cap "s2mux04" "mux2_dp_1x_21/d1" 10.8
+cap "s2mux03" "mux2_dp_1x_12/Gnd!" 277.65
+cap "s2mux04" "mux2_dp_1x_11/d0" 9.72
+cap "s2mux04" "mux2_dp_1x_11/sb" 9.72
+cap "s2mux04" "mux2_dp_1x_11/a_25_7#" 11.88
+cap "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_23/s" -7.10543e-14
+cap "s2mux05" "mux2_dp_1x_12/Gnd!" 27
+cap "s2mux04" "mux2_dp_1x_11/a_12_7#" 11.88
+cap "mux2_dp_1x_11/s" "s2mux04" 9.72
+cap "s2mux03" "s2mux04" 8.28
+cap "mux2_dp_1x_23/Vdd!" "s2mux04" 487.71
+cap "mux2_dp_1x_11/d1" "s2mux04" 9.72
+cap "mux2_dp_1x_9/a_25_7#" "s2mux02" 11.88
+cap "mux2_dp_1x_21/Vdd!" "s2mux03" 215.64
+cap "mux2_dp_1x_9/sb" "s2mux02" 9.72
+cap "s2mux02" "mux2_dp_1x_9/d1" 9.72
+cap "mux2_dp_1x_9/d0" "s2mux02" 9.72
+cap "s2mux02" "mux2_dp_1x_9/a_17_7#" 34.92
+cap "mux2_dp_1x_9/s" "s2mux02" 9.72
+cap "s2mux03" "mux2_dp_1x_9/d1" 45.9
+cap "mux2_dp_1x_9/a_12_7#" "s2mux02" 11.88
+cap "s2mux01" "mux2_dp_1x_10/Gnd!" 281.97
+cap "s2mux01" "mux2_dp_1x_21/Vdd!" 272.07
+cap "s2mux03" "mux2_dp_1x_19/d1" 10.8
+cap "s2mux02" "mux2_dp_1x_10/Gnd!" 286.65
+cap "s2mux01" "s2mux02" 8.28
+cap "s2mux03" "mux2_dp_1x_10/Gnd!" 99
+cap "mux2_dp_1x_18/d1" "s2mux02" 10.8
+cap "s2mux02" "mux2_dp_1x_21/Vdd!" 487.71
+cap "s2mux01" "mux2_dp_1x_8/Gnd!" 2.16
+cap "mux2_dp_1x_8/Gnd!" "s2mux00" 165.69
+cap "mux2_dp_1x_18/Vdd!" "s2mux00" 272.07
+cap "arith" "right" 6.48
+cap "mux2_dp_1x_20/d1" "mux2_dp_1x_0/Gnd!" 162.72
+cap "mux2_dp_1x_0/Gnd!" "Z13" 50.4
+cap "mux2_dp_1x_0/Gnd!" "rightb" 50.4
+cap "arith" "and2_1x_7/b" 9.72
+cap "arith" "arithAndA7" 17.28
+cap "inv_1x_0/Vdd!" "right" 389.88
+cap "mux2_dp_1x_20/d1" "and2_1x_7/b" 3.24
+cap "inv_1x_0/Vdd!" "arithAndA7" 107.64
+cap "inv_1x_0/Vdd!" "and2_1x_7/b" 147.6
+cap "mux2_dp_1x_20/sb" "and2_1x_7/a_5_5#" 87.48
+cap "mux2_dp_1x_20/sb" "right" 9.72
+cap "inv_1x_0/Vdd!" "rightb" 107.64
+cap "inv_1x_0/Vdd!" "mux2_dp_1x_20/d1" 245.34
+cap "mux2_dp_1x_20/sb" "and2_1x_7/b" 4.86
+cap "inv_1x_0/Vdd!" "Z13" 82.08
+cap "mux2_dp_1x_20/sb" "arith" 2.43
+cap "mux2_dp_1x_20/sb" "mux2_dp_1x_20/d1" 1.62
+cap "mux2_dp_1x_20/sb" "inv_1x_0/Vdd!" 157.5
+cap "mux2_dp_1x_0/Gnd!" "right" 50.4
+cap "and2_1x_7/b" "and2_1x_7/a_5_5#" 35.64
+cap "mux2_dp_1x_0/Gnd!" "arithAndA7" 100.8
+cap "and2_1x_7/b" "right" 9.72
+cap "arith" "and2_1x_7/a_5_5#" 6.48
+cap "mux2_dp_1x_20/d0" "mux2_dp_1x_1/Gnd!" 50.4
+cap "mux2_dp_1x_17/d0" "mux2_dp_1x_20/sb" 27
+cap "mux2_dp_1x_20/s" "mux2_dp_1x_17/d0" 9.72
+cap "mux2_dp_1x_20/Vdd!" "Z11" 97.2
+cap "mux2_dp_1x_1/Gnd!" "arithAndA7" 100.8
+cap "s2mux10" "mux2_dp_1x_20/sb" 30.24
+cap "mux2_dp_1x_20/d0" "mux2_dp_1x_20/sb" 18.36
+cap "mux2_dp_1x_16/d1" "mux2_dp_1x_1/Gnd!" 50.4
+cap "s2mux09" "mux2_dp_1x_20/sb" 30.24
+cap "mux2_dp_1x_20/s" "s2mux09" 25.92
+cap "mux2_dp_1x_20/s" "s2mux10" 25.92
+cap "mux2_dp_1x_20/s" "mux2_dp_1x_20/d0" 48.42
+cap "mux2_dp_1x_20/Vdd!" "mux2_dp_1x_17/d0" 342.27
+cap "mux2_dp_1x_20/sb" "mux2_dp_1x_17/d1" 11.34
+cap "mux2_dp_1x_20/s" "mux2_dp_1x_17/a_17_7#" 83.16
+cap "mux2_dp_1x_17/a_17_7#" "mux2_dp_1x_20/sb" 83.16
+cap "mux2_dp_1x_20/Vdd!" "mux2_dp_1x_20/d0" 342.27
+cap "mux2_dp_1x_16/d1" "mux2_dp_1x_20/sb" 1.62
+cap "mux2_dp_1x_20/Vdd!" "mux2_dp_1x_17/d1" 432.54
+cap "mux2_dp_1x_20/s" "mux2_dp_1x_20/sb" 44.28
+cap "mux2_dp_1x_16/d1" "mux2_dp_1x_20/Vdd!" 513.9
+cap "mux2_dp_1x_20/Vdd!" "mux2_dp_1x_20/sb" 245.7
+cap "mux2_dp_1x_20/Vdd!" "mux2_dp_1x_20/s" 247.5
+cap "mux2_dp_1x_20/s" "mux2_dp_1x_20/a_17_7#" 47.52
+cap "mux2_dp_1x_20/a_17_7#" "mux2_dp_1x_20/sb" 180.36
+cap "mux2_dp_1x_1/Gnd!" "Z11" 50.4
+cap "mux2_dp_1x_3/Gnd!" "mux2_dp_1x_14/d1" 50.4
+cap "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_14/d1" 513.9
+cap "s2mux07" "mux2_dp_1x_16/s" 25.92
+cap "mux2_dp_1x_16/d0" "mux2_dp_1x_3/Gnd!" 50.4
+cap "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_16/d0" 342.27
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_15/d1" 1.62
+cap "Z09" "mux2_dp_1x_3/Gnd!" 50.4
+cap "mux2_dp_1x_16/s" "s2mux08" 25.92
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_14/d1" 1.62
+cap "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_15/d0" 342.27
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_16/d0" 27
+cap "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_16/s" 192.6
+cap "mux2_dp_1x_16/s" "mux2_dp_1x_16/a_17_7#" 83.16
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_14/a_17_7#" 73.44
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_15/a_17_7#" 83.16
+cap "s2mux07" "mux2_dp_1x_16/Vdd!" 9.9
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_15/d0" 27
+cap "mux2_dp_1x_3/Gnd!" "Z09" 50.4
+cap "mux2_dp_1x_16/Vdd!" "Z09" 123.12
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_16/s" 44.28
+cap "mux2_dp_1x_16/a_17_7#" "s2mux08" 104.58
+cap "mux2_dp_1x_16/Vdd!" "s2mux08" 9.9
+cap "s2mux07" "mux2_dp_1x_16/sb" 30.24
+cap "mux2_dp_1x_16/sb" "s2mux08" 30.24
+cap "mux2_dp_1x_16/s" "mux2_dp_1x_16/d0" 9.72
+cap "mux2_dp_1x_16/s" "mux2_dp_1x_15/a_17_7#" 83.16
+cap "s2mux07" "mux2_dp_1x_15/a_17_7#" 101.88
+cap "mux2_dp_1x_16/s" "mux2_dp_1x_14/a_17_7#" 73.44
+cap "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_16/sb" 226.8
+cap "mux2_dp_1x_16/sb" "mux2_dp_1x_16/a_17_7#" 83.16
+cap "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_15/d1" 416.7
+cap "arithAndA7" "mux2_dp_1x_3/Gnd!" 100.8
+cap "mux2_dp_1x_16/s" "mux2_dp_1x_15/d0" 9.72
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_14/d0" 9.72
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_14/d0" 27
+cap "mux2_dp_1x_12/a_12_74#" "Z07" 8.91
+cap "mux2_dp_1x_5/Gnd!" "Z07" 330.84
+cap "s2mux05" "mux2_dp_1x_14/Vdd!" 9.9
+cap "mux2_dp_1x_12/a_17_7#" "Z07" 29.79
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_12/a_17_7#" 73.44
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_12/a_17_7#" 73.44
+cap "mux2_dp_1x_14/d0" "mux2_dp_1x_5/Gnd!" 50.4
+cap "mux2_dp_1x_14/Vdd!" "s2mux06" 9.9
+cap "s2mux05" "mux2_dp_1x_14/sb" 30.24
+cap "mux2_dp_1x_14/s" "s2mux05" 25.92
+cap "s2mux06" "mux2_dp_1x_14/a_17_7#" 101.88
+cap "mux2_dp_1x_14/sb" "s2mux06" 30.24
+cap "mux2_dp_1x_14/s" "s2mux06" 25.92
+cap "mux2_dp_1x_14/Vdd!" "mux2_dp_1x_13/d1" 390.78
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_13/d1" 1.62
+cap "mux2_dp_1x_14/Vdd!" "mux2_dp_1x_12/d1" 245.34
+cap "arithAndA7" "mux2_dp_1x_5/Gnd!" 50.4
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_13/a_17_7#" 83.16
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_13/a_17_7#" 83.16
+cap "mux2_dp_1x_13/d0" "mux2_dp_1x_14/Vdd!" 513.63
+cap "mux2_dp_1x_12/d1" "Z07" 37.8
+cap "mux2_dp_1x_14/Vdd!" "Z07" 168.12
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_14/Vdd!" 195.3
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_12/d1" 1.62
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_14/Vdd!" 244.8
+cap "mux2_dp_1x_13/d0" "mux2_dp_1x_14/sb" 27
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_13/d0" 9.72
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_14/a_17_7#" 9.72
+cap "mux2_dp_1x_14/sb" "mux2_dp_1x_14/a_17_7#" 9.72
+cap "mux2_dp_1x_14/Vdd!" "mux2_dp_1x_14/d0" 342.27
+cap "mux2_dp_1x_14/s" "Z07" 4.05
+cap "mux2_dp_1x_14/s" "mux2_dp_1x_14/sb" 48.6
+cap "mux2_dp_1x_14/sb" "Z07" 9.72
+cap "mux2_dp_1x_5/Gnd!" "mux2_dp_1x_12/d1" 50.4
+cap "s2mux05" "mux2_dp_1x_13/a_17_7#" 101.88
+cap "mux2_dp_1x_11/sb" "mux2_dp_1x_12/Vdd!" 241.2
+cap "mux2_dp_1x_10/a_17_7#" "mux2_dp_1x_11/sb" 73.44
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_11/d1" 4.05
+cap "and2_1x_0/Gnd!" "Z05" 50.4
+cap "mux2_dp_1x_10/a_12_74#" "mux2_dp_1x_11/d0" 5.94
+cap "mux2_dp_1x_10/d1" "mux2_dp_1x_11/d0" 9.72
+cap "s2mux03" "mux2_dp_1x_11/a_17_7#" 101.88
+cap "s2mux04" "mux2_dp_1x_12/a_17_7#" 101.88
+cap "s2mux03" "mux2_dp_1x_11/sb" 30.24
+cap "mux2_dp_1x_12/a_17_7#" "mux2_dp_1x_11/sb" 9.72
+cap "mux2_dp_1x_10/d1" "mux2_dp_1x_12/d0" 9.72
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_11/d0" 9.72
+cap "mux2_dp_1x_10/a_12_74#" "mux2_dp_1x_12/d0" 8.91
+cap "mux2_dp_1x_11/a_17_7#" "mux2_dp_1x_11/sb" 83.16
+cap "mux2_dp_1x_10/d1" "mux2_dp_1x_12/Vdd!" 245.34
+cap "s2mux04" "mux2_dp_1x_11/sb" 30.24
+cap "mux2_dp_1x_10/a_25_74#" "mux2_dp_1x_12/d0" 11.88
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_12/d0" 28.35
+cap "mux2_dp_1x_10/a_17_7#" "mux2_dp_1x_12/s" 73.44
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_12/Vdd!" 198
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_11/d1" 17.82
+cap "and2_1x_0/Gnd!" "right" 151.2
+cap "mux2_dp_1x_11/d1" "mux2_dp_1x_12/Vdd!" 146.52
+cap "mux2_dp_1x_10/d0" "mux2_dp_1x_11/sb" 8.64
+cap "mux2_dp_1x_10/d1" "mux2_dp_1x_11/sb" 1.62
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_12/a_17_7#" 9.72
+cap "mux2_dp_1x_11/d0" "mux2_dp_1x_12/d0" 9.72
+cap "s2mux03" "mux2_dp_1x_12/s" 25.92
+cap "mux2_dp_1x_11/d0" "mux2_dp_1x_12/Vdd!" 346.95
+cap "mux2_dp_1x_12/s" "s2mux04" 25.92
+cap "mux2_dp_1x_10/a_17_7#" "mux2_dp_1x_11/d0" 79.47
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_11/a_17_7#" 83.16
+cap "mux2_dp_1x_11/d1" "mux2_dp_1x_12/a_17_7#" 8.1
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_12/Vdd!" 620.01
+cap "mux2_dp_1x_12/s" "mux2_dp_1x_11/sb" 44.28
+cap "mux2_dp_1x_10/a_17_7#" "mux2_dp_1x_12/d0" 9.45
+cap "mux2_dp_1x_11/d1" "s2mux04" 24.57
+cap "mux2_dp_1x_11/d1" "mux2_dp_1x_11/sb" 1.62
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_11/a_12_74#" 11.88
+cap "and2_1x_0/Gnd!" "mux2_dp_1x_11/d0" 50.4
+cap "s2mux03" "mux2_dp_1x_11/d0" 28.89
+cap "mux2_dp_1x_12/a_25_74#" "mux2_dp_1x_11/d1" 5.94
+cap "and2_1x_0/Gnd!" "mux2_dp_1x_12/d0" 50.4
+cap "mux2_dp_1x_11/d0" "mux2_dp_1x_11/a_17_7#" 9.72
+cap "m2_52_n39#" "mux2_dp_1x_12/Vdd!" 60.48
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_12/a_17_7#" 9.72
+cap "s2mux03" "mux2_dp_1x_12/d0" 21.24
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_11/a_25_74#" 11.88
+cap "mux2_dp_1x_11/d0" "mux2_dp_1x_11/sb" 51.84
+cap "s2mux03" "mux2_dp_1x_12/Vdd!" 11.7
+cap "mux2_dp_1x_12/d0" "s2mux04" 21.24
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_11/a_17_7#" 34.92
+cap "mux2_dp_1x_12/d0" "mux2_dp_1x_11/sb" 40.77
+cap "Z05" "mux2_dp_1x_12/Vdd!" 583.92
+cap "s2mux04" "mux2_dp_1x_12/Vdd!" 9.9
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_9/a_25_74#" 11.88
+cap "mux2_dp_1x_9/sb" "mux2_dp_1x_10/s" 39.96
+cap "s2mux01" "mux2_dp_1x_10/Vdd!" 9.9
+cap "mux2_dp_1x_9/sb" "mux2_dp_1x_10/d0" 18.36
+cap "mux2_dp_1x_8/a_17_7#" "mux2_dp_1x_8/y" 5.4
+cap "mux2_dp_1x_10/s" "mux2_dp_1x_10/Vdd!" 192.6
+cap "s2mux01" "mux2_dp_1x_10/s" 25.92
+cap "mux2_dp_1x_9/a_17_7#" "mux2_dp_1x_8/d1" 34.92
+cap "and2_1x_3/Gnd!" "mux2_dp_1x_9/d0" 50.4
+cap "mux2_dp_1x_10/d0" "mux2_dp_1x_10/Vdd!" 342.27
+cap "mux2_dp_1x_8/d1" "s2mux02" 21.24
+cap "and2_1x_3/Gnd!" "right" 151.2
+cap "s2mux02" "mux2_dp_1x_10/a_17_7#" 101.88
+cap "mux2_dp_1x_9/d0" "mux2_dp_1x_8/d1" 9.72
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_10/a_17_7#" 9.72
+cap "mux2_dp_1x_10/s" "mux2_dp_1x_10/d0" 9.72
+cap "mux2_dp_1x_9/d1" "s2mux03" 13.5
+cap "mux2_dp_1x_9/a_17_7#" "mux2_dp_1x_9/sb" 83.16
+cap "mux2_dp_1x_9/sb" "s2mux02" 30.24
+cap "mux2_dp_1x_8/d0" "mux2_dp_1x_10/s" 4.86
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_9/sb" 11.34
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_9/d1" 9.72
+cap "mux2_dp_1x_9/d0" "mux2_dp_1x_9/sb" 27
+cap "mux2_dp_1x_9/sb" "mux2_dp_1x_10/a_17_7#" 9.72
+cap "mux2_dp_1x_8/a_17_7#" "mux2_dp_1x_10/s" 73.44
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_9/a_12_74#" 11.88
+cap "mux2_dp_1x_9/a_17_7#" "s2mux01" 101.88
+cap "s2mux02" "mux2_dp_1x_10/Vdd!" 11.7
+cap "mux2_dp_1x_9/sb" "mux2_dp_1x_9/d1" 1.62
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_10/Vdd!" 313.74
+cap "mux2_dp_1x_8/d1" "s2mux01" 21.24
+cap "mux2_dp_1x_8/y" "mux2_dp_1x_10/Vdd!" 0.9
+cap "and2_1x_3/Gnd!" "mux2_dp_1x_10/d0" 50.4
+cap "mux2_dp_1x_9/a_17_7#" "mux2_dp_1x_10/s" 83.16
+cap "mux2_dp_1x_9/d0" "mux2_dp_1x_10/Vdd!" 342.27
+cap "s2mux02" "mux2_dp_1x_10/s" 25.92
+cap "and2_1x_3/Gnd!" "mux2_dp_1x_8/d0" 50.4
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_10/s" 9.72
+cap "mux2_dp_1x_9/sb" "mux2_dp_1x_10/Vdd!" 178.2
+cap "mux2_dp_1x_9/sb" "s2mux01" 30.24
+cap "mux2_dp_1x_9/d1" "mux2_dp_1x_10/Vdd!" 338.94
+cap "mux2_dp_1x_9/d0" "mux2_dp_1x_10/s" 9.72
+cap "mux2_dp_1x_10/s" "mux2_dp_1x_10/a_17_7#" 9.72
+cap "mux2_dp_1x_8/d1" "mux2_dp_1x_10/d0" 9.72
+cap "mux2_dp_1x_8/Vdd!" "mux2_dp_1x_8/d0" 342.27
+cap "s2mux00" "mux2_dp_1x_8/Vdd!" 9
+cap "mux2_dp_1x_8/a_17_7#" "s2mux00" 96.48
+cap "right" "and2_1x_6/Gnd!" 50.4
+cap "Z13d0" "mux2_dp_1x_0/s" 9.72
+cap "a7" "mux2_dp_1x_0/Vdd!" 482.94
+cap "mux2_dp_1x_0/Gnd!" "Z14" 30.24
+cap "Z14d0" "mux2_dp_1x_0/s" 48.42
+cap "mux2_dp_1x_0/sb" "a7" 35.1
+cap "Z13" "mux2_dp_1x_0/Gnd!" 30.24
+cap "mux2_dp_1x_0/a_17_7#" "Z14d0" 85.68
+cap "Z13d0" "mux2_dp_1x_0/Vdd!" 16.2
+cap "mux2_dp_1x_0/a_25_7#" "mux2_dp_1x_0/s" 24.3
+cap "mux2_dp_1x_0/Gnd!" "mux2_dp_1x_0/sb" 61.02
+cap "Z13d0" "mux2_dp_1x_0/sb" 27
+cap "mux2_dp_1x_0/a_17_7#" "mux2_dp_1x_0/s" 47.52
+cap "Z14d0" "mux2_dp_1x_0/Vdd!" 16.2
+cap "Z14" "mux2_dp_1x_0/s" 25.92
+cap "Z14d0" "mux2_dp_1x_0/sb" 18.36
+cap "Z13" "mux2_dp_1x_0/s" 25.92
+cap "mux2_dp_1x_0/s" "mux2_dp_1x_0/Vdd!" 223.2
+cap "Z13d0" "mux2_dp_1x_1/a_17_7#" 85.68
+cap "mux2_dp_1x_0/sb" "mux2_dp_1x_0/s" 60.84
+cap "mux2_dp_1x_0/a_17_7#" "mux2_dp_1x_0/sb" 83.16
+cap "Z14" "mux2_dp_1x_0/sb" 30.24
+cap "mux2_dp_1x_0/s" "mux2_dp_1x_1/a_17_7#" 83.16
+cap "Z13" "mux2_dp_1x_0/sb" 30.24
+cap "mux2_dp_1x_0/sb" "mux2_dp_1x_0/Vdd!" 194.4
+cap "Z13d1" "mux2_dp_1x_0/Vdd!" 245.34
+cap "mux2_dp_1x_0/sb" "Z13d1" 1.62
+cap "Z13d0" "mux2_dp_1x_0/Gnd!" 115.29
+cap "mux2_dp_1x_0/sb" "mux2_dp_1x_1/a_17_7#" 83.16
+cap "mux2_dp_1x_0/Gnd!" "Z14d0" 115.29
+cap "mux2_dp_1x_0/Gnd!" "mux2_dp_1x_0/s" 30.24
+cap "Z11d1" "mux2_dp_1x_1/Vdd!" 245.34
+cap "Z12" "mux2_dp_1x_2/s" 25.92
+cap "mux2_dp_1x_2/sb" "Z12d0" 27
+cap "Z11d1" "Z10" 22.95
+cap "Z12d1" "mux2_dp_1x_1/Vdd!" 245.34
+cap "Z11d0" "mux2_dp_1x_2/sb" 27
+cap "Z11" "mux2_dp_1x_2/s" 25.92
+cap "Z12d0" "mux2_dp_1x_1/Gnd!" 115.29
+cap "Z12" "mux2_dp_1x_1/Vdd!" 2.7
+cap "Z11d0" "mux2_dp_1x_1/Gnd!" 115.29
+cap "mux2_dp_1x_2/sb" "mux2_dp_1x_3/a_17_7#" 83.16
+cap "mux2_dp_1x_2/s" "mux2_dp_1x_2/sb" 44.28
+cap "mux2_dp_1x_2/s" "Z12d0" 9.72
+cap "Z11d0" "mux2_dp_1x_3/a_17_7#" 85.68
+cap "Z11" "Z10" 12.96
+cap "Z11d0" "mux2_dp_1x_2/s" 9.72
+cap "mux2_dp_1x_2/sb" "mux2_dp_1x_1/Vdd!" 270
+cap "Z11d1" "mux2_dp_1x_2/sb" 1.62
+cap "Z12d0" "mux2_dp_1x_1/Vdd!" 16.2
+cap "mux2_dp_1x_2/sb" "Z10" 109.08
+cap "mux2_dp_1x_2/s" "mux2_dp_1x_3/a_17_7#" 83.16
+cap "Z11d0" "mux2_dp_1x_1/Vdd!" 16.2
+cap "mux2_dp_1x_2/sb" "Z12d1" 1.62
+cap "mux2_dp_1x_2/sb" "mux2_dp_1x_2/a_17_7#" 83.16
+cap "Z10" "mux2_dp_1x_1/Gnd!" 83.7
+cap "Z11d0" "Z10" 9.72
+cap "Z12d0" "mux2_dp_1x_2/a_17_7#" 85.68
+cap "Z12" "mux2_dp_1x_2/sb" 30.24
+cap "mux2_dp_1x_2/s" "mux2_dp_1x_1/Vdd!" 257.4
+cap "mux2_dp_1x_3/a_17_7#" "Z10" 83.16
+cap "Z12" "mux2_dp_1x_1/Gnd!" 30.24
+cap "Z11" "mux2_dp_1x_2/sb" 30.24
+cap "mux2_dp_1x_2/s" "Z10" 3.24
+cap "Z11" "mux2_dp_1x_1/Gnd!" 30.24
+cap "mux2_dp_1x_2/s" "mux2_dp_1x_2/a_17_7#" 83.16
+cap "Z09" "mux2_dp_1x_5/a_17_7#" 98.01
+cap "Z09d0" "mux2_dp_1x_3/Vdd!" 16.2
+cap "Z10d0" "Z09" 10.53
+cap "Z10d0" "Z10" 4.05
+cap "mux2_dp_1x_3/Vdd!" "Z10d1" 245.34
+cap "Z10" "Z09" 12.96
+cap "mux2_dp_1x_4/sb" "mux2_dp_1x_5/a_17_7#" 83.16
+cap "Z09d1" "mux2_dp_1x_3/Vdd!" 245.34
+cap "mux2_dp_1x_4/sb" "Z10d0" 27
+cap "mux2_dp_1x_3/Vdd!" "Z08d1" 245.34
+cap "mux2_dp_1x_4/sb" "Z09" 170.64
+cap "Z10d0" "m2_n132_37#" 6.75
+cap "mux2_dp_1x_4/sb" "Z10" 152.28
+cap "Z09d0" "mux2_dp_1x_5/a_17_7#" 85.68
+cap "Z09d0" "Z09" 4.05
+cap "Z09" "Z10d1" 22.95
+cap "mux2_dp_1x_3/Vdd!" "mux2_dp_1x_4/s" 235.8
+cap "Z09d1" "Z09" 9.72
+cap "Z10" "Z10d1" 9.72
+cap "mux2_dp_1x_3/Gnd!" "Z10d0" 115.29
+cap "mux2_dp_1x_4/sb" "Z09d0" 27
+cap "mux2_dp_1x_3/Gnd!" "Z10" 30.24
+cap "mux2_dp_1x_3/Gnd!" "Z09" 113.94
+cap "mux2_dp_1x_4/sb" "Z10d1" 1.62
+cap "mux2_dp_1x_5/a_17_7#" "mux2_dp_1x_4/s" 83.16
+cap "mux2_dp_1x_4/sb" "Z08d1" 1.62
+cap "Z09d1" "mux2_dp_1x_4/sb" 1.62
+cap "Z10d0" "mux2_dp_1x_4/s" 9.72
+cap "Z09" "mux2_dp_1x_4/s" 35.64
+cap "Z10" "mux2_dp_1x_4/s" 30.78
+cap "mux2_dp_1x_3/Gnd!" "Z09d0" 115.29
+cap "Z10d0" "mux2_dp_1x_4/a_17_7#" 85.68
+cap "Z08" "mux2_dp_1x_5/a_17_7#" 47.52
+cap "Z09" "mux2_dp_1x_4/a_17_7#" 89.64
+cap "Z10" "mux2_dp_1x_4/a_17_7#" 98.01
+cap "mux2_dp_1x_4/sb" "mux2_dp_1x_4/s" 44.28
+cap "Z08" "Z09" 18.9
+cap "Z09d0" "mux2_dp_1x_4/s" 9.72
+cap "mux2_dp_1x_4/sb" "mux2_dp_1x_4/a_17_7#" 83.16
+cap "m2_n132_37#" "mux2_dp_1x_4/a_17_7#" 10.08
+cap "mux2_dp_1x_5/a_25_7#" "Z08" 17.82
+cap "mux2_dp_1x_4/sb" "Z08" 9.72
+cap "Z08" "Z09d0" 9.72
+cap "Z09d1" "Z08" 15.12
+cap "mux2_dp_1x_3/Gnd!" "Z08" 99.36
+cap "Z08" "mux2_dp_1x_5/a_12_7#" 17.82
+cap "mux2_dp_1x_4/a_17_7#" "mux2_dp_1x_4/s" 83.16
+cap "mux2_dp_1x_5/a_17_7#" "m2_n84_37#" 10.08
+cap "Z08" "mux2_dp_1x_4/s" 9.72
+cap "Z10d0" "mux2_dp_1x_3/Vdd!" 16.2
+cap "Z09d0" "m2_n84_37#" 6.75
+cap "mux2_dp_1x_4/sb" "mux2_dp_1x_3/Vdd!" 250.2
+cap "Z08" "Z08d1" 25.11
+cap "mux2_dp_1x_6/s" "mux2_dp_1x_7/a_17_7#" 73.44
+cap "mux2_dp_1x_7/d0" "Z08" 6.48
+cap "mux2_dp_1x_5/Gnd!" "Z07" 284.76
+cap "Z07d1" "mux2_dp_1x_5/Vdd!" 245.34
+cap "mux2_dp_1x_6/sb" "mux2_dp_1x_6/a_17_7#" 83.16
+cap "mux2_dp_1x_5/Gnd!" "Z06" 30.24
+cap "Z08" "mux2_dp_1x_7/a_17_7#" 194.85
+cap "mux2_dp_1x_6/s" "mux2_dp_1x_5/Vdd!" 171
+cap "m2_n36_37#" "mux2_dp_1x_6/a_17_7#" 10.08
+cap "Z07d1" "Z08" 11.34
+cap "mux2_dp_1x_5/Vdd!" "Z08d0" 16.2
+cap "mux2_dp_1x_6/s" "Z08d0" 9.72
+cap "mux2_dp_1x_5/Gnd!" "Z08d0" 115.29
+cap "mux2_dp_1x_6/sb" "Z07d1" 1.62
+cap "mux2_dp_1x_6/s" "Z08" 36.45
+cap "mux2_dp_1x_5/Gnd!" "Z08" 166.59
+cap "mux2_dp_1x_6/sb" "mux2_dp_1x_5/Vdd!" 153
+cap "Z08d0" "Z08" 4.05
+cap "mux2_dp_1x_6/s" "mux2_dp_1x_6/sb" 39.96
+cap "mux2_dp_1x_6/s" "mux2_dp_1x_6/a_17_7#" 83.16
+cap "mux2_dp_1x_7/d0" "mux2_dp_1x_5/Vdd!" 342.27
+cap "mux2_dp_1x_6/sb" "Z08d0" 27
+cap "mux2_dp_1x_6/s" "mux2_dp_1x_7/d0" 4.86
+cap "mux2_dp_1x_6/sb" "Z08" 191.16
+cap "Z08d0" "mux2_dp_1x_6/a_17_7#" 85.68
+cap "Z08" "mux2_dp_1x_6/a_17_7#" 98.01
+cap "m2_n36_37#" "Z08d0" 6.75
+cap "and2_1x_2/a" "and2_1x_0/Gnd!" 30.24
+cap "and2_1x_2/b" "and2_1x_2/a" 43.2
+cap "and2_1x_0/Vdd!" "and2_1x_0/b" 236.43
+cap "and2_1x_1/a_15_7#" "and2_1x_1/a" 16.2
+cap "and2_1x_0/b" "and2_1x_0/a" 43.2
+cap "and2_1x_2/b" "and2_1x_0/Vdd!" 236.43
+cap "and2_1x_0/Gnd!" "and2_1x_0/a" 30.24
+cap "and2_1x_1/b" "and2_1x_1/a" 43.2
+cap "and2_1x_0/a_15_7#" "and2_1x_0/a" 16.2
+cap "Z04" "and2_1x_0/Gnd!" 30.24
+cap "Z05" "and2_1x_0/Gnd!" 30.24
+cap "and2_1x_2/a_15_7#" "and2_1x_2/a" 16.2
+cap "and2_1x_1/a" "and2_1x_0/Gnd!" 30.24
+cap "Z03" "and2_1x_0/Gnd!" 30.24
+cap "and2_1x_0/Vdd!" "and2_1x_1/b" 236.43
+cap "and2_1x_3/a" "and2_1x_3/Gnd!" 30.24
+cap "and2_1x_3/b" "and2_1x_3/a" 43.2
+cap "Z01" "and2_1x_3/Gnd!" 30.24
+cap "and2_1x_4/b" "and2_1x_4/a" 43.2
+cap "and2_1x_5/a" "and2_1x_3/Gnd!" 30.24
+cap "and2_1x_3/Vdd!" "and2_1x_3/b" 236.43
+cap "and2_1x_4/a_15_7#" "and2_1x_4/a" 16.2
+cap "Z00" "and2_1x_3/Gnd!" 30.24
+cap "and2_1x_5/a" "and2_1x_5/a_15_7#" 16.2
+cap "and2_1x_5/b" "and2_1x_3/Vdd!" 236.43
+cap "and2_1x_5/b" "and2_1x_5/a" 43.2
+cap "Z02" "and2_1x_3/Gnd!" 30.24
+cap "and2_1x_3/a_15_7#" "and2_1x_3/a" 16.2
+cap "and2_1x_4/a" "and2_1x_3/Gnd!" 30.24
+cap "and2_1x_3/Vdd!" "and2_1x_4/b" 236.43
+cap "and2_1x_6/a" "and2_1x_6/a_15_7#" 16.2
+cap "and2_1x_6/a" "and2_1x_6/Gnd!" 30.24
+cap "and2_1x_6/a" "and2_1x_6/b" 43.2
+cap "and2_1x_6/b" "and2_1x_6/Vdd!" 236.43
+merge "mux2_dp_1x_7/s" "mux2_dp_1x_6/s" -4992.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -144 -144 0 0
+merge "mux2_dp_1x_6/s" "mux2_dp_1x_5/s"
+merge "mux2_dp_1x_5/s" "mux2_dp_1x_4/s"
+merge "mux2_dp_1x_4/s" "mux2_dp_1x_3/s"
+merge "mux2_dp_1x_3/s" "mux2_dp_1x_2/s"
+merge "mux2_dp_1x_2/s" "mux2_dp_1x_1/s"
+merge "mux2_dp_1x_1/s" "mux2_dp_1x_0/s"
+merge "mux2_dp_1x_0/s" "inv_1x_0/y"
+merge "inv_1x_0/y" "xor2_1x_0/a"
+merge "xor2_1x_0/a" "xor2_1x_1/a"
+merge "xor2_1x_1/a" "xor2_1x_2/a"
+merge "xor2_1x_2/a" "rightinverse"
+merge "rightinverse" "rightb"
+merge "mux2_dp_1x_18/s" "mux2_dp_1x_19/s" -4968.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 632 -188 -5 0
+merge "mux2_dp_1x_19/s" "mux2_dp_1x_21/s"
+merge "mux2_dp_1x_21/s" "mux2_dp_1x_22/s"
+merge "mux2_dp_1x_22/s" "mux2_dp_1x_23/s"
+merge "mux2_dp_1x_23/s" "mux2_dp_1x_24/s"
+merge "mux2_dp_1x_24/s" "mux2_dp_1x_25/s"
+merge "mux2_dp_1x_25/s" "mux2_dp_1x_26/s"
+merge "mux2_dp_1x_26/s" "mux2_dp_1x_27/s"
+merge "mux2_dp_1x_27/s" "xor2_1x_1/y"
+merge "xor2_1x_1/y" "inv_1x_3/a"
+merge "inv_1x_3/a" "m2_n284_n349#"
+merge "mux2_dp_1x_8/Vdd!" "mux2_dp_1x_9/Vdd!" -23328 0 0 0 0 -5376 -1536 0 0 0 0 0 0 0 0 0 0 0 -192 0 0 0 0
+merge "mux2_dp_1x_9/Vdd!" "mux2_dp_1x_10/Vdd!"
+merge "mux2_dp_1x_10/Vdd!" "mux2_dp_1x_11/Vdd!"
+merge "mux2_dp_1x_11/Vdd!" "mux2_dp_1x_12/Vdd!"
+merge "mux2_dp_1x_12/Vdd!" "mux2_dp_1x_13/Vdd!"
+merge "mux2_dp_1x_13/Vdd!" "mux2_dp_1x_14/Vdd!"
+merge "mux2_dp_1x_14/Vdd!" "mux2_dp_1x_15/Vdd!"
+merge "mux2_dp_1x_15/Vdd!" "mux2_dp_1x_16/Vdd!"
+merge "mux2_dp_1x_16/Vdd!" "mux2_dp_1x_17/Vdd!"
+merge "mux2_dp_1x_17/Vdd!" "mux2_dp_1x_20/Vdd!"
+merge "mux2_dp_1x_20/Vdd!" "and2_1x_7/Vdd!"
+merge "and2_1x_7/Vdd!" "inv_1x_0/Vdd!"
+merge "mux2_dp_1x_28/Gnd!" "mux2_dp_1x_29/Gnd!" -3931.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -192 0 0 0 0
+merge "mux2_dp_1x_29/Gnd!" "mux2_dp_1x_30/Gnd!"
+merge "mux2_dp_1x_30/Gnd!" "mux2_dp_1x_31/Gnd!"
+merge "mux2_dp_1x_31/Gnd!" "mux2_dp_1x_32/Gnd!"
+merge "mux2_dp_1x_32/Gnd!" "mux2_dp_1x_33/Gnd!"
+merge "mux2_dp_1x_33/Gnd!" "mux2_dp_1x_34/Gnd!"
+merge "mux2_dp_1x_34/Gnd!" "mux2_dp_1x_35/Gnd!"
+merge "mux2_dp_1x_35/Gnd!" "xor2_1x_1/Gnd!"
+merge "xor2_1x_1/Gnd!" "xor2_1x_2/Gnd!"
+merge "xor2_1x_2/Gnd!" "inv_1x_2/Gnd!"
+merge "inv_1x_2/Gnd!" "inv_1x_3/Gnd!"
+merge "inv_1x_3/Gnd!" "Gnd!"
+merge "mux2_dp_1x_18/Vdd!" "mux2_dp_1x_19/Vdd!" -13392 0 0 0 0 -2800 -780 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0
+merge "mux2_dp_1x_19/Vdd!" "mux2_dp_1x_21/Vdd!"
+merge "mux2_dp_1x_21/Vdd!" "mux2_dp_1x_22/Vdd!"
+merge "mux2_dp_1x_22/Vdd!" "mux2_dp_1x_23/Vdd!"
+merge "mux2_dp_1x_23/Vdd!" "mux2_dp_1x_24/Vdd!"
+merge "mux2_dp_1x_24/Vdd!" "mux2_dp_1x_25/Vdd!"
+merge "mux2_dp_1x_25/Vdd!" "mux2_dp_1x_26/Vdd!"
+merge "mux2_dp_1x_26/Vdd!" "mux2_dp_1x_27/Vdd!"
+merge "mux2_dp_1x_27/Vdd!" "xor2_1x_0/Vdd!"
+merge "xor2_1x_0/Vdd!" "inv_1x_1/Vdd!"
+merge "xor2_1x_0/b" "Shamt_2" -598.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -14 0 0
+merge "mux2_dp_1x_8/Gnd!" "mux2_dp_1x_9/Gnd!" -3974.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 0 0 0 0
+merge "mux2_dp_1x_9/Gnd!" "mux2_dp_1x_10/Gnd!"
+merge "mux2_dp_1x_10/Gnd!" "mux2_dp_1x_11/Gnd!"
+merge "mux2_dp_1x_11/Gnd!" "mux2_dp_1x_12/Gnd!"
+merge "mux2_dp_1x_12/Gnd!" "mux2_dp_1x_13/Gnd!"
+merge "mux2_dp_1x_13/Gnd!" "mux2_dp_1x_14/Gnd!"
+merge "mux2_dp_1x_14/Gnd!" "mux2_dp_1x_15/Gnd!"
+merge "mux2_dp_1x_15/Gnd!" "mux2_dp_1x_16/Gnd!"
+merge "mux2_dp_1x_16/Gnd!" "mux2_dp_1x_17/Gnd!"
+merge "mux2_dp_1x_17/Gnd!" "mux2_dp_1x_20/Gnd!"
+merge "mux2_dp_1x_20/Gnd!" "and2_1x_7/Gnd!"
+merge "and2_1x_7/Gnd!" "inv_1x_0/Gnd!"
+merge "and2_1x_6/Vdd!" "and2_1x_5/Vdd!" -25576.2 0 0 0 0 -5824 -1792 0 0 0 0 0 0 0 0 0 0 10 -224 0 0 0 0
+merge "and2_1x_5/Vdd!" "and2_1x_4/Vdd!"
+merge "and2_1x_4/Vdd!" "and2_1x_3/Vdd!"
+merge "and2_1x_3/Vdd!" "and2_1x_2/Vdd!"
+merge "and2_1x_2/Vdd!" "and2_1x_1/Vdd!"
+merge "and2_1x_1/Vdd!" "and2_1x_0/Vdd!"
+merge "and2_1x_0/Vdd!" "mux2_dp_1x_7/Vdd!"
+merge "mux2_dp_1x_7/Vdd!" "mux2_dp_1x_6/Vdd!"
+merge "mux2_dp_1x_6/Vdd!" "mux2_dp_1x_5/Vdd!"
+merge "mux2_dp_1x_5/Vdd!" "mux2_dp_1x_4/Vdd!"
+merge "mux2_dp_1x_4/Vdd!" "mux2_dp_1x_3/Vdd!"
+merge "mux2_dp_1x_3/Vdd!" "mux2_dp_1x_2/Vdd!"
+merge "mux2_dp_1x_2/Vdd!" "mux2_dp_1x_1/Vdd!"
+merge "mux2_dp_1x_1/Vdd!" "mux2_dp_1x_0/Vdd!"
+merge "mux2_dp_1x_10/y" "mux2_dp_1x_18/d1" -1365.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 384 -48 -39 0
+merge "mux2_dp_1x_18/d1" "mux2_dp_1x_21/d0"
+merge "mux2_dp_1x_21/d0" "s2mux02"
+merge "and2_1x_2/y" "mux2_dp_1x_8/d1" -1773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 280 -48 74 0
+merge "mux2_dp_1x_8/d1" "mux2_dp_1x_12/d0"
+merge "mux2_dp_1x_12/d0" "Z04"
+merge "and2_1x_6/y" "mux2_dp_1x_8/d0" -1128.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 0 0
+merge "mux2_dp_1x_8/d0" "Z00"
+merge "mux2_dp_1x_8/sb" "mux2_dp_1x_9/sb" -9268.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -504 -396 270 0
+merge "mux2_dp_1x_9/sb" "mux2_dp_1x_10/sb"
+merge "mux2_dp_1x_10/sb" "mux2_dp_1x_11/sb"
+merge "mux2_dp_1x_11/sb" "mux2_dp_1x_12/sb"
+merge "mux2_dp_1x_12/sb" "mux2_dp_1x_13/sb"
+merge "mux2_dp_1x_13/sb" "mux2_dp_1x_14/sb"
+merge "mux2_dp_1x_14/sb" "mux2_dp_1x_15/sb"
+merge "mux2_dp_1x_15/sb" "mux2_dp_1x_16/sb"
+merge "mux2_dp_1x_16/sb" "mux2_dp_1x_17/sb"
+merge "mux2_dp_1x_17/sb" "mux2_dp_1x_20/sb"
+merge "mux2_dp_1x_20/sb" "inv_1x_1/y"
+merge "inv_1x_1/y" "m2_n260_n81#"
+merge "mux2_dp_1x_32/y" "Y4" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_1/d0" "Z13d0" -10411.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 -186 -1606 -552
+merge "Z13d0" "mux2_dp_1x_0/d0"
+merge "mux2_dp_1x_0/d0" "and2_1x_7/y"
+merge "and2_1x_7/y" "arithAndA7"
+merge "mux2_dp_1x_12/y" "mux2_dp_1x_21/d1" -651.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 920 -48 -51 0
+merge "mux2_dp_1x_21/d1" "mux2_dp_1x_23/d0"
+merge "mux2_dp_1x_23/d0" "s2mux04"
+merge "mux2_dp_1x_18/sb" "mux2_dp_1x_19/sb" -4914.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -112 -160 0 0
+merge "mux2_dp_1x_19/sb" "mux2_dp_1x_21/sb"
+merge "mux2_dp_1x_21/sb" "mux2_dp_1x_22/sb"
+merge "mux2_dp_1x_22/sb" "mux2_dp_1x_23/sb"
+merge "mux2_dp_1x_23/sb" "mux2_dp_1x_24/sb"
+merge "mux2_dp_1x_24/sb" "mux2_dp_1x_25/sb"
+merge "mux2_dp_1x_25/sb" "mux2_dp_1x_26/sb"
+merge "mux2_dp_1x_26/sb" "mux2_dp_1x_27/sb"
+merge "mux2_dp_1x_27/sb" "inv_1x_3/y"
+merge "inv_1x_3/y" "xorOutinverse"
+merge "and2_1x_6/a" "and2_1x_5/a" -30038.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -16 -584 -846 -2976 -1030
+merge "and2_1x_5/a" "and2_1x_4/a"
+merge "and2_1x_4/a" "and2_1x_3/a"
+merge "and2_1x_3/a" "and2_1x_2/a"
+merge "and2_1x_2/a" "and2_1x_1/a"
+merge "and2_1x_1/a" "and2_1x_0/a"
+merge "and2_1x_0/a" "mux2_dp_1x_7/sb"
+merge "mux2_dp_1x_7/sb" "mux2_dp_1x_6/sb"
+merge "mux2_dp_1x_6/sb" "mux2_dp_1x_5/sb"
+merge "mux2_dp_1x_5/sb" "mux2_dp_1x_4/sb"
+merge "mux2_dp_1x_4/sb" "mux2_dp_1x_3/sb"
+merge "mux2_dp_1x_3/sb" "mux2_dp_1x_2/sb"
+merge "mux2_dp_1x_2/sb" "mux2_dp_1x_1/sb"
+merge "mux2_dp_1x_1/sb" "mux2_dp_1x_0/sb"
+merge "mux2_dp_1x_0/sb" "inv_1x_0/a"
+merge "inv_1x_0/a" "right"
+merge "mux2_dp_1x_6/y" "mux2_dp_1x_12/d1" -3212.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 -74 -80 -98
+merge "mux2_dp_1x_12/d1" "mux2_dp_1x_16/d0"
+merge "mux2_dp_1x_16/d0" "Z08"
+merge "mux2_dp_1x_25/y" "mux2_dp_1x_33/d1" -1691.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux2_dp_1x_33/d1" "mux2_dp_1x_34/d0"
+merge "mux2_dp_1x_34/d0" "m2_n44_n343#"
+merge "mux2_dp_1x_1/y" "mux2_dp_1x_17/d1" -1279.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 0 0
+merge "mux2_dp_1x_17/d1" "Z13"
+merge "and2_1x_6/Gnd!" "and2_1x_5/Gnd!" -4528.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 -224 0 0 0 0
+merge "and2_1x_5/Gnd!" "and2_1x_4/Gnd!"
+merge "and2_1x_4/Gnd!" "and2_1x_3/Gnd!"
+merge "and2_1x_3/Gnd!" "and2_1x_2/Gnd!"
+merge "and2_1x_2/Gnd!" "and2_1x_1/Gnd!"
+merge "and2_1x_1/Gnd!" "and2_1x_0/Gnd!"
+merge "and2_1x_0/Gnd!" "mux2_dp_1x_7/Gnd!"
+merge "mux2_dp_1x_7/Gnd!" "mux2_dp_1x_6/Gnd!"
+merge "mux2_dp_1x_6/Gnd!" "mux2_dp_1x_5/Gnd!"
+merge "mux2_dp_1x_5/Gnd!" "mux2_dp_1x_4/Gnd!"
+merge "mux2_dp_1x_4/Gnd!" "mux2_dp_1x_3/Gnd!"
+merge "mux2_dp_1x_3/Gnd!" "mux2_dp_1x_2/Gnd!"
+merge "mux2_dp_1x_2/Gnd!" "mux2_dp_1x_1/Gnd!"
+merge "mux2_dp_1x_1/Gnd!" "mux2_dp_1x_0/Gnd!"
+merge "mux2_dp_1x_14/y" "mux2_dp_1x_23/d1" -1912.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 0 0
+merge "mux2_dp_1x_23/d1" "mux2_dp_1x_25/d0"
+merge "mux2_dp_1x_25/d0" "s2mux06"
+merge "mux2_dp_1x_23/y" "mux2_dp_1x_31/d1" -253.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 972 -46 74 0
+merge "mux2_dp_1x_31/d1" "mux2_dp_1x_32/d0"
+merge "mux2_dp_1x_32/d0" "m2_52_n343#"
+merge "and2_1x_4/b" "mux2_dp_1x_5/d1" -1408.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -56 0 0
+merge "mux2_dp_1x_5/d1" "Z09d1"
+merge "mux2_dp_1x_28/Vdd!" "mux2_dp_1x_29/Vdd!" -20059.2 0 -36 0 0 -4368 -1552 0 0 0 0 0 0 0 0 0 0 -16 -224 0 0 0 0
+merge "mux2_dp_1x_29/Vdd!" "mux2_dp_1x_30/Vdd!"
+merge "mux2_dp_1x_30/Vdd!" "mux2_dp_1x_31/Vdd!"
+merge "mux2_dp_1x_31/Vdd!" "mux2_dp_1x_32/Vdd!"
+merge "mux2_dp_1x_32/Vdd!" "mux2_dp_1x_33/Vdd!"
+merge "mux2_dp_1x_33/Vdd!" "mux2_dp_1x_34/Vdd!"
+merge "mux2_dp_1x_34/Vdd!" "mux2_dp_1x_35/Vdd!"
+merge "mux2_dp_1x_35/Vdd!" "xor2_1x_1/Vdd!"
+merge "xor2_1x_1/Vdd!" "xor2_1x_2/Vdd!"
+merge "xor2_1x_2/Vdd!" "inv_1x_2/Vdd!"
+merge "inv_1x_2/Vdd!" "inv_1x_3/Vdd!"
+merge "inv_1x_3/Vdd!" "Vdd!"
+merge "mux2_dp_1x_8/s" "mux2_dp_1x_9/s" -6501.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -176 -232 0 0
+merge "mux2_dp_1x_9/s" "mux2_dp_1x_10/s"
+merge "mux2_dp_1x_10/s" "mux2_dp_1x_11/s"
+merge "mux2_dp_1x_11/s" "mux2_dp_1x_12/s"
+merge "mux2_dp_1x_12/s" "mux2_dp_1x_13/s"
+merge "mux2_dp_1x_13/s" "mux2_dp_1x_14/s"
+merge "mux2_dp_1x_14/s" "mux2_dp_1x_15/s"
+merge "mux2_dp_1x_15/s" "mux2_dp_1x_16/s"
+merge "mux2_dp_1x_16/s" "mux2_dp_1x_17/s"
+merge "mux2_dp_1x_17/s" "mux2_dp_1x_20/s"
+merge "mux2_dp_1x_20/s" "xor2_1x_0/y"
+merge "xor2_1x_0/y" "m2_n244_n136#"
+merge "m2_n244_n136#" "inv_1x_1/a"
+merge "inv_1x_1/a" "m2_n244_n239#"
+merge "mux2_dp_1x_26/y" "mux2_dp_1x_34/d1" -1724.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 0 0
+merge "mux2_dp_1x_34/d1" "mux2_dp_1x_35/d0"
+merge "mux2_dp_1x_35/d0" "m2_n92_n343#"
+merge "mux2_dp_1x_18/Gnd!" "mux2_dp_1x_19/Gnd!" -3312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0
+merge "mux2_dp_1x_19/Gnd!" "mux2_dp_1x_21/Gnd!"
+merge "mux2_dp_1x_21/Gnd!" "mux2_dp_1x_22/Gnd!"
+merge "mux2_dp_1x_22/Gnd!" "mux2_dp_1x_23/Gnd!"
+merge "mux2_dp_1x_23/Gnd!" "mux2_dp_1x_24/Gnd!"
+merge "mux2_dp_1x_24/Gnd!" "mux2_dp_1x_25/Gnd!"
+merge "mux2_dp_1x_25/Gnd!" "mux2_dp_1x_26/Gnd!"
+merge "mux2_dp_1x_26/Gnd!" "mux2_dp_1x_27/Gnd!"
+merge "mux2_dp_1x_27/Gnd!" "xor2_1x_0/Gnd!"
+merge "xor2_1x_0/Gnd!" "inv_1x_1/Gnd!"
+merge "mux2_dp_1x_28/s" "mux2_dp_1x_29/s" -5419.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -168 0 0
+merge "mux2_dp_1x_29/s" "mux2_dp_1x_30/s"
+merge "mux2_dp_1x_30/s" "mux2_dp_1x_31/s"
+merge "mux2_dp_1x_31/s" "mux2_dp_1x_32/s"
+merge "mux2_dp_1x_32/s" "mux2_dp_1x_33/s"
+merge "mux2_dp_1x_33/s" "mux2_dp_1x_34/s"
+merge "mux2_dp_1x_34/s" "mux2_dp_1x_35/s"
+merge "mux2_dp_1x_35/s" "xor2_1x_2/y"
+merge "xor2_1x_2/y" "inv_1x_2/a"
+merge "inv_1x_2/a" "m2_n268_n349#"
+merge "mux2_dp_1x_4/d0" "Z10d0" -409.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_9/y" "mux2_dp_1x_19/d0" -1453.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -36 -18
+merge "mux2_dp_1x_19/d0" "s2mux01"
+merge "and2_1x_3/b" "mux2_dp_1x_4/d1" -1536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -64 0 0
+merge "mux2_dp_1x_4/d1" "Z10d1"
+merge "mux2_dp_1x_21/y" "mux2_dp_1x_29/d1" -1178.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 292 -46 66 0
+merge "mux2_dp_1x_29/d1" "mux2_dp_1x_30/d0"
+merge "mux2_dp_1x_30/d0" "m2_148_n343#"
+merge "mux2_dp_1x_28/sb" "mux2_dp_1x_29/sb" -4563.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -112 -148 0 0
+merge "mux2_dp_1x_29/sb" "mux2_dp_1x_30/sb"
+merge "mux2_dp_1x_30/sb" "mux2_dp_1x_31/sb"
+merge "mux2_dp_1x_31/sb" "mux2_dp_1x_32/sb"
+merge "mux2_dp_1x_32/sb" "mux2_dp_1x_33/sb"
+merge "mux2_dp_1x_33/sb" "mux2_dp_1x_34/sb"
+merge "mux2_dp_1x_34/sb" "mux2_dp_1x_35/sb"
+merge "mux2_dp_1x_35/sb" "inv_1x_2/y"
+merge "inv_1x_2/y" "m2_n260_n367#"
+merge "mux2_dp_1x_11/y" "mux2_dp_1x_19/d1" -6236.55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -468 -262 -150 -56
+merge "mux2_dp_1x_19/d1" "mux2_dp_1x_22/d0"
+merge "mux2_dp_1x_22/d0" "s2mux03"
+merge "mux2_dp_1x_5/y" "mux2_dp_1x_13/d1" -5356.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -180 -208 -80 -60
+merge "mux2_dp_1x_13/d1" "mux2_dp_1x_17/d0"
+merge "mux2_dp_1x_17/d0" "Z09"
+merge "mux2_dp_1x_27/y" "mux2_dp_1x_35/d1" -952.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "mux2_dp_1x_35/d1" "m2_n132_n220#"
+merge "mux2_dp_1x_22/y" "mux2_dp_1x_30/d1" -1691.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux2_dp_1x_30/d1" "mux2_dp_1x_31/d0"
+merge "mux2_dp_1x_31/d0" "m2_100_n343#"
+merge "mux2_dp_1x_19/y" "mux2_dp_1x_28/d1" -1691.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux2_dp_1x_28/d1" "mux2_dp_1x_29/d0"
+merge "mux2_dp_1x_29/d0" "m2_196_n343#"
+merge "mux2_dp_1x_18/y" "mux2_dp_1x_28/d0" -2350.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -116 42 -8
+merge "mux2_dp_1x_28/d0" "m2_244_n343#"
+merge "mux2_dp_1x_7/y" "mux2_dp_1x_11/d1" -7111.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -416 -244 -212 -156
+merge "mux2_dp_1x_11/d1" "mux2_dp_1x_15/d0"
+merge "mux2_dp_1x_15/d0" "Z07"
+merge "mux2_dp_1x_7/d0" "mux2_dp_1x_0/d1" -26547.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1848 -948 -41 -56 60 -6
+merge "mux2_dp_1x_0/d1" "and2_1x_7/b"
+merge "and2_1x_7/b" "a7"
+merge "mux2_dp_1x_15/y" "mux2_dp_1x_24/d1" -4954.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -308 -182 -198 -72
+merge "mux2_dp_1x_24/d1" "mux2_dp_1x_26/d0"
+merge "mux2_dp_1x_26/d0" "s2mux07"
+merge "mux2_dp_1x_3/y" "mux2_dp_1x_15/d1" -1140.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -32 0 0
+merge "mux2_dp_1x_15/d1" "Z11"
+merge "mux2_dp_1x_17/y" "mux2_dp_1x_26/d1" -4313.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -292 -166 -222 -80
+merge "mux2_dp_1x_26/d1" "s2mux09"
+merge "mux2_dp_1x_31/y" "Y3" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_8/y" "mux2_dp_1x_18/d0" -2946.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -146 -19 -8
+merge "mux2_dp_1x_18/d0" "s2mux00"
+merge "mux2_dp_1x_0/y" "mux2_dp_1x_20/d1" -1089.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0
+merge "mux2_dp_1x_20/d1" "Z14"
+merge "and2_1x_3/y" "mux2_dp_1x_11/d0" -480.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 472 -32 81 0
+merge "mux2_dp_1x_11/d0" "Z03"
+merge "and2_1x_6/b" "mux2_dp_1x_7/d1" -1408.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -56 0 0
+merge "mux2_dp_1x_7/d1" "Z07d1"
+merge "mux2_dp_1x_24/y" "mux2_dp_1x_32/d1" -1691.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -46 0 0
+merge "mux2_dp_1x_32/d1" "mux2_dp_1x_33/d0"
+merge "mux2_dp_1x_33/d0" "m2_4_n343#"
+merge "mux2_dp_1x_13/y" "mux2_dp_1x_22/d1" -4852.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -308 -182 -174 -64
+merge "mux2_dp_1x_22/d1" "mux2_dp_1x_24/d0"
+merge "mux2_dp_1x_24/d0" "s2mux05"
+merge "mux2_dp_1x_35/y" "Y7" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_28/y" "Y0" 69.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 392 -16 0 0
+merge "and2_1x_7/a" "arith" -337.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_4/y" "mux2_dp_1x_14/d1" -4210.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -82 -118 -160 -90
+merge "mux2_dp_1x_14/d1" "mux2_dp_1x_20/d0"
+merge "mux2_dp_1x_20/d0" "Z10"
+merge "mux2_dp_1x_29/y" "Y1" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_3/d0" "Z11d0" -409.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_1/y" "mux2_dp_1x_9/d1" -6067.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -216 -136 -600 -200
+merge "mux2_dp_1x_9/d1" "mux2_dp_1x_13/d0"
+merge "mux2_dp_1x_13/d0" "Z05"
+merge "mux2_dp_1x_5/d0" "Z09d0" -409.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_30/y" "Y2" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_2/b" "mux2_dp_1x_3/d1" -1408.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -56 0 0
+merge "mux2_dp_1x_3/d1" "Z11d1"
+merge "and2_1x_5/y" "mux2_dp_1x_9/d0" -1065 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "mux2_dp_1x_9/d0" "Z01"
+merge "and2_1x_0/y" "mux2_dp_1x_10/d1" -1589.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -48 0 0
+merge "mux2_dp_1x_10/d1" "mux2_dp_1x_14/d0"
+merge "mux2_dp_1x_14/d0" "Z06"
+merge "mux2_dp_1x_33/y" "Y5" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_4/y" "mux2_dp_1x_10/d0" -1043.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -32 0 0
+merge "mux2_dp_1x_10/d0" "Z02"
+merge "mux2_dp_1x_16/y" "mux2_dp_1x_25/d1" -1914.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 0 0
+merge "mux2_dp_1x_25/d1" "mux2_dp_1x_27/d0"
+merge "mux2_dp_1x_27/d0" "s2mux08"
+merge "and2_1x_0/b" "mux2_dp_1x_1/d1" -1207.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -44 0 0
+merge "mux2_dp_1x_1/d1" "Z13d1"
+merge "mux2_dp_1x_34/y" "Y6" -481.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_20/y" "mux2_dp_1x_27/d1" -1189.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "mux2_dp_1x_27/d1" "s2mux10"
+merge "xor2_1x_2/b" "Shamt_0" -544.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_6/d0" "Z08d0" -409.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_5/b" "mux2_dp_1x_6/d1" -1536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -64 0 0
+merge "mux2_dp_1x_6/d1" "Z08d1"
+merge "xor2_1x_1/b" "Shamt_1" -409.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux2_dp_1x_2/d0" "Z12d0" -409.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_1/b" "mux2_dp_1x_2/d1" -1387.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -56 0 0
+merge "mux2_dp_1x_2/d1" "Z12d1"
+merge "mux2_dp_1x_2/y" "mux2_dp_1x_16/d1" -1256.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "mux2_dp_1x_16/d1" "Z12"

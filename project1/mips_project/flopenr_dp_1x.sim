@@ -1,0 +1,65 @@
+| units: 30 tech: scmos format: MIT
+p enb Vdd! a_15_71# 2 12 13 71
+p d a_15_71# a_20_71# 2 12 18 71
+p slave a_20_71# a_28_77# 2 6 26 77
+p en a_28_77# Vdd! 2 6 31 77
+p resetb Vdd! a_20_71# 2 6 39 77
+p phi2b a_20_71# a_63_8# 2 6 61 77
+p ph2 a_63_8# a_71_79# 2 4 69 79
+p master a_71_79# Vdd! 2 4 76 79
+n resetb Gnd! a_15_8# 2 24 13 8
+n en a_15_8# a_23_14# 2 18 21 14
+p a_63_8# Vdd! master 2 9 85 74
+p phi1b master slave 2 6 93 77
+p ph1 slave a_103_79# 2 4 101 79
+p a_108_6# a_103_79# Vdd! 2 4 108 79
+n d a_23_14# a_20_71# 2 6 27 15
+n slave a_20_71# a_37_15# 2 6 35 15
+n enb a_37_15# a_15_8# 2 6 40 15
+n ph2 a_20_71# a_63_8# 2 6 61 8
+p slave Vdd! a_108_6# 2 9 117 74
+n phi2b a_63_8# a_71_8# 2 4 69 8
+n master a_71_8# Gnd! 2 4 76 8
+n a_63_8# Gnd! master 2 6 85 8
+n ph1 master slave 2 6 93 8
+p a_108_6# Vdd! q 2 10 133 73
+n phi1b slave a_103_8# 2 4 101 8
+n a_108_6# a_103_8# Gnd! 2 4 108 8
+n slave Gnd! a_108_6# 2 6 117 8
+n a_108_6# Gnd! q 2 7 133 8
+C a_20_71# Vdd! 4.2
+C enb Vdd! 2.8
+C phi2b Vdd! 2.2
+C slave Vdd! 2.7
+C Vdd! resetb 2.5
+C a_108_6# Vdd! 4.2
+C master Vdd! 2.7
+C phi1b Vdd! 2.1
+C Vdd! q 2.1
+C ph2 Vdd! 2.8
+R a_103_8# 103
+R q 327
+R a_71_8# 103
+R a_37_15# 164
+R a_103_79# 132
+R a_23_14# 485
+R a_15_8# 649
+R Gnd! 8793
+R a_71_79# 132
+R a_28_77# 210
+R a_20_71# 1601
+R a_15_71# 421
+R a_108_6# 2073
+R ph1 375
+R phi1b 946
+R a_63_8# 1174
+R master 1151
+R ph2 376
+R phi2b 957
+R resetb 1012
+R en 881
+C slave GND 5.1
+R slave 2287
+R d 853
+R enb 491
+R Vdd! 10159

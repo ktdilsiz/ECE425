@@ -1,0 +1,883 @@
+| units: 30 tech: scmos format: MIT
+p mux2_dp_1x_19/y Vdd! mux2_dp_1x_28/a_12_74# 2 9 222 -313
+p inv_1x_2/y mux2_dp_1x_28/a_12_74# mux2_dp_1x_28/a_17_7# 2 9 227 -313
+p inv_1x_2/a mux2_dp_1x_28/a_17_7# mux2_dp_1x_28/a_25_74# 2 9 235 -313
+p mux2_dp_1x_18/y mux2_dp_1x_28/a_25_74# Vdd! 2 9 240 -313
+p mux2_dp_1x_28/a_17_7# Vdd! Y0 2 10 248 -314
+n mux2_dp_1x_19/y Gnd! mux2_dp_1x_28/a_12_7# 2 6 222 -380
+n inv_1x_2/a mux2_dp_1x_28/a_12_7# mux2_dp_1x_28/a_17_7# 2 6 227 -380
+n inv_1x_2/y mux2_dp_1x_28/a_17_7# mux2_dp_1x_28/a_25_7# 2 6 235 -380
+n mux2_dp_1x_18/y mux2_dp_1x_28/a_25_7# Gnd! 2 6 240 -380
+n mux2_dp_1x_28/a_17_7# Gnd! Y0 2 7 248 -380
+p mux2_dp_1x_21/y Vdd! mux2_dp_1x_29/a_12_74# 2 9 174 -313
+p inv_1x_2/y mux2_dp_1x_29/a_12_74# mux2_dp_1x_29/a_17_7# 2 9 179 -313
+p inv_1x_2/a mux2_dp_1x_29/a_17_7# mux2_dp_1x_29/a_25_74# 2 9 187 -313
+p mux2_dp_1x_19/y mux2_dp_1x_29/a_25_74# Vdd! 2 9 192 -313
+p mux2_dp_1x_29/a_17_7# Vdd! Y1 2 10 200 -314
+n mux2_dp_1x_21/y Gnd! mux2_dp_1x_29/a_12_7# 2 6 174 -380
+n inv_1x_2/a mux2_dp_1x_29/a_12_7# mux2_dp_1x_29/a_17_7# 2 6 179 -380
+n inv_1x_2/y mux2_dp_1x_29/a_17_7# mux2_dp_1x_29/a_25_7# 2 6 187 -380
+n mux2_dp_1x_19/y mux2_dp_1x_29/a_25_7# Gnd! 2 6 192 -380
+n mux2_dp_1x_29/a_17_7# Gnd! Y1 2 7 200 -380
+p mux2_dp_1x_22/y Vdd! mux2_dp_1x_30/a_12_74# 2 9 126 -313
+p inv_1x_2/y mux2_dp_1x_30/a_12_74# mux2_dp_1x_30/a_17_7# 2 9 131 -313
+p inv_1x_2/a mux2_dp_1x_30/a_17_7# mux2_dp_1x_30/a_25_74# 2 9 139 -313
+p mux2_dp_1x_21/y mux2_dp_1x_30/a_25_74# Vdd! 2 9 144 -313
+p mux2_dp_1x_30/a_17_7# Vdd! Y2 2 10 152 -314
+n mux2_dp_1x_22/y Gnd! mux2_dp_1x_30/a_12_7# 2 6 126 -380
+n inv_1x_2/a mux2_dp_1x_30/a_12_7# mux2_dp_1x_30/a_17_7# 2 6 131 -380
+n inv_1x_2/y mux2_dp_1x_30/a_17_7# mux2_dp_1x_30/a_25_7# 2 6 139 -380
+n mux2_dp_1x_21/y mux2_dp_1x_30/a_25_7# Gnd! 2 6 144 -380
+n mux2_dp_1x_30/a_17_7# Gnd! Y2 2 7 152 -380
+p mux2_dp_1x_23/y Vdd! mux2_dp_1x_31/a_12_74# 2 9 78 -313
+p inv_1x_2/y mux2_dp_1x_31/a_12_74# mux2_dp_1x_31/a_17_7# 2 9 83 -313
+p inv_1x_2/a mux2_dp_1x_31/a_17_7# mux2_dp_1x_31/a_25_74# 2 9 91 -313
+p mux2_dp_1x_22/y mux2_dp_1x_31/a_25_74# Vdd! 2 9 96 -313
+p mux2_dp_1x_31/a_17_7# Vdd! Y3 2 10 104 -314
+n mux2_dp_1x_23/y Gnd! mux2_dp_1x_31/a_12_7# 2 6 78 -380
+n inv_1x_2/a mux2_dp_1x_31/a_12_7# mux2_dp_1x_31/a_17_7# 2 6 83 -380
+n inv_1x_2/y mux2_dp_1x_31/a_17_7# mux2_dp_1x_31/a_25_7# 2 6 91 -380
+n mux2_dp_1x_22/y mux2_dp_1x_31/a_25_7# Gnd! 2 6 96 -380
+n mux2_dp_1x_31/a_17_7# Gnd! Y3 2 7 104 -380
+p mux2_dp_1x_24/y Vdd! mux2_dp_1x_32/a_12_74# 2 9 30 -313
+p inv_1x_2/y mux2_dp_1x_32/a_12_74# mux2_dp_1x_32/a_17_7# 2 9 35 -313
+p inv_1x_2/a mux2_dp_1x_32/a_17_7# mux2_dp_1x_32/a_25_74# 2 9 43 -313
+p mux2_dp_1x_23/y mux2_dp_1x_32/a_25_74# Vdd! 2 9 48 -313
+p mux2_dp_1x_32/a_17_7# Vdd! Y4 2 10 56 -314
+n mux2_dp_1x_24/y Gnd! mux2_dp_1x_32/a_12_7# 2 6 30 -380
+n inv_1x_2/a mux2_dp_1x_32/a_12_7# mux2_dp_1x_32/a_17_7# 2 6 35 -380
+n inv_1x_2/y mux2_dp_1x_32/a_17_7# mux2_dp_1x_32/a_25_7# 2 6 43 -380
+n mux2_dp_1x_23/y mux2_dp_1x_32/a_25_7# Gnd! 2 6 48 -380
+n mux2_dp_1x_32/a_17_7# Gnd! Y4 2 7 56 -380
+p mux2_dp_1x_25/y Vdd! mux2_dp_1x_33/a_12_74# 2 9 -18 -313
+p inv_1x_2/y mux2_dp_1x_33/a_12_74# mux2_dp_1x_33/a_17_7# 2 9 -13 -313
+p inv_1x_2/a mux2_dp_1x_33/a_17_7# mux2_dp_1x_33/a_25_74# 2 9 -5 -313
+p mux2_dp_1x_24/y mux2_dp_1x_33/a_25_74# Vdd! 2 9 0 -313
+p mux2_dp_1x_33/a_17_7# Vdd! Y5 2 10 8 -314
+n mux2_dp_1x_25/y Gnd! mux2_dp_1x_33/a_12_7# 2 6 -18 -380
+n inv_1x_2/a mux2_dp_1x_33/a_12_7# mux2_dp_1x_33/a_17_7# 2 6 -13 -380
+n inv_1x_2/y mux2_dp_1x_33/a_17_7# mux2_dp_1x_33/a_25_7# 2 6 -5 -380
+n mux2_dp_1x_24/y mux2_dp_1x_33/a_25_7# Gnd! 2 6 0 -380
+n mux2_dp_1x_33/a_17_7# Gnd! Y5 2 7 8 -380
+p mux2_dp_1x_26/y Vdd! mux2_dp_1x_34/a_12_74# 2 9 -66 -313
+p inv_1x_2/y mux2_dp_1x_34/a_12_74# mux2_dp_1x_34/a_17_7# 2 9 -61 -313
+p inv_1x_2/a mux2_dp_1x_34/a_17_7# mux2_dp_1x_34/a_25_74# 2 9 -53 -313
+p mux2_dp_1x_25/y mux2_dp_1x_34/a_25_74# Vdd! 2 9 -48 -313
+p mux2_dp_1x_34/a_17_7# Vdd! Y6 2 10 -40 -314
+n mux2_dp_1x_26/y Gnd! mux2_dp_1x_34/a_12_7# 2 6 -66 -380
+n inv_1x_2/a mux2_dp_1x_34/a_12_7# mux2_dp_1x_34/a_17_7# 2 6 -61 -380
+n inv_1x_2/y mux2_dp_1x_34/a_17_7# mux2_dp_1x_34/a_25_7# 2 6 -53 -380
+n mux2_dp_1x_25/y mux2_dp_1x_34/a_25_7# Gnd! 2 6 -48 -380
+n mux2_dp_1x_34/a_17_7# Gnd! Y6 2 7 -40 -380
+p mux2_dp_1x_27/y Vdd! mux2_dp_1x_35/a_12_74# 2 9 -114 -313
+p inv_1x_2/y mux2_dp_1x_35/a_12_74# mux2_dp_1x_35/a_17_7# 2 9 -109 -313
+p inv_1x_2/a mux2_dp_1x_35/a_17_7# mux2_dp_1x_35/a_25_74# 2 9 -101 -313
+p mux2_dp_1x_26/y mux2_dp_1x_35/a_25_74# Vdd! 2 9 -96 -313
+p mux2_dp_1x_35/a_17_7# Vdd! Y7 2 10 -88 -314
+n mux2_dp_1x_27/y Gnd! mux2_dp_1x_35/a_12_7# 2 6 -114 -380
+n inv_1x_2/a mux2_dp_1x_35/a_12_7# mux2_dp_1x_35/a_17_7# 2 6 -109 -380
+n inv_1x_2/y mux2_dp_1x_35/a_17_7# mux2_dp_1x_35/a_25_7# 2 6 -101 -380
+n mux2_dp_1x_26/y mux2_dp_1x_35/a_25_7# Gnd! 2 6 -96 -380
+n mux2_dp_1x_35/a_17_7# Gnd! Y7 2 7 -88 -380
+p rightb xor2_1x_1/a_3_8# Vdd! 2 9 -172 -314
+p xor2_1x_1/a_3_8# Vdd! xor2_1x_1/a_18_62# 2 20 -164 -325
+p Shamt_1 xor2_1x_1/a_18_62# inv_1x_3/a 2 20 -159 -325
+p xor2_1x_1/a_28_46# inv_1x_3/a xor2_1x_1/a_31_62# 2 20 -151 -325
+p rightb xor2_1x_1/a_31_62# Vdd! 2 20 -146 -325
+p Shamt_1 Vdd! xor2_1x_1/a_28_46# 2 9 -138 -314
+n rightb xor2_1x_1/a_3_8# Gnd! 2 6 -172 -379
+n rightb Gnd! xor2_1x_1/a_18_8# 2 14 -164 -379
+n Shamt_1 xor2_1x_1/a_18_8# inv_1x_3/a 2 14 -159 -379
+n xor2_1x_1/a_28_46# inv_1x_3/a xor2_1x_1/a_31_8# 2 14 -151 -379
+n xor2_1x_1/a_3_8# xor2_1x_1/a_31_8# Gnd! 2 14 -146 -379
+n Shamt_1 Gnd! xor2_1x_1/a_28_46# 2 6 -138 -379
+p rightb xor2_1x_2/a_3_8# Vdd! 2 9 -228 -314
+p xor2_1x_2/a_3_8# Vdd! xor2_1x_2/a_18_62# 2 20 -220 -325
+p Shamt_0 xor2_1x_2/a_18_62# inv_1x_2/a 2 20 -215 -325
+p xor2_1x_2/a_28_46# inv_1x_2/a xor2_1x_2/a_31_62# 2 20 -207 -325
+p rightb xor2_1x_2/a_31_62# Vdd! 2 20 -202 -325
+p Shamt_0 Vdd! xor2_1x_2/a_28_46# 2 9 -194 -314
+n rightb xor2_1x_2/a_3_8# Gnd! 2 6 -228 -379
+n rightb Gnd! xor2_1x_2/a_18_8# 2 14 -220 -379
+n Shamt_0 xor2_1x_2/a_18_8# inv_1x_2/a 2 14 -215 -379
+n xor2_1x_2/a_28_46# inv_1x_2/a xor2_1x_2/a_31_8# 2 14 -207 -379
+n xor2_1x_2/a_3_8# xor2_1x_2/a_31_8# Gnd! 2 14 -202 -379
+n Shamt_0 Gnd! xor2_1x_2/a_28_46# 2 6 -194 -379
+p inv_1x_2/a Vdd! inv_1x_2/y 2 10 -263 -314
+n inv_1x_2/a Gnd! inv_1x_2/y 2 7 -263 -380
+p inv_1x_3/a Vdd! xorOutinverse 2 10 -279 -314
+n inv_1x_3/a Gnd! xorOutinverse 2 7 -279 -380
+p s2mux02 Vdd! mux2_dp_1x_18/a_12_74# 2 9 222 -183
+p xorOutinverse mux2_dp_1x_18/a_12_74# mux2_dp_1x_18/a_17_7# 2 9 227 -183
+p inv_1x_3/a mux2_dp_1x_18/a_17_7# mux2_dp_1x_18/a_25_74# 2 9 235 -183
+p s2mux00 mux2_dp_1x_18/a_25_74# Vdd! 2 9 240 -183
+p mux2_dp_1x_18/a_17_7# Vdd! mux2_dp_1x_18/y 2 10 248 -184
+n s2mux02 Gnd! mux2_dp_1x_18/a_12_7# 2 6 222 -250
+n inv_1x_3/a mux2_dp_1x_18/a_12_7# mux2_dp_1x_18/a_17_7# 2 6 227 -250
+n xorOutinverse mux2_dp_1x_18/a_17_7# mux2_dp_1x_18/a_25_7# 2 6 235 -250
+n s2mux00 mux2_dp_1x_18/a_25_7# Gnd! 2 6 240 -250
+n mux2_dp_1x_18/a_17_7# Gnd! mux2_dp_1x_18/y 2 7 248 -250
+p s2mux03 Vdd! mux2_dp_1x_19/a_12_74# 2 9 174 -183
+p xorOutinverse mux2_dp_1x_19/a_12_74# mux2_dp_1x_19/a_17_7# 2 9 179 -183
+p inv_1x_3/a mux2_dp_1x_19/a_17_7# mux2_dp_1x_19/a_25_74# 2 9 187 -183
+p s2mux01 mux2_dp_1x_19/a_25_74# Vdd! 2 9 192 -183
+p mux2_dp_1x_19/a_17_7# Vdd! mux2_dp_1x_19/y 2 10 200 -184
+n s2mux03 Gnd! mux2_dp_1x_19/a_12_7# 2 6 174 -250
+n inv_1x_3/a mux2_dp_1x_19/a_12_7# mux2_dp_1x_19/a_17_7# 2 6 179 -250
+n xorOutinverse mux2_dp_1x_19/a_17_7# mux2_dp_1x_19/a_25_7# 2 6 187 -250
+n s2mux01 mux2_dp_1x_19/a_25_7# Gnd! 2 6 192 -250
+n mux2_dp_1x_19/a_17_7# Gnd! mux2_dp_1x_19/y 2 7 200 -250
+p s2mux04 Vdd! mux2_dp_1x_21/a_12_74# 2 9 126 -183
+p xorOutinverse mux2_dp_1x_21/a_12_74# mux2_dp_1x_21/a_17_7# 2 9 131 -183
+p inv_1x_3/a mux2_dp_1x_21/a_17_7# mux2_dp_1x_21/a_25_74# 2 9 139 -183
+p s2mux02 mux2_dp_1x_21/a_25_74# Vdd! 2 9 144 -183
+p mux2_dp_1x_21/a_17_7# Vdd! mux2_dp_1x_21/y 2 10 152 -184
+n s2mux04 Gnd! mux2_dp_1x_21/a_12_7# 2 6 126 -250
+n inv_1x_3/a mux2_dp_1x_21/a_12_7# mux2_dp_1x_21/a_17_7# 2 6 131 -250
+n xorOutinverse mux2_dp_1x_21/a_17_7# mux2_dp_1x_21/a_25_7# 2 6 139 -250
+n s2mux02 mux2_dp_1x_21/a_25_7# Gnd! 2 6 144 -250
+n mux2_dp_1x_21/a_17_7# Gnd! mux2_dp_1x_21/y 2 7 152 -250
+p s2mux05 Vdd! mux2_dp_1x_22/a_12_74# 2 9 78 -183
+p xorOutinverse mux2_dp_1x_22/a_12_74# mux2_dp_1x_22/a_17_7# 2 9 83 -183
+p inv_1x_3/a mux2_dp_1x_22/a_17_7# mux2_dp_1x_22/a_25_74# 2 9 91 -183
+p s2mux03 mux2_dp_1x_22/a_25_74# Vdd! 2 9 96 -183
+p mux2_dp_1x_22/a_17_7# Vdd! mux2_dp_1x_22/y 2 10 104 -184
+n s2mux05 Gnd! mux2_dp_1x_22/a_12_7# 2 6 78 -250
+n inv_1x_3/a mux2_dp_1x_22/a_12_7# mux2_dp_1x_22/a_17_7# 2 6 83 -250
+n xorOutinverse mux2_dp_1x_22/a_17_7# mux2_dp_1x_22/a_25_7# 2 6 91 -250
+n s2mux03 mux2_dp_1x_22/a_25_7# Gnd! 2 6 96 -250
+n mux2_dp_1x_22/a_17_7# Gnd! mux2_dp_1x_22/y 2 7 104 -250
+p s2mux06 Vdd! mux2_dp_1x_23/a_12_74# 2 9 30 -183
+p xorOutinverse mux2_dp_1x_23/a_12_74# mux2_dp_1x_23/a_17_7# 2 9 35 -183
+p inv_1x_3/a mux2_dp_1x_23/a_17_7# mux2_dp_1x_23/a_25_74# 2 9 43 -183
+p s2mux04 mux2_dp_1x_23/a_25_74# Vdd! 2 9 48 -183
+p mux2_dp_1x_23/a_17_7# Vdd! mux2_dp_1x_23/y 2 10 56 -184
+n s2mux06 Gnd! mux2_dp_1x_23/a_12_7# 2 6 30 -250
+n inv_1x_3/a mux2_dp_1x_23/a_12_7# mux2_dp_1x_23/a_17_7# 2 6 35 -250
+n xorOutinverse mux2_dp_1x_23/a_17_7# mux2_dp_1x_23/a_25_7# 2 6 43 -250
+n s2mux04 mux2_dp_1x_23/a_25_7# Gnd! 2 6 48 -250
+n mux2_dp_1x_23/a_17_7# Gnd! mux2_dp_1x_23/y 2 7 56 -250
+p s2mux07 Vdd! mux2_dp_1x_24/a_12_74# 2 9 -18 -183
+p xorOutinverse mux2_dp_1x_24/a_12_74# mux2_dp_1x_24/a_17_7# 2 9 -13 -183
+p inv_1x_3/a mux2_dp_1x_24/a_17_7# mux2_dp_1x_24/a_25_74# 2 9 -5 -183
+p s2mux05 mux2_dp_1x_24/a_25_74# Vdd! 2 9 0 -183
+p mux2_dp_1x_24/a_17_7# Vdd! mux2_dp_1x_24/y 2 10 8 -184
+n s2mux07 Gnd! mux2_dp_1x_24/a_12_7# 2 6 -18 -250
+n inv_1x_3/a mux2_dp_1x_24/a_12_7# mux2_dp_1x_24/a_17_7# 2 6 -13 -250
+n xorOutinverse mux2_dp_1x_24/a_17_7# mux2_dp_1x_24/a_25_7# 2 6 -5 -250
+n s2mux05 mux2_dp_1x_24/a_25_7# Gnd! 2 6 0 -250
+n mux2_dp_1x_24/a_17_7# Gnd! mux2_dp_1x_24/y 2 7 8 -250
+p s2mux08 Vdd! mux2_dp_1x_25/a_12_74# 2 9 -66 -183
+p xorOutinverse mux2_dp_1x_25/a_12_74# mux2_dp_1x_25/a_17_7# 2 9 -61 -183
+p inv_1x_3/a mux2_dp_1x_25/a_17_7# mux2_dp_1x_25/a_25_74# 2 9 -53 -183
+p s2mux06 mux2_dp_1x_25/a_25_74# Vdd! 2 9 -48 -183
+p mux2_dp_1x_25/a_17_7# Vdd! mux2_dp_1x_25/y 2 10 -40 -184
+n s2mux08 Gnd! mux2_dp_1x_25/a_12_7# 2 6 -66 -250
+n inv_1x_3/a mux2_dp_1x_25/a_12_7# mux2_dp_1x_25/a_17_7# 2 6 -61 -250
+n xorOutinverse mux2_dp_1x_25/a_17_7# mux2_dp_1x_25/a_25_7# 2 6 -53 -250
+n s2mux06 mux2_dp_1x_25/a_25_7# Gnd! 2 6 -48 -250
+n mux2_dp_1x_25/a_17_7# Gnd! mux2_dp_1x_25/y 2 7 -40 -250
+p s2mux09 Vdd! mux2_dp_1x_26/a_12_74# 2 9 -114 -183
+p xorOutinverse mux2_dp_1x_26/a_12_74# mux2_dp_1x_26/a_17_7# 2 9 -109 -183
+p inv_1x_3/a mux2_dp_1x_26/a_17_7# mux2_dp_1x_26/a_25_74# 2 9 -101 -183
+p s2mux07 mux2_dp_1x_26/a_25_74# Vdd! 2 9 -96 -183
+p mux2_dp_1x_26/a_17_7# Vdd! mux2_dp_1x_26/y 2 10 -88 -184
+n s2mux09 Gnd! mux2_dp_1x_26/a_12_7# 2 6 -114 -250
+n inv_1x_3/a mux2_dp_1x_26/a_12_7# mux2_dp_1x_26/a_17_7# 2 6 -109 -250
+n xorOutinverse mux2_dp_1x_26/a_17_7# mux2_dp_1x_26/a_25_7# 2 6 -101 -250
+n s2mux07 mux2_dp_1x_26/a_25_7# Gnd! 2 6 -96 -250
+n mux2_dp_1x_26/a_17_7# Gnd! mux2_dp_1x_26/y 2 7 -88 -250
+p s2mux10 Vdd! mux2_dp_1x_27/a_12_74# 2 9 -162 -183
+p xorOutinverse mux2_dp_1x_27/a_12_74# mux2_dp_1x_27/a_17_7# 2 9 -157 -183
+p inv_1x_3/a mux2_dp_1x_27/a_17_7# mux2_dp_1x_27/a_25_74# 2 9 -149 -183
+p s2mux08 mux2_dp_1x_27/a_25_74# Vdd! 2 9 -144 -183
+p mux2_dp_1x_27/a_17_7# Vdd! mux2_dp_1x_27/y 2 10 -136 -184
+n s2mux10 Gnd! mux2_dp_1x_27/a_12_7# 2 6 -162 -250
+n inv_1x_3/a mux2_dp_1x_27/a_12_7# mux2_dp_1x_27/a_17_7# 2 6 -157 -250
+n xorOutinverse mux2_dp_1x_27/a_17_7# mux2_dp_1x_27/a_25_7# 2 6 -149 -250
+n s2mux08 mux2_dp_1x_27/a_25_7# Gnd! 2 6 -144 -250
+n mux2_dp_1x_27/a_17_7# Gnd! mux2_dp_1x_27/y 2 7 -136 -250
+p rightb xor2_1x_0/a_3_8# Vdd! 2 9 -220 -184
+p xor2_1x_0/a_3_8# Vdd! xor2_1x_0/a_18_62# 2 20 -212 -195
+p Shamt_2 xor2_1x_0/a_18_62# inv_1x_1/a 2 20 -207 -195
+p xor2_1x_0/a_28_46# inv_1x_1/a xor2_1x_0/a_31_62# 2 20 -199 -195
+p rightb xor2_1x_0/a_31_62# Vdd! 2 20 -194 -195
+p Shamt_2 Vdd! xor2_1x_0/a_28_46# 2 9 -186 -184
+n rightb xor2_1x_0/a_3_8# Gnd! 2 6 -220 -249
+n rightb Gnd! xor2_1x_0/a_18_8# 2 14 -212 -249
+n Shamt_2 xor2_1x_0/a_18_8# inv_1x_1/a 2 14 -207 -249
+n xor2_1x_0/a_28_46# inv_1x_1/a xor2_1x_0/a_31_8# 2 14 -199 -249
+n xor2_1x_0/a_3_8# xor2_1x_0/a_31_8# Gnd! 2 14 -194 -249
+n Shamt_2 Gnd! xor2_1x_0/a_28_46# 2 6 -186 -249
+p inv_1x_1/a Vdd! inv_1x_1/y 2 10 -239 -184
+n inv_1x_1/a Gnd! inv_1x_1/y 2 7 -239 -250
+p Z04 Vdd! mux2_dp_1x_8/a_12_74# 2 9 222 -53
+p inv_1x_1/y mux2_dp_1x_8/a_12_74# mux2_dp_1x_8/a_17_7# 2 9 227 -53
+p inv_1x_1/a mux2_dp_1x_8/a_17_7# mux2_dp_1x_8/a_25_74# 2 9 235 -53
+p Z00 mux2_dp_1x_8/a_25_74# Vdd! 2 9 240 -53
+p mux2_dp_1x_8/a_17_7# Vdd! s2mux00 2 10 248 -54
+n Z04 Gnd! mux2_dp_1x_8/a_12_7# 2 6 222 -120
+n inv_1x_1/a mux2_dp_1x_8/a_12_7# mux2_dp_1x_8/a_17_7# 2 6 227 -120
+n inv_1x_1/y mux2_dp_1x_8/a_17_7# mux2_dp_1x_8/a_25_7# 2 6 235 -120
+n Z00 mux2_dp_1x_8/a_25_7# Gnd! 2 6 240 -120
+n mux2_dp_1x_8/a_17_7# Gnd! s2mux00 2 7 248 -120
+p Z05 Vdd! mux2_dp_1x_9/a_12_74# 2 9 174 -53
+p inv_1x_1/y mux2_dp_1x_9/a_12_74# mux2_dp_1x_9/a_17_7# 2 9 179 -53
+p inv_1x_1/a mux2_dp_1x_9/a_17_7# mux2_dp_1x_9/a_25_74# 2 9 187 -53
+p Z01 mux2_dp_1x_9/a_25_74# Vdd! 2 9 192 -53
+p mux2_dp_1x_9/a_17_7# Vdd! s2mux01 2 10 200 -54
+n Z05 Gnd! mux2_dp_1x_9/a_12_7# 2 6 174 -120
+n inv_1x_1/a mux2_dp_1x_9/a_12_7# mux2_dp_1x_9/a_17_7# 2 6 179 -120
+n inv_1x_1/y mux2_dp_1x_9/a_17_7# mux2_dp_1x_9/a_25_7# 2 6 187 -120
+n Z01 mux2_dp_1x_9/a_25_7# Gnd! 2 6 192 -120
+n mux2_dp_1x_9/a_17_7# Gnd! s2mux01 2 7 200 -120
+p Z06 Vdd! mux2_dp_1x_10/a_12_74# 2 9 126 -53
+p inv_1x_1/y mux2_dp_1x_10/a_12_74# mux2_dp_1x_10/a_17_7# 2 9 131 -53
+p inv_1x_1/a mux2_dp_1x_10/a_17_7# mux2_dp_1x_10/a_25_74# 2 9 139 -53
+p Z02 mux2_dp_1x_10/a_25_74# Vdd! 2 9 144 -53
+p mux2_dp_1x_10/a_17_7# Vdd! s2mux02 2 10 152 -54
+n Z06 Gnd! mux2_dp_1x_10/a_12_7# 2 6 126 -120
+n inv_1x_1/a mux2_dp_1x_10/a_12_7# mux2_dp_1x_10/a_17_7# 2 6 131 -120
+n inv_1x_1/y mux2_dp_1x_10/a_17_7# mux2_dp_1x_10/a_25_7# 2 6 139 -120
+n Z02 mux2_dp_1x_10/a_25_7# Gnd! 2 6 144 -120
+n mux2_dp_1x_10/a_17_7# Gnd! s2mux02 2 7 152 -120
+p Z07 Vdd! mux2_dp_1x_11/a_12_74# 2 9 78 -53
+p inv_1x_1/y mux2_dp_1x_11/a_12_74# mux2_dp_1x_11/a_17_7# 2 9 83 -53
+p inv_1x_1/a mux2_dp_1x_11/a_17_7# mux2_dp_1x_11/a_25_74# 2 9 91 -53
+p Z03 mux2_dp_1x_11/a_25_74# Vdd! 2 9 96 -53
+p mux2_dp_1x_11/a_17_7# Vdd! s2mux03 2 10 104 -54
+n Z07 Gnd! mux2_dp_1x_11/a_12_7# 2 6 78 -120
+n inv_1x_1/a mux2_dp_1x_11/a_12_7# mux2_dp_1x_11/a_17_7# 2 6 83 -120
+n inv_1x_1/y mux2_dp_1x_11/a_17_7# mux2_dp_1x_11/a_25_7# 2 6 91 -120
+n Z03 mux2_dp_1x_11/a_25_7# Gnd! 2 6 96 -120
+n mux2_dp_1x_11/a_17_7# Gnd! s2mux03 2 7 104 -120
+p Z08 Vdd! mux2_dp_1x_12/a_12_74# 2 9 30 -53
+p inv_1x_1/y mux2_dp_1x_12/a_12_74# mux2_dp_1x_12/a_17_7# 2 9 35 -53
+p inv_1x_1/a mux2_dp_1x_12/a_17_7# mux2_dp_1x_12/a_25_74# 2 9 43 -53
+p Z04 mux2_dp_1x_12/a_25_74# Vdd! 2 9 48 -53
+p mux2_dp_1x_12/a_17_7# Vdd! s2mux04 2 10 56 -54
+n Z08 Gnd! mux2_dp_1x_12/a_12_7# 2 6 30 -120
+n inv_1x_1/a mux2_dp_1x_12/a_12_7# mux2_dp_1x_12/a_17_7# 2 6 35 -120
+n inv_1x_1/y mux2_dp_1x_12/a_17_7# mux2_dp_1x_12/a_25_7# 2 6 43 -120
+n Z04 mux2_dp_1x_12/a_25_7# Gnd! 2 6 48 -120
+n mux2_dp_1x_12/a_17_7# Gnd! s2mux04 2 7 56 -120
+p Z09 Vdd! mux2_dp_1x_13/a_12_74# 2 9 -18 -53
+p inv_1x_1/y mux2_dp_1x_13/a_12_74# mux2_dp_1x_13/a_17_7# 2 9 -13 -53
+p inv_1x_1/a mux2_dp_1x_13/a_17_7# mux2_dp_1x_13/a_25_74# 2 9 -5 -53
+p Z05 mux2_dp_1x_13/a_25_74# Vdd! 2 9 0 -53
+p mux2_dp_1x_13/a_17_7# Vdd! s2mux05 2 10 8 -54
+n Z09 Gnd! mux2_dp_1x_13/a_12_7# 2 6 -18 -120
+n inv_1x_1/a mux2_dp_1x_13/a_12_7# mux2_dp_1x_13/a_17_7# 2 6 -13 -120
+n inv_1x_1/y mux2_dp_1x_13/a_17_7# mux2_dp_1x_13/a_25_7# 2 6 -5 -120
+n Z05 mux2_dp_1x_13/a_25_7# Gnd! 2 6 0 -120
+n mux2_dp_1x_13/a_17_7# Gnd! s2mux05 2 7 8 -120
+p Z10 Vdd! mux2_dp_1x_14/a_12_74# 2 9 -66 -53
+p inv_1x_1/y mux2_dp_1x_14/a_12_74# mux2_dp_1x_14/a_17_7# 2 9 -61 -53
+p inv_1x_1/a mux2_dp_1x_14/a_17_7# mux2_dp_1x_14/a_25_74# 2 9 -53 -53
+p Z06 mux2_dp_1x_14/a_25_74# Vdd! 2 9 -48 -53
+p mux2_dp_1x_14/a_17_7# Vdd! s2mux06 2 10 -40 -54
+n Z10 Gnd! mux2_dp_1x_14/a_12_7# 2 6 -66 -120
+n inv_1x_1/a mux2_dp_1x_14/a_12_7# mux2_dp_1x_14/a_17_7# 2 6 -61 -120
+n inv_1x_1/y mux2_dp_1x_14/a_17_7# mux2_dp_1x_14/a_25_7# 2 6 -53 -120
+n Z06 mux2_dp_1x_14/a_25_7# Gnd! 2 6 -48 -120
+n mux2_dp_1x_14/a_17_7# Gnd! s2mux06 2 7 -40 -120
+p Z11 Vdd! mux2_dp_1x_15/a_12_74# 2 9 -114 -53
+p inv_1x_1/y mux2_dp_1x_15/a_12_74# mux2_dp_1x_15/a_17_7# 2 9 -109 -53
+p inv_1x_1/a mux2_dp_1x_15/a_17_7# mux2_dp_1x_15/a_25_74# 2 9 -101 -53
+p Z07 mux2_dp_1x_15/a_25_74# Vdd! 2 9 -96 -53
+p mux2_dp_1x_15/a_17_7# Vdd! s2mux07 2 10 -88 -54
+n Z11 Gnd! mux2_dp_1x_15/a_12_7# 2 6 -114 -120
+n inv_1x_1/a mux2_dp_1x_15/a_12_7# mux2_dp_1x_15/a_17_7# 2 6 -109 -120
+n inv_1x_1/y mux2_dp_1x_15/a_17_7# mux2_dp_1x_15/a_25_7# 2 6 -101 -120
+n Z07 mux2_dp_1x_15/a_25_7# Gnd! 2 6 -96 -120
+n mux2_dp_1x_15/a_17_7# Gnd! s2mux07 2 7 -88 -120
+p Z12 Vdd! mux2_dp_1x_16/a_12_74# 2 9 -162 -53
+p inv_1x_1/y mux2_dp_1x_16/a_12_74# mux2_dp_1x_16/a_17_7# 2 9 -157 -53
+p inv_1x_1/a mux2_dp_1x_16/a_17_7# mux2_dp_1x_16/a_25_74# 2 9 -149 -53
+p Z08 mux2_dp_1x_16/a_25_74# Vdd! 2 9 -144 -53
+p mux2_dp_1x_16/a_17_7# Vdd! s2mux08 2 10 -136 -54
+n Z12 Gnd! mux2_dp_1x_16/a_12_7# 2 6 -162 -120
+n inv_1x_1/a mux2_dp_1x_16/a_12_7# mux2_dp_1x_16/a_17_7# 2 6 -157 -120
+n inv_1x_1/y mux2_dp_1x_16/a_17_7# mux2_dp_1x_16/a_25_7# 2 6 -149 -120
+n Z08 mux2_dp_1x_16/a_25_7# Gnd! 2 6 -144 -120
+n mux2_dp_1x_16/a_17_7# Gnd! s2mux08 2 7 -136 -120
+p Z13 Vdd! mux2_dp_1x_17/a_12_74# 2 9 -210 -53
+p inv_1x_1/y mux2_dp_1x_17/a_12_74# mux2_dp_1x_17/a_17_7# 2 9 -205 -53
+p inv_1x_1/a mux2_dp_1x_17/a_17_7# mux2_dp_1x_17/a_25_74# 2 9 -197 -53
+p Z09 mux2_dp_1x_17/a_25_74# Vdd! 2 9 -192 -53
+p mux2_dp_1x_17/a_17_7# Vdd! s2mux09 2 10 -184 -54
+n Z13 Gnd! mux2_dp_1x_17/a_12_7# 2 6 -210 -120
+n inv_1x_1/a mux2_dp_1x_17/a_12_7# mux2_dp_1x_17/a_17_7# 2 6 -205 -120
+n inv_1x_1/y mux2_dp_1x_17/a_17_7# mux2_dp_1x_17/a_25_7# 2 6 -197 -120
+n Z09 mux2_dp_1x_17/a_25_7# Gnd! 2 6 -192 -120
+n mux2_dp_1x_17/a_17_7# Gnd! s2mux09 2 7 -184 -120
+p Z14 Vdd! mux2_dp_1x_20/a_12_74# 2 9 -258 -53
+p inv_1x_1/y mux2_dp_1x_20/a_12_74# mux2_dp_1x_20/a_17_7# 2 9 -253 -53
+p inv_1x_1/a mux2_dp_1x_20/a_17_7# mux2_dp_1x_20/a_25_74# 2 9 -245 -53
+p Z10 mux2_dp_1x_20/a_25_74# Vdd! 2 9 -240 -53
+p mux2_dp_1x_20/a_17_7# Vdd! s2mux10 2 10 -232 -54
+n Z14 Gnd! mux2_dp_1x_20/a_12_7# 2 6 -258 -120
+n inv_1x_1/a mux2_dp_1x_20/a_12_7# mux2_dp_1x_20/a_17_7# 2 6 -253 -120
+n inv_1x_1/y mux2_dp_1x_20/a_17_7# mux2_dp_1x_20/a_25_7# 2 6 -245 -120
+n Z10 mux2_dp_1x_20/a_25_7# Gnd! 2 6 -240 -120
+n mux2_dp_1x_20/a_17_7# Gnd! s2mux10 2 7 -232 -120
+p and2_1x_7/a_5_5# Z13d0 Vdd! 2 10 -295 -54
+p arith Vdd! and2_1x_7/a_5_5# 2 6 -287 -50
+p a7 and2_1x_7/a_5_5# Vdd! 2 6 -279 -50
+n and2_1x_7/a_5_5# Z13d0 Gnd! 2 7 -295 -120
+n arith Gnd! and2_1x_7/a_15_7# 2 6 -287 -120
+n a7 and2_1x_7/a_15_7# and2_1x_7/a_5_5# 2 6 -282 -120
+p right Vdd! rightb 2 10 -311 -54
+n right Gnd! rightb 2 7 -311 -120
+p and2_1x_6/a_5_5# Z00 Vdd! 2 10 233 76
+p right Vdd! and2_1x_6/a_5_5# 2 6 241 80
+p a0 and2_1x_6/a_5_5# Vdd! 2 6 249 80
+n and2_1x_6/a_5_5# Z00 Gnd! 2 7 233 10
+n right Gnd! and2_1x_6/a_15_7# 2 6 241 10
+n a0 and2_1x_6/a_15_7# and2_1x_6/a_5_5# 2 6 246 10
+p and2_1x_5/a_5_5# Z01 Vdd! 2 10 201 76
+p right Vdd! and2_1x_5/a_5_5# 2 6 209 80
+p a1 and2_1x_5/a_5_5# Vdd! 2 6 217 80
+n and2_1x_5/a_5_5# Z01 Gnd! 2 7 201 10
+n right Gnd! and2_1x_5/a_15_7# 2 6 209 10
+n a1 and2_1x_5/a_15_7# and2_1x_5/a_5_5# 2 6 214 10
+p and2_1x_4/a_5_5# Z02 Vdd! 2 10 169 76
+p right Vdd! and2_1x_4/a_5_5# 2 6 177 80
+p a2 and2_1x_4/a_5_5# Vdd! 2 6 185 80
+n and2_1x_4/a_5_5# Z02 Gnd! 2 7 169 10
+n right Gnd! and2_1x_4/a_15_7# 2 6 177 10
+n a2 and2_1x_4/a_15_7# and2_1x_4/a_5_5# 2 6 182 10
+p and2_1x_3/a_5_5# Z03 Vdd! 2 10 137 76
+p right Vdd! and2_1x_3/a_5_5# 2 6 145 80
+p a3 and2_1x_3/a_5_5# Vdd! 2 6 153 80
+n and2_1x_3/a_5_5# Z03 Gnd! 2 7 137 10
+n right Gnd! and2_1x_3/a_15_7# 2 6 145 10
+n a3 and2_1x_3/a_15_7# and2_1x_3/a_5_5# 2 6 150 10
+p and2_1x_2/a_5_5# Z04 Vdd! 2 10 105 76
+p right Vdd! and2_1x_2/a_5_5# 2 6 113 80
+p a4 and2_1x_2/a_5_5# Vdd! 2 6 121 80
+n and2_1x_2/a_5_5# Z04 Gnd! 2 7 105 10
+n right Gnd! and2_1x_2/a_15_7# 2 6 113 10
+n a4 and2_1x_2/a_15_7# and2_1x_2/a_5_5# 2 6 118 10
+p and2_1x_1/a_5_5# Z05 Vdd! 2 10 73 76
+p right Vdd! and2_1x_1/a_5_5# 2 6 81 80
+p a5 and2_1x_1/a_5_5# Vdd! 2 6 89 80
+n and2_1x_1/a_5_5# Z05 Gnd! 2 7 73 10
+n right Gnd! and2_1x_1/a_15_7# 2 6 81 10
+n a5 and2_1x_1/a_15_7# and2_1x_1/a_5_5# 2 6 86 10
+p and2_1x_0/a_5_5# Z06 Vdd! 2 10 41 76
+p right Vdd! and2_1x_0/a_5_5# 2 6 49 80
+p a6 and2_1x_0/a_5_5# Vdd! 2 6 57 80
+n and2_1x_0/a_5_5# Z06 Gnd! 2 7 41 10
+n right Gnd! and2_1x_0/a_15_7# 2 6 49 10
+n a6 and2_1x_0/a_15_7# and2_1x_0/a_5_5# 2 6 54 10
+p a0 Vdd! mux2_dp_1x_7/a_12_74# 2 9 -2 77
+p right mux2_dp_1x_7/a_12_74# mux2_dp_1x_7/a_17_7# 2 9 3 77
+p rightb mux2_dp_1x_7/a_17_7# mux2_dp_1x_7/a_25_74# 2 9 11 77
+p a7 mux2_dp_1x_7/a_25_74# Vdd! 2 9 16 77
+p mux2_dp_1x_7/a_17_7# Vdd! Z07 2 10 24 76
+n a0 Gnd! mux2_dp_1x_7/a_12_7# 2 6 -2 10
+n rightb mux2_dp_1x_7/a_12_7# mux2_dp_1x_7/a_17_7# 2 6 3 10
+n right mux2_dp_1x_7/a_17_7# mux2_dp_1x_7/a_25_7# 2 6 11 10
+n a7 mux2_dp_1x_7/a_25_7# Gnd! 2 6 16 10
+n mux2_dp_1x_7/a_17_7# Gnd! Z07 2 7 24 10
+p a1 Vdd! mux2_dp_1x_6/a_12_74# 2 9 -50 77
+p right mux2_dp_1x_6/a_12_74# mux2_dp_1x_6/a_17_7# 2 9 -45 77
+p rightb mux2_dp_1x_6/a_17_7# mux2_dp_1x_6/a_25_74# 2 9 -37 77
+p Z13d0 mux2_dp_1x_6/a_25_74# Vdd! 2 9 -32 77
+p mux2_dp_1x_6/a_17_7# Vdd! Z08 2 10 -24 76
+n a1 Gnd! mux2_dp_1x_6/a_12_7# 2 6 -50 10
+n rightb mux2_dp_1x_6/a_12_7# mux2_dp_1x_6/a_17_7# 2 6 -45 10
+n right mux2_dp_1x_6/a_17_7# mux2_dp_1x_6/a_25_7# 2 6 -37 10
+n Z13d0 mux2_dp_1x_6/a_25_7# Gnd! 2 6 -32 10
+n mux2_dp_1x_6/a_17_7# Gnd! Z08 2 7 -24 10
+p a2 Vdd! mux2_dp_1x_5/a_12_74# 2 9 -98 77
+p right mux2_dp_1x_5/a_12_74# mux2_dp_1x_5/a_17_7# 2 9 -93 77
+p rightb mux2_dp_1x_5/a_17_7# mux2_dp_1x_5/a_25_74# 2 9 -85 77
+p Z13d0 mux2_dp_1x_5/a_25_74# Vdd! 2 9 -80 77
+p mux2_dp_1x_5/a_17_7# Vdd! Z09 2 10 -72 76
+n a2 Gnd! mux2_dp_1x_5/a_12_7# 2 6 -98 10
+n rightb mux2_dp_1x_5/a_12_7# mux2_dp_1x_5/a_17_7# 2 6 -93 10
+n right mux2_dp_1x_5/a_17_7# mux2_dp_1x_5/a_25_7# 2 6 -85 10
+n Z13d0 mux2_dp_1x_5/a_25_7# Gnd! 2 6 -80 10
+n mux2_dp_1x_5/a_17_7# Gnd! Z09 2 7 -72 10
+p a3 Vdd! mux2_dp_1x_4/a_12_74# 2 9 -146 77
+p right mux2_dp_1x_4/a_12_74# mux2_dp_1x_4/a_17_7# 2 9 -141 77
+p rightb mux2_dp_1x_4/a_17_7# mux2_dp_1x_4/a_25_74# 2 9 -133 77
+p Z13d0 mux2_dp_1x_4/a_25_74# Vdd! 2 9 -128 77
+p mux2_dp_1x_4/a_17_7# Vdd! Z10 2 10 -120 76
+n a3 Gnd! mux2_dp_1x_4/a_12_7# 2 6 -146 10
+n rightb mux2_dp_1x_4/a_12_7# mux2_dp_1x_4/a_17_7# 2 6 -141 10
+n right mux2_dp_1x_4/a_17_7# mux2_dp_1x_4/a_25_7# 2 6 -133 10
+n Z13d0 mux2_dp_1x_4/a_25_7# Gnd! 2 6 -128 10
+n mux2_dp_1x_4/a_17_7# Gnd! Z10 2 7 -120 10
+p a4 Vdd! mux2_dp_1x_3/a_12_74# 2 9 -194 77
+p right mux2_dp_1x_3/a_12_74# mux2_dp_1x_3/a_17_7# 2 9 -189 77
+p rightb mux2_dp_1x_3/a_17_7# mux2_dp_1x_3/a_25_74# 2 9 -181 77
+p Z13d0 mux2_dp_1x_3/a_25_74# Vdd! 2 9 -176 77
+p mux2_dp_1x_3/a_17_7# Vdd! Z11 2 10 -168 76
+n a4 Gnd! mux2_dp_1x_3/a_12_7# 2 6 -194 10
+n rightb mux2_dp_1x_3/a_12_7# mux2_dp_1x_3/a_17_7# 2 6 -189 10
+n right mux2_dp_1x_3/a_17_7# mux2_dp_1x_3/a_25_7# 2 6 -181 10
+n Z13d0 mux2_dp_1x_3/a_25_7# Gnd! 2 6 -176 10
+n mux2_dp_1x_3/a_17_7# Gnd! Z11 2 7 -168 10
+p a5 Vdd! mux2_dp_1x_2/a_12_74# 2 9 -242 77
+p right mux2_dp_1x_2/a_12_74# mux2_dp_1x_2/a_17_7# 2 9 -237 77
+p rightb mux2_dp_1x_2/a_17_7# mux2_dp_1x_2/a_25_74# 2 9 -229 77
+p Z13d0 mux2_dp_1x_2/a_25_74# Vdd! 2 9 -224 77
+p mux2_dp_1x_2/a_17_7# Vdd! Z12 2 10 -216 76
+n a5 Gnd! mux2_dp_1x_2/a_12_7# 2 6 -242 10
+n rightb mux2_dp_1x_2/a_12_7# mux2_dp_1x_2/a_17_7# 2 6 -237 10
+n right mux2_dp_1x_2/a_17_7# mux2_dp_1x_2/a_25_7# 2 6 -229 10
+n Z13d0 mux2_dp_1x_2/a_25_7# Gnd! 2 6 -224 10
+n mux2_dp_1x_2/a_17_7# Gnd! Z12 2 7 -216 10
+p a6 Vdd! mux2_dp_1x_1/a_12_74# 2 9 -290 77
+p right mux2_dp_1x_1/a_12_74# mux2_dp_1x_1/a_17_7# 2 9 -285 77
+p rightb mux2_dp_1x_1/a_17_7# mux2_dp_1x_1/a_25_74# 2 9 -277 77
+p Z13d0 mux2_dp_1x_1/a_25_74# Vdd! 2 9 -272 77
+p mux2_dp_1x_1/a_17_7# Vdd! Z13 2 10 -264 76
+n a6 Gnd! mux2_dp_1x_1/a_12_7# 2 6 -290 10
+n rightb mux2_dp_1x_1/a_12_7# mux2_dp_1x_1/a_17_7# 2 6 -285 10
+n right mux2_dp_1x_1/a_17_7# mux2_dp_1x_1/a_25_7# 2 6 -277 10
+n Z13d0 mux2_dp_1x_1/a_25_7# Gnd! 2 6 -272 10
+n mux2_dp_1x_1/a_17_7# Gnd! Z13 2 7 -264 10
+p a7 Vdd! mux2_dp_1x_0/a_12_74# 2 9 -338 77
+p right mux2_dp_1x_0/a_12_74# mux2_dp_1x_0/a_17_7# 2 9 -333 77
+p rightb mux2_dp_1x_0/a_17_7# mux2_dp_1x_0/a_25_74# 2 9 -325 77
+p Z13d0 mux2_dp_1x_0/a_25_74# Vdd! 2 9 -320 77
+p mux2_dp_1x_0/a_17_7# Vdd! Z14 2 10 -312 76
+n a7 Gnd! mux2_dp_1x_0/a_12_7# 2 6 -338 10
+n rightb mux2_dp_1x_0/a_12_7# mux2_dp_1x_0/a_17_7# 2 6 -333 10
+n right mux2_dp_1x_0/a_17_7# mux2_dp_1x_0/a_25_7# 2 6 -325 10
+n Z13d0 mux2_dp_1x_0/a_25_7# Gnd! 2 6 -320 10
+n mux2_dp_1x_0/a_17_7# Gnd! Z14 2 7 -312 10
+C Vdd! Y3 2.1
+C Z13d0 rightb 2.1
+C Vdd! Z04 5.5
+C Y6 Vdd! 2.1
+C Vdd! Z14 3.6
+C Vdd! a4 3.0
+C Vdd! Y4 2.1
+C Z13d0 right 5.0
+C inv_1x_1/a inv_1x_1/y 3.6
+C Vdd! and2_1x_5/a_5_5# 3.0
+C right rightb 3.2
+C s2mux04 Vdd! 5.2
+C Z03 Vdd! 3.7
+C and2_1x_3/a_5_5# Vdd! 3.0
+C Vdd! Z09 5.4
+C s2mux06 Vdd! 5.2
+C and2_1x_4/a_5_5# Vdd! 3.0
+C Vdd! inv_1x_3/a 16.5
+C Y5 Vdd! 2.1
+C Z01 Vdd! 3.7
+C Vdd! Shamt_0 3.7
+C mux2_dp_1x_25/y Vdd! 5.2
+C xorOutinverse Vdd! 14.9
+C Vdd! Z10 5.4
+C Vdd! Y0 2.1
+C Vdd! mux2_dp_1x_22/y 5.2
+C Vdd! and2_1x_0/a_5_5# 3.0
+C inv_1x_2/a inv_1x_2/y 2.1
+C Vdd! inv_1x_1/y 17.8
+C Vdd! xor2_1x_2/a_28_46# 2.8
+C Vdd! a2 3.0
+C Vdd! a7 4.7
+C Vdd! Z06 5.1
+C Vdd! a6 3.0
+C Vdd! mux2_dp_1x_26/y 5.2
+C a1 Vdd! 3.0
+C Vdd! Z11 3.8
+C Z13d0 Vdd! 11.2
+C Vdd! Shamt_2 2.9
+C Vdd! inv_1x_2/y 13.3
+C xorOutinverse inv_1x_3/a 3.1
+C xor2_1x_1/a_3_8# Vdd! 2.5
+C mux2_dp_1x_21/y Vdd! 5.2
+C Vdd! rightb 21.8
+C xor2_1x_1/a_28_46# Vdd! 2.8
+C mux2_dp_1x_23/y Vdd! 5.2
+C s2mux02 Vdd! 5.2
+C Vdd! Z05 6.0
+C and2_1x_6/a_5_5# Vdd! 3.0
+C Vdd! s2mux05 5.2
+C Vdd! right 16.9
+C Vdd! Y7 2.1
+C Vdd! xor2_1x_2/a_3_8# 2.5
+C Vdd! a5 3.0
+C Vdd! Z02 3.7
+C s2mux08 Vdd! 5.2
+C s2mux01 Vdd! 3.8
+C Y2 Vdd! 2.1
+C and2_1x_7/a_5_5# Vdd! 3.0
+C inv_1x_1/a Vdd! 19.0
+C Vdd! Z07 5.2
+C Vdd! xor2_1x_0/a_3_8# 2.5
+C Vdd! mux2_dp_1x_27/y 3.6
+C Vdd! a3 3.0
+C Vdd! s2mux03 5.2
+C Z13 Vdd! 3.8
+C and2_1x_2/a_5_5# Vdd! 3.0
+C Vdd! and2_1x_1/a_5_5# 3.0
+C Vdd! Shamt_1 3.9
+C Vdd! mux2_dp_1x_19/y 5.2
+C s2mux07 Vdd! 5.2
+C Vdd! s2mux00 3.8
+C Z12 Vdd! 3.8
+C Vdd! mux2_dp_1x_18/y 3.8
+C Vdd! inv_1x_2/a 15.0
+C Vdd! Z08 5.2
+C xor2_1x_0/a_28_46# Vdd! 2.8
+C Vdd! s2mux09 3.6
+C Vdd! a0 3.0
+C s2mux10 Vdd! 3.6
+C Y1 Vdd! 2.1
+C Vdd! Z00 3.7
+C mux2_dp_1x_24/y Vdd! 5.2
+R mux2_dp_1x_0/a_25_7# 164
+R mux2_dp_1x_0/a_12_7# 164
+R Z14 1387
+R mux2_dp_1x_0/a_25_74# 316
+R mux2_dp_1x_0/a_12_74# 316
+C mux2_dp_1x_0/a_17_7# GND 2.2
+R mux2_dp_1x_0/a_17_7# 1123
+R mux2_dp_1x_1/a_25_7# 164
+R mux2_dp_1x_1/a_12_7# 164
+R Z13 1386
+R mux2_dp_1x_1/a_25_74# 316
+R mux2_dp_1x_1/a_12_74# 316
+C mux2_dp_1x_1/a_17_7# GND 2.2
+R mux2_dp_1x_1/a_17_7# 1123
+R Z13d0 6996
+R mux2_dp_1x_2/a_25_7# 164
+R mux2_dp_1x_2/a_12_7# 164
+R Z12 1387
+R mux2_dp_1x_2/a_25_74# 316
+R mux2_dp_1x_2/a_12_74# 316
+C mux2_dp_1x_2/a_17_7# GND 2.2
+R mux2_dp_1x_2/a_17_7# 1123
+R mux2_dp_1x_3/a_25_7# 164
+R mux2_dp_1x_3/a_12_7# 164
+R Z11 1387
+R mux2_dp_1x_3/a_25_74# 316
+R mux2_dp_1x_3/a_12_74# 316
+C mux2_dp_1x_3/a_17_7# GND 2.2
+R mux2_dp_1x_3/a_17_7# 1123
+R mux2_dp_1x_4/a_25_7# 164
+R mux2_dp_1x_4/a_12_7# 164
+R Z10 2347
+R mux2_dp_1x_4/a_25_74# 316
+R mux2_dp_1x_4/a_12_74# 316
+C mux2_dp_1x_4/a_17_7# GND 2.2
+R mux2_dp_1x_4/a_17_7# 1123
+R mux2_dp_1x_5/a_25_7# 164
+R mux2_dp_1x_5/a_12_7# 164
+R Z09 2346
+R mux2_dp_1x_5/a_25_74# 316
+R mux2_dp_1x_5/a_12_74# 316
+C mux2_dp_1x_5/a_17_7# GND 2.2
+R mux2_dp_1x_5/a_17_7# 1123
+R mux2_dp_1x_6/a_25_7# 164
+R mux2_dp_1x_6/a_12_7# 164
+R Z08 2347
+R mux2_dp_1x_6/a_25_74# 316
+R mux2_dp_1x_6/a_12_74# 316
+C mux2_dp_1x_6/a_17_7# GND 2.2
+R mux2_dp_1x_6/a_17_7# 1123
+R mux2_dp_1x_7/a_25_7# 164
+R mux2_dp_1x_7/a_12_7# 164
+R Z07 2345
+R mux2_dp_1x_7/a_25_74# 316
+R mux2_dp_1x_7/a_12_74# 316
+C mux2_dp_1x_7/a_17_7# GND 2.2
+R mux2_dp_1x_7/a_17_7# 1123
+R a7 2983
+C rightb GND 50.3
+R rightb 14563
+R and2_1x_0/a_15_7# 164
+R Z06 2347
+R a6 2030
+R and2_1x_0/a_5_5# 1086
+R and2_1x_1/a_15_7# 164
+R Z05 2345
+R a5 2030
+R and2_1x_1/a_5_5# 1086
+R and2_1x_2/a_15_7# 164
+R Z04 2345
+R a4 2030
+R and2_1x_2/a_5_5# 1086
+R and2_1x_3/a_15_7# 164
+R Z03 1242
+R a3 2030
+R and2_1x_3/a_5_5# 1086
+R and2_1x_4/a_15_7# 164
+R Z02 1243
+R a2 2031
+R and2_1x_4/a_5_5# 1086
+R and2_1x_5/a_15_7# 164
+R Z01 1243
+R a1 2031
+R and2_1x_5/a_5_5# 1086
+R and2_1x_6/a_15_7# 164
+R Z00 1243
+R a0 2032
+C right GND 42.1
+R right 14279
+R and2_1x_6/a_5_5# 1086
+R and2_1x_7/a_15_7# 164
+R arith 925
+R and2_1x_7/a_5_5# 1086
+R mux2_dp_1x_20/a_25_7# 164
+R mux2_dp_1x_20/a_12_7# 164
+C s2mux10 GND 7.7
+R s2mux10 1387
+R mux2_dp_1x_20/a_25_74# 316
+R mux2_dp_1x_20/a_12_74# 316
+C mux2_dp_1x_20/a_17_7# GND 2.2
+R mux2_dp_1x_20/a_17_7# 1123
+R mux2_dp_1x_17/a_25_7# 164
+R mux2_dp_1x_17/a_12_7# 164
+C s2mux09 GND 4.5
+R s2mux09 1385
+R mux2_dp_1x_17/a_25_74# 316
+R mux2_dp_1x_17/a_12_74# 316
+C mux2_dp_1x_17/a_17_7# GND 2.2
+R mux2_dp_1x_17/a_17_7# 1123
+R mux2_dp_1x_16/a_25_7# 164
+R mux2_dp_1x_16/a_12_7# 164
+C s2mux08 GND 12.6
+R s2mux08 2348
+R mux2_dp_1x_16/a_25_74# 316
+R mux2_dp_1x_16/a_12_74# 316
+C mux2_dp_1x_16/a_17_7# GND 2.2
+R mux2_dp_1x_16/a_17_7# 1123
+R mux2_dp_1x_15/a_25_7# 164
+R mux2_dp_1x_15/a_12_7# 164
+C s2mux07 GND 9.6
+R s2mux07 2346
+R mux2_dp_1x_15/a_25_74# 316
+R mux2_dp_1x_15/a_12_74# 316
+C mux2_dp_1x_15/a_17_7# GND 2.2
+R mux2_dp_1x_15/a_17_7# 1123
+R mux2_dp_1x_14/a_25_7# 164
+R mux2_dp_1x_14/a_12_7# 164
+C s2mux06 GND 12.6
+R s2mux06 2348
+R mux2_dp_1x_14/a_25_74# 316
+R mux2_dp_1x_14/a_12_74# 316
+C mux2_dp_1x_14/a_17_7# GND 2.2
+R mux2_dp_1x_14/a_17_7# 1123
+R mux2_dp_1x_13/a_25_7# 164
+R mux2_dp_1x_13/a_12_7# 164
+C s2mux05 GND 9.7
+R s2mux05 2346
+R mux2_dp_1x_13/a_25_74# 316
+R mux2_dp_1x_13/a_12_74# 316
+C mux2_dp_1x_13/a_17_7# GND 2.2
+R mux2_dp_1x_13/a_17_7# 1123
+R mux2_dp_1x_12/a_25_7# 164
+R mux2_dp_1x_12/a_12_7# 164
+C s2mux04 GND 13.9
+R s2mux04 2345
+R mux2_dp_1x_12/a_25_74# 316
+R mux2_dp_1x_12/a_12_74# 316
+C mux2_dp_1x_12/a_17_7# GND 2.2
+R mux2_dp_1x_12/a_17_7# 1123
+R mux2_dp_1x_11/a_25_7# 164
+R mux2_dp_1x_11/a_12_7# 164
+C s2mux03 GND 9.7
+R s2mux03 2346
+R mux2_dp_1x_11/a_25_74# 316
+R mux2_dp_1x_11/a_12_74# 316
+C mux2_dp_1x_11/a_17_7# GND 2.2
+R mux2_dp_1x_11/a_17_7# 1123
+R mux2_dp_1x_10/a_25_7# 164
+R mux2_dp_1x_10/a_12_7# 164
+C s2mux02 GND 13.1
+R s2mux02 2346
+R mux2_dp_1x_10/a_25_74# 316
+R mux2_dp_1x_10/a_12_74# 316
+C mux2_dp_1x_10/a_17_7# GND 2.2
+R mux2_dp_1x_10/a_17_7# 1123
+R mux2_dp_1x_9/a_25_7# 164
+R mux2_dp_1x_9/a_12_7# 164
+C s2mux01 GND 9.0
+R s2mux01 1245
+R mux2_dp_1x_9/a_25_74# 316
+R mux2_dp_1x_9/a_12_74# 316
+C mux2_dp_1x_9/a_17_7# GND 2.2
+R mux2_dp_1x_9/a_17_7# 1123
+R mux2_dp_1x_8/a_25_7# 164
+R mux2_dp_1x_8/a_12_7# 164
+C s2mux00 GND 4.8
+R s2mux00 1241
+R mux2_dp_1x_8/a_25_74# 316
+R mux2_dp_1x_8/a_12_74# 316
+C mux2_dp_1x_8/a_17_7# GND 2.2
+R mux2_dp_1x_8/a_17_7# 1123
+C inv_1x_1/a GND 22.1
+R inv_1x_1/a 12096
+C inv_1x_1/y GND 33.3
+R inv_1x_1/y 9378
+R xor2_1x_0/a_31_8# 384
+R xor2_1x_0/a_18_8# 384
+R xor2_1x_0/a_31_62# 701
+R xor2_1x_0/a_18_62# 701
+R xor2_1x_0/a_28_46# 1148
+R Shamt_2 1874
+C xor2_1x_0/a_3_8# GND 3.6
+R xor2_1x_0/a_3_8# 1094
+R mux2_dp_1x_27/a_25_7# 164
+R mux2_dp_1x_27/a_12_7# 164
+C mux2_dp_1x_27/y GND 6.8
+R mux2_dp_1x_27/y 1386
+R mux2_dp_1x_27/a_25_74# 316
+R mux2_dp_1x_27/a_12_74# 316
+C mux2_dp_1x_27/a_17_7# GND 2.2
+R mux2_dp_1x_27/a_17_7# 1123
+R mux2_dp_1x_26/a_25_7# 164
+R mux2_dp_1x_26/a_12_7# 164
+C mux2_dp_1x_26/y GND 11.6
+R mux2_dp_1x_26/y 2347
+R mux2_dp_1x_26/a_25_74# 316
+R mux2_dp_1x_26/a_12_74# 316
+C mux2_dp_1x_26/a_17_7# GND 2.2
+R mux2_dp_1x_26/a_17_7# 1123
+R mux2_dp_1x_25/a_25_7# 164
+R mux2_dp_1x_25/a_12_7# 164
+C mux2_dp_1x_25/y GND 11.6
+R mux2_dp_1x_25/y 2347
+R mux2_dp_1x_25/a_25_74# 316
+R mux2_dp_1x_25/a_12_74# 316
+C mux2_dp_1x_25/a_17_7# GND 2.2
+R mux2_dp_1x_25/a_17_7# 1123
+R mux2_dp_1x_24/a_25_7# 164
+R mux2_dp_1x_24/a_12_7# 164
+C mux2_dp_1x_24/y GND 11.6
+R mux2_dp_1x_24/y 2347
+R mux2_dp_1x_24/a_25_74# 316
+R mux2_dp_1x_24/a_12_74# 316
+C mux2_dp_1x_24/a_17_7# GND 2.2
+R mux2_dp_1x_24/a_17_7# 1123
+R mux2_dp_1x_23/a_25_7# 164
+R mux2_dp_1x_23/a_12_7# 164
+C mux2_dp_1x_23/y GND 13.0
+R mux2_dp_1x_23/y 2344
+R mux2_dp_1x_23/a_25_74# 316
+R mux2_dp_1x_23/a_12_74# 316
+C mux2_dp_1x_23/a_17_7# GND 2.2
+R mux2_dp_1x_23/a_17_7# 1123
+R mux2_dp_1x_22/a_25_7# 164
+R mux2_dp_1x_22/a_12_7# 164
+C mux2_dp_1x_22/y GND 11.6
+R mux2_dp_1x_22/y 2347
+R mux2_dp_1x_22/a_25_74# 316
+R mux2_dp_1x_22/a_12_74# 316
+C mux2_dp_1x_22/a_17_7# GND 2.2
+R mux2_dp_1x_22/a_17_7# 1123
+R mux2_dp_1x_21/a_25_7# 164
+R mux2_dp_1x_21/a_12_7# 164
+C mux2_dp_1x_21/y GND 12.1
+R mux2_dp_1x_21/y 2345
+R mux2_dp_1x_21/a_25_74# 316
+R mux2_dp_1x_21/a_12_74# 316
+C mux2_dp_1x_21/a_17_7# GND 2.2
+R mux2_dp_1x_21/a_17_7# 1123
+R mux2_dp_1x_19/a_25_7# 164
+R mux2_dp_1x_19/a_12_7# 164
+C mux2_dp_1x_19/y GND 11.6
+R mux2_dp_1x_19/y 2347
+R mux2_dp_1x_19/a_25_74# 316
+R mux2_dp_1x_19/a_12_74# 316
+C mux2_dp_1x_19/a_17_7# GND 2.2
+R mux2_dp_1x_19/a_17_7# 1123
+R mux2_dp_1x_18/a_25_7# 164
+R mux2_dp_1x_18/a_12_7# 164
+C mux2_dp_1x_18/y GND 5.4
+R mux2_dp_1x_18/y 1242
+R mux2_dp_1x_18/a_25_74# 316
+R mux2_dp_1x_18/a_12_74# 316
+C mux2_dp_1x_18/a_17_7# GND 2.2
+R mux2_dp_1x_18/a_17_7# 1123
+C inv_1x_3/a GND 20.9
+R inv_1x_3/a 10154
+C xorOutinverse GND 32.0
+R xorOutinverse 7728
+R xor2_1x_2/a_31_8# 384
+R xor2_1x_2/a_18_8# 384
+R xor2_1x_2/a_31_62# 701
+R xor2_1x_2/a_18_62# 701
+R xor2_1x_2/a_28_46# 1148
+R Shamt_0 1872
+C xor2_1x_2/a_3_8# GND 3.6
+R xor2_1x_2/a_3_8# 1094
+R xor2_1x_1/a_31_8# 384
+R xor2_1x_1/a_18_8# 384
+R xor2_1x_1/a_31_62# 701
+R xor2_1x_1/a_18_62# 701
+R xor2_1x_1/a_28_46# 1148
+R Shamt_1 1873
+C xor2_1x_1/a_3_8# GND 3.6
+R xor2_1x_1/a_3_8# 1094
+R mux2_dp_1x_35/a_25_7# 164
+R mux2_dp_1x_35/a_12_7# 164
+R Y7 328
+R mux2_dp_1x_35/a_25_74# 316
+R mux2_dp_1x_35/a_12_74# 316
+C mux2_dp_1x_35/a_17_7# GND 2.2
+R mux2_dp_1x_35/a_17_7# 1123
+R mux2_dp_1x_34/a_25_7# 164
+R mux2_dp_1x_34/a_12_7# 164
+R Y6 328
+R mux2_dp_1x_34/a_25_74# 316
+R mux2_dp_1x_34/a_12_74# 316
+C mux2_dp_1x_34/a_17_7# GND 2.2
+R mux2_dp_1x_34/a_17_7# 1123
+R mux2_dp_1x_33/a_25_7# 164
+R mux2_dp_1x_33/a_12_7# 164
+R Y5 328
+R mux2_dp_1x_33/a_25_74# 316
+R mux2_dp_1x_33/a_12_74# 316
+C mux2_dp_1x_33/a_17_7# GND 2.2
+R mux2_dp_1x_33/a_17_7# 1123
+R mux2_dp_1x_32/a_25_7# 164
+R mux2_dp_1x_32/a_12_7# 164
+R Y4 328
+R mux2_dp_1x_32/a_25_74# 316
+R mux2_dp_1x_32/a_12_74# 316
+C mux2_dp_1x_32/a_17_7# GND 2.2
+R mux2_dp_1x_32/a_17_7# 1123
+R mux2_dp_1x_31/a_25_7# 164
+R mux2_dp_1x_31/a_12_7# 164
+R Y3 328
+R mux2_dp_1x_31/a_25_74# 316
+R mux2_dp_1x_31/a_12_74# 316
+C mux2_dp_1x_31/a_17_7# GND 2.2
+R mux2_dp_1x_31/a_17_7# 1123
+R mux2_dp_1x_30/a_25_7# 164
+R mux2_dp_1x_30/a_12_7# 164
+R Y2 328
+R mux2_dp_1x_30/a_25_74# 316
+R mux2_dp_1x_30/a_12_74# 316
+C mux2_dp_1x_30/a_17_7# GND 2.2
+R mux2_dp_1x_30/a_17_7# 1123
+R mux2_dp_1x_29/a_25_7# 164
+R mux2_dp_1x_29/a_12_7# 164
+R Y1 328
+R mux2_dp_1x_29/a_25_74# 316
+R mux2_dp_1x_29/a_12_74# 316
+C mux2_dp_1x_29/a_17_7# GND 2.2
+R mux2_dp_1x_29/a_17_7# 1123
+R mux2_dp_1x_28/a_25_7# 164
+R mux2_dp_1x_28/a_12_7# 164
+R Gnd! 147550
+R Y0 327
+R mux2_dp_1x_28/a_25_74# 316
+R mux2_dp_1x_28/a_12_74# 316
+C mux2_dp_1x_28/a_17_7# GND 2.2
+R mux2_dp_1x_28/a_17_7# 1123
+C inv_1x_2/a GND 16.6
+R inv_1x_2/a 9186
+C inv_1x_2/y GND 27.2
+R inv_1x_2/y 6899
+R Vdd! 181339
